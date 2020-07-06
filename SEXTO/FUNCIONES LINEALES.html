@@ -1,0 +1,974 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0141)https://www.problemasyecuaciones.com/funciones/lineales/funcion-lineal-problemas-resueltos-grafica-pendiente-interseccion-ejes-paralelas.html -->
+<html xmlns="https://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+<!--K-->
+<meta name="viewport" content="width=device-width, initial-scale=1 ">
+<link rel="stylesheet" href="./FUNCIONES LINEALES_files/pyesty.css" type="text/css">
+<link href="./FUNCIONES LINEALES_files/css" rel="stylesheet">
+
+<script src="./FUNCIONES LINEALES_files/f.txt"></script><script type="text/javascript" async="" src="./FUNCIONES LINEALES_files/analytics.js.descarga"></script><script src="./FUNCIONES LINEALES_files/osd.js.descarga"></script><script src="./FUNCIONES LINEALES_files/f(1).txt"></script><script src="./FUNCIONES LINEALES_files/f(2).txt" id="google_shimpl"></script><script type="teXt/javascript"> 
+function verMenu() { 
+var men = document.getElementById('hojaLAT');
+var mini = document.getElementById('minimenu');
+var barras = document.getElementsByClassName('minimenubarra');
+var i;
+
+
+switch(men.style.display) { 
+case 'block':
+
+	men.style.display = 'none'; 
+	mini.style.backgroundColor ="transparent";
+	for (i = 0; i < barras.length; i++) {
+    barras[i].style.backgroundColor ="white";
+	} 
+	break; 
+	
+
+	case 'none': 
+	men.style.display = 'block';  
+	mini.style.backgroundColor ="white";
+	for (i = 0; i < barras.length; i++) {
+    barras[i].style.backgroundColor ="rgba(30,4,138,1)";
+	} 	
+	
+	break; 	
+
+
+	
+default: 
+
+	men.style.display = 'block';  
+	mini.style.backgroundColor ="white";
+	for (i = 0; i < barras.length; i++) {
+    barras[i].style.backgroundColor ="rgba(30,4,138,1)";
+	} 	
+	
+	break; 	
+
+} 
+} 
+</script> 
+
+
+
+<meta name="robots" content="index/follow">
+
+<script src="./FUNCIONES LINEALES_files/MathJax.js.descarga" id="">
+</script>
+<link rel="shortcut icon" href="https://elcoleencasa.000webhostapp.com/huajlaya.ico">
+
+
+
+
+
+<!--K-->
+
+<!-- goanaly -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./FUNCIONES LINEALES_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-34239017-2');
+</script>
+
+<!--ENDgoanaly-->
+
+<!--show-->
+<script type="teXt/javascript"> 
+function desplegar(tabla) { 
+var tablA = document.getElementById(tabla); 
+
+switch(tablA.style.display) { 
+case "none": 
+tablA.style.display = "block";  
+break; 
+default: 
+tablA.style.display = "none";  
+break; 
+} 
+} 
+</script> 
+<!--Eshow-->
+
+<!--tex-->
+<script src="./FUNCIONES LINEALES_files/MathJax.js.descarga" id="">
+</script>
+<!--Etex-->
+
+<!-- Cookies -->
+<link rel="stylesheet" type="text/css" href="./FUNCIONES LINEALES_files/cookieconsent.min.css">
+<script src="./FUNCIONES LINEALES_files/cookieconsent.min.js.descarga"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#3c404d",
+      "text": "#d6d6d6"
+    },
+    "button": {
+      "background": "#f7f78b",
+      "text": "#3c404d"
+    }
+  },
+  
+  }
+})});
+</script>
+<!--ECookies-->
+
+
+
+
+
+
+
+<title>Funciones lineales (rectas), con problemas resueltos</title>
+	
+<meta name="keywords" content="problemas, resueltos, problema, resuelto, ejemplo, ejemplos, solucion, soluciones, funcion, funciones, lineal, lineales, punto, definicion, pendiente, ordenada, grafica, puntos, corte, ejes, interseccion, paralela, perpendicular, matematicas">
+	
+<meta name="description" content="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria.">
+
+<link rel="preload" href="./FUNCIONES LINEALES_files/f(3).txt" as="script"><script type="text/javascript" src="./FUNCIONES LINEALES_files/f(3).txt"></script><link rel="preload" href="./FUNCIONES LINEALES_files/f(4).txt" as="script"><script type="text/javascript" src="./FUNCIONES LINEALES_files/f(4).txt"></script><style type="text/css">
+.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">
+#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">
+.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">
+.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">
+#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">
+.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">
+.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style></style><style type="text/css">
+.mjx-chtml {display: inline-block; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0}
+.MJXc-display {display: block; text-align: center; margin: 1em 0; padding: 0}
+.mjx-chtml[tabindex]:focus, body :focus .mjx-chtml[tabindex] {display: inline-table}
+.mjx-full-width {text-align: center; display: table-cell!important; width: 10000em}
+.mjx-math {display: inline-block; border-collapse: separate; border-spacing: 0}
+.mjx-math * {display: inline-block; -webkit-box-sizing: content-box!important; -moz-box-sizing: content-box!important; box-sizing: content-box!important; text-align: left}
+.mjx-numerator {display: block; text-align: center}
+.mjx-denominator {display: block; text-align: center}
+.MJXc-stacked {height: 0; position: relative}
+.MJXc-stacked > * {position: absolute}
+.MJXc-bevelled > * {display: inline-block}
+.mjx-stack {display: inline-block}
+.mjx-op {display: block}
+.mjx-under {display: table-cell}
+.mjx-over {display: block}
+.mjx-over > * {padding-left: 0px!important; padding-right: 0px!important}
+.mjx-under > * {padding-left: 0px!important; padding-right: 0px!important}
+.mjx-stack > .mjx-sup {display: block}
+.mjx-stack > .mjx-sub {display: block}
+.mjx-prestack > .mjx-presup {display: block}
+.mjx-prestack > .mjx-presub {display: block}
+.mjx-delim-h > .mjx-char {display: inline-block}
+.mjx-surd {vertical-align: top}
+.mjx-mphantom * {visibility: hidden}
+.mjx-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 2px 3px; font-style: normal; font-size: 90%}
+.mjx-annotation-xml {line-height: normal}
+.mjx-menclose > svg {fill: none; stroke: currentColor}
+.mjx-mtr {display: table-row}
+.mjx-mlabeledtr {display: table-row}
+.mjx-mtd {display: table-cell; text-align: center}
+.mjx-label {display: table-row}
+.mjx-box {display: inline-block}
+.mjx-block {display: block}
+.mjx-span {display: inline}
+.mjx-char {display: block; white-space: pre}
+.mjx-itable {display: inline-table; width: auto}
+.mjx-row {display: table-row}
+.mjx-cell {display: table-cell}
+.mjx-table {display: table; width: 100%}
+.mjx-line {display: block; height: 0}
+.mjx-strut {width: 0; padding-top: 1em}
+.mjx-vsize {width: 0}
+.MJXc-space1 {margin-left: .167em}
+.MJXc-space2 {margin-left: .222em}
+.MJXc-space3 {margin-left: .278em}
+.mjx-chartest {display: block; visibility: hidden; position: absolute; top: 0; line-height: normal; font-size: 500%}
+.mjx-chartest .mjx-char {display: inline}
+.mjx-chartest .mjx-box {padding-top: 1000px}
+.MJXc-processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MJXc-processed {display: none}
+.mjx-test {display: block; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow: hidden; height: 1px}
+.mjx-ex-box-test {position: absolute; width: 1px; height: 60ex}
+.mjx-line-box-test {display: table!important}
+.mjx-line-box-test span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+#MathJax_CHTML_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.mjx-chtml .mjx-noError {line-height: 1.2; vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+.MJXc-TeX-unknown-R {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: normal; font-weight: normal}
+.MJXc-TeX-unknown-I {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: italic; font-weight: normal}
+.MJXc-TeX-unknown-B {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: normal; font-weight: bold}
+.MJXc-TeX-unknown-BI {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: italic; font-weight: bold}
+.MJXc-TeX-ams-R {font-family: MJXc-TeX-ams-R,MJXc-TeX-ams-Rw}
+.MJXc-TeX-cal-B {font-family: MJXc-TeX-cal-B,MJXc-TeX-cal-Bx,MJXc-TeX-cal-Bw}
+.MJXc-TeX-frak-R {font-family: MJXc-TeX-frak-R,MJXc-TeX-frak-Rw}
+.MJXc-TeX-frak-B {font-family: MJXc-TeX-frak-B,MJXc-TeX-frak-Bx,MJXc-TeX-frak-Bw}
+.MJXc-TeX-math-BI {font-family: MJXc-TeX-math-BI,MJXc-TeX-math-BIx,MJXc-TeX-math-BIw}
+.MJXc-TeX-sans-R {font-family: MJXc-TeX-sans-R,MJXc-TeX-sans-Rw}
+.MJXc-TeX-sans-B {font-family: MJXc-TeX-sans-B,MJXc-TeX-sans-Bx,MJXc-TeX-sans-Bw}
+.MJXc-TeX-sans-I {font-family: MJXc-TeX-sans-I,MJXc-TeX-sans-Ix,MJXc-TeX-sans-Iw}
+.MJXc-TeX-script-R {font-family: MJXc-TeX-script-R,MJXc-TeX-script-Rw}
+.MJXc-TeX-type-R {font-family: MJXc-TeX-type-R,MJXc-TeX-type-Rw}
+.MJXc-TeX-cal-R {font-family: MJXc-TeX-cal-R,MJXc-TeX-cal-Rw}
+.MJXc-TeX-main-B {font-family: MJXc-TeX-main-B,MJXc-TeX-main-Bx,MJXc-TeX-main-Bw}
+.MJXc-TeX-main-I {font-family: MJXc-TeX-main-I,MJXc-TeX-main-Ix,MJXc-TeX-main-Iw}
+.MJXc-TeX-main-R {font-family: MJXc-TeX-main-R,MJXc-TeX-main-Rw}
+.MJXc-TeX-math-I {font-family: MJXc-TeX-math-I,MJXc-TeX-math-Ix,MJXc-TeX-math-Iw}
+.MJXc-TeX-size1-R {font-family: MJXc-TeX-size1-R,MJXc-TeX-size1-Rw}
+.MJXc-TeX-size2-R {font-family: MJXc-TeX-size2-R,MJXc-TeX-size2-Rw}
+.MJXc-TeX-size3-R {font-family: MJXc-TeX-size3-R,MJXc-TeX-size3-Rw}
+.MJXc-TeX-size4-R {font-family: MJXc-TeX-size4-R,MJXc-TeX-size4-Rw}
+@font-face {font-family: MJXc-TeX-ams-R; src: local('MathJax_AMS'), local('MathJax_AMS-Regular')}
+@font-face {font-family: MJXc-TeX-ams-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_AMS-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-cal-B; src: local('MathJax_Caligraphic Bold'), local('MathJax_Caligraphic-Bold')}
+@font-face {font-family: MJXc-TeX-cal-Bx; src: local('MathJax_Caligraphic'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-cal-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-frak-R; src: local('MathJax_Fraktur'), local('MathJax_Fraktur-Regular')}
+@font-face {font-family: MJXc-TeX-frak-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-frak-B; src: local('MathJax_Fraktur Bold'), local('MathJax_Fraktur-Bold')}
+@font-face {font-family: MJXc-TeX-frak-Bx; src: local('MathJax_Fraktur'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-frak-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-math-BI; src: local('MathJax_Math BoldItalic'), local('MathJax_Math-BoldItalic')}
+@font-face {font-family: MJXc-TeX-math-BIx; src: local('MathJax_Math'); font-weight: bold; font-style: italic}
+@font-face {font-family: MJXc-TeX-math-BIw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Math-BoldItalic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Math-BoldItalic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Math-BoldItalic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-sans-R; src: local('MathJax_SansSerif'), local('MathJax_SansSerif-Regular')}
+@font-face {font-family: MJXc-TeX-sans-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-sans-B; src: local('MathJax_SansSerif Bold'), local('MathJax_SansSerif-Bold')}
+@font-face {font-family: MJXc-TeX-sans-Bx; src: local('MathJax_SansSerif'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-sans-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-sans-I; src: local('MathJax_SansSerif Italic'), local('MathJax_SansSerif-Italic')}
+@font-face {font-family: MJXc-TeX-sans-Ix; src: local('MathJax_SansSerif'); font-style: italic}
+@font-face {font-family: MJXc-TeX-sans-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Italic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-script-R; src: local('MathJax_Script'), local('MathJax_Script-Regular')}
+@font-face {font-family: MJXc-TeX-script-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Script-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Script-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-type-R; src: local('MathJax_Typewriter'), local('MathJax_Typewriter-Regular')}
+@font-face {font-family: MJXc-TeX-type-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Typewriter-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Typewriter-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Typewriter-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-cal-R; src: local('MathJax_Caligraphic'), local('MathJax_Caligraphic-Regular')}
+@font-face {font-family: MJXc-TeX-cal-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-main-B; src: local('MathJax_Main Bold'), local('MathJax_Main-Bold')}
+@font-face {font-family: MJXc-TeX-main-Bx; src: local('MathJax_Main'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-main-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-main-I; src: local('MathJax_Main Italic'), local('MathJax_Main-Italic')}
+@font-face {font-family: MJXc-TeX-main-Ix; src: local('MathJax_Main'); font-style: italic}
+@font-face {font-family: MJXc-TeX-main-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-main-R; src: local('MathJax_Main'), local('MathJax_Main-Regular')}
+@font-face {font-family: MJXc-TeX-main-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-math-I; src: local('MathJax_Math Italic'), local('MathJax_Math-Italic')}
+@font-face {font-family: MJXc-TeX-math-Ix; src: local('MathJax_Math'); font-style: italic}
+@font-face {font-family: MJXc-TeX-math-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size1-R; src: local('MathJax_Size1'), local('MathJax_Size1-Regular')}
+@font-face {font-family: MJXc-TeX-size1-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size2-R; src: local('MathJax_Size2'), local('MathJax_Size2-Regular')}
+@font-face {font-family: MJXc-TeX-size2-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size3-R; src: local('MathJax_Size3'), local('MathJax_Size3-Regular')}
+@font-face {font-family: MJXc-TeX-size3-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size4-R; src: local('MathJax_Size4'), local('MathJax_Size4-Regular')}
+@font-face {font-family: MJXc-TeX-size4-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf') format('opentype')}
+.Estilo1 {font-family: MJXc-TeX-ams-R, MJXc-TeX-ams-Rw}
+.Estilo2 {font-family: MJXc-TeX-ams-R, MJXc-TeX-ams-Rw; font-style: italic; }
+.Estilo5 {font-style: italic}
+.Estilo10 {font-style: italic}
+.Estilo12 {display: inline-block; text-align: center; margin: 1em 0; padding: 0; }
+.Estilo15 {font-style: italic}
+.Estilo22 {font-style: italic}
+.Estilo28 {font-style: italic}
+.Estilo34 {font-style: italic}
+.Estilo40 {font-style: italic}
+.Estilo45 {font-style: italic}
+.Estilo48 {font-style: italic}
+.Estilo51 {font-style: italic}
+.Estilo54 {font-style: italic}
+.Estilo57 {font-style: italic}
+.Estilo58 {font-family: MJXc-TeX-ams-R, MJXc-TeX-ams-Rw; font-style: italic; font-weight: bold; }
+</style></head>
+
+<body contenteditable="false"><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-color-override--2088522006 cc-invisible" style="display: none;"><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message"><strong>Política de cookies:</strong> Las cookies de este sitio web se usan para personalizar el contenido y los anuncios, ofrecer funciones de redes sociales y analizar el tráfico. Además, compartimos información sobre el uso que haga del sitio web con nuestros partners de redes sociales, publicidad y análisis web, quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de sus servicios.  <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.google.com/intl/es/policies/privacy/partners/" target="_blank">Más información</a></span><div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">¡Entendido!</a></div><!--googleon: all--></div><div id="MathJax_Message" style="display: none;"></div>
+
+<div id="barra"><a href="https://elcoleencasa.000webhostapp.com/6primaria_comunicacion.html"><img src="FUNCIONES LINEALES_files/LOGO.png" alt="logo" width="308" height="52" border="0" longdesc="logo" /></a><a href="https://www.problemasyecuaciones.com/"> </a>
+  <div id="tit" style="text-decoration: none;"><a href="https://www.problemasyecuaciones.com/">
+		</a><h1>INICIO&nbsp;</h1><a href="https://www.problemasyecuaciones.com/">
+	</a></div><a href="https://www.problemasyecuaciones.com/">	
+		
+		
+	</a></div><!--EBarra-->
+
+
+<div id="hoja2">
+	
+  <div class="hojatexto">
+	<h1 align="center" class="Estilo58"><span style="text-align: justify; font-size: 1.3em;">Funciones lineales&nbsp;</span></h1>
+
+	
+    <p class="Estilo2">Explicamos los conceptos básicos relacionados con las funciones lineales y resolvemos algunos problemas. </p>
+		
+    <p class="Estilo2"><strong>Índice:</strong></p>
+		
+	<ol class="Estilo2">
+		<li>
+			Definición y ejemplo		</li>	
+		
+		<li>
+			Pendiente y ordenada		</li>	
+		
+		<li>
+			Gráfica		</li>	
+		
+		<li>
+			Puntos de corte con los ejes		</li>	
+		
+		<li>Función a partir de dos puntos		</li>	
+		
+		<li>
+			Intersección de dos funciones		</li>		
+		
+		<li>
+			Paralelas y perpendiculares		</li>		
+		
+		<li>
+		  Problemas resueltos</li></ol>
+		
+	<h2 align="left" class="Estilo2">1. Definición y ejemplo</h2>
+		
+	  <p class="Estilo2">Una <strong>función lineal</strong> es una función polinómica de primer grado. Es decir, tiene la siguiente forma</p>
+		
+	  <p align="center" class="Estilo2">
+	  <img src="./FUNCIONES LINEALES_files/T1.png" title="forma general de una función lineal: f(x) = m·x + n" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+	  <p class="Estilo2">siendo <span class="MathJax_CHTML mjx-box" id="MathJax-Element-1-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mo&gt;&amp;#x2260;&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-1" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-2" class="mjx-mrow"><span id="MJXc-Node-3" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">m</span></span><span id="MJXc-Node-4" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.422em; padding-bottom: 0.562em;">≠</span></span><span id="MJXc-Node-5" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi><mo>≠</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-1">m\neq 0</script>. </p>
+		
+	  <ul class="Estilo2">
+		  <li><span class="MathJax_CHTML mjx-box" id="MathJax-Element-2-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-6" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-7" class="mjx-mrow"><span id="MJXc-Node-8" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">m</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></span></span><script type="math/tex" id="MathJax-Element-2">m</script> es la <strong>pendiente</strong> de la función</li>
+		  <li><span class="MathJax_CHTML mjx-box" id="MathJax-Element-3-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-9" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-10" class="mjx-mrow"><span id="MJXc-Node-11" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">n</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></span></span><script type="math/tex" id="MathJax-Element-3">n</script> es la <strong>ordenada</strong> (en el origen) de la función</li>
+	  </ul>
+		
+	  <p class="Estilo2">La gráfica de una función lineal es siempre una recta.</p>
+		
+	    <span class="Estilo2">
+	    <!--PEEjm1-->
+	    </span>
+    <div class="PE Estilo1 Estilo5">
+		
+		<h3 align="left">Ejemplo</h3>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/T2.png" title="gráfica de la función lineal f(x) = 2x - 1" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+	  <p>La pendiente de la función es <span class="MathJax_CHTML mjx-box" id="MathJax-Element-4-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-12" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-13" class="mjx-mrow"><span id="MJXc-Node-14" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">m</span></span><span id="MJXc-Node-15" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-16" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi><mo>=</mo><mn>2</mn></math></span></span><script type="math/tex" id="MathJax-Element-4">m=2</script> y la ordenada es <span class="MathJax_CHTML mjx-box" id="MathJax-Element-5-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-17" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-18" class="mjx-mrow"><span id="MJXc-Node-19" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">n</span></span><span id="MJXc-Node-20" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-21" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-22" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi><mo>=</mo><mo>−</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-5">n=-1</script>. </p>
+	</div>
+	    <span class="Estilo2">
+	<!--endPEEjem1-->	
+	<br>	
+	    </span>
+    <h2 align="left" class="Estilo2">2. Pendiente y ordenada</h2>
+	
+	  <p class="Estilo2">La <strong>pendiente</strong> es el coeficiente de la variable, es decir, <span class="MathJax_CHTML mjx-box" id="MathJax-Element-6-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-23" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-24" class="mjx-mrow"><span id="MJXc-Node-25" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">m</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></span></span><script type="math/tex" id="MathJax-Element-6">m</script>.</p>
+		
+	  <p class="Estilo2">Geométricamente, cuanto mayor es la pendiente, más inclinada es la recta. Es decir, más rápido crece la función. </p>
+		
+	  <ul class="Estilo2">
+		  <li>
+		 	  Si la pendiente es positiva, la función es creciente.		  </li>
+			
+		  <li>
+			  Si la pendiente es negativa, la función es decreciente.		  </li>
+	  </ul>
+		
+		
+		
+	    <span class="Estilo2">
+	    <!--PEEjm1-->
+	    </span>
+    <div class="PE Estilo1 Estilo10">
+		
+		<h3 align="left">Ejemplo</h3>
+		
+	  <p>Rectas con pendientes 1, 2, 3 y -1: </p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/g2.png" title="gráficas de las funciones lineales y=3x+1, y=x+1, y=-x+1, y=2x+1" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		
+		
+	  <p>Observad que la recta con pendiente negativa <span class="MathJax_CHTML mjx-box" id="MathJax-Element-7-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-26" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-27" class="mjx-mrow"><span id="MJXc-Node-28" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-29" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>−</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-7">-1</script> es decreciente (la roja). Las otras tres rectas son crecientes.</p>
+		
+		<p>De las rectas crecientes, la que crece más rápidamente es la verde (pendiente <span class="MathJax_CHTML mjx-box" id="MathJax-Element-8-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-30" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-31" class="mjx-mrow"><span id="MJXc-Node-32" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">3</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3</mn></math></span></span><script type="math/tex" id="MathJax-Element-8">3</script>). </p>
+	</div>
+    <h2 align="left" class="Estilo2">3. Gráfica</h2>
+		
+	  <p class="Estilo2">Como una función lineal es una <strong>recta</strong>, para representar su gráfica sólo tenemos que trazar la recta que une dos de sus puntos. Para ello, calculamos la imagen de dos puntos cualesquiera. </p>
+		
+	  <p class="Estilo2">La definición formal de la gráfica de la función es el conjunto de puntos siguiente:</p>
+		
+	  <p class="Estilo2"><span class="Estilo12" style="text-align: center;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0"><span class="MathJax_CHTML mjx-box" id="MathJax-Element-9-Frame" style="font-size: 103%; text-align: center; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mo fence=&quot;false&quot; stretchy=&quot;false&quot;&gt;{&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo fence=&quot;false&quot; stretchy=&quot;false&quot;&gt;}&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-33" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-34" class="mjx-mrow"><span id="MJXc-Node-35" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">{</span></span><span id="MJXc-Node-36" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-37" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-38" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-39" class="mjx-mi MJXc-space1"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.469em; padding-right: 0.06em;">f</span></span><span id="MJXc-Node-40" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-41" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-42" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span><span id="MJXc-Node-43" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span><span id="MJXc-Node-44" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">}</span></span></span></span><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo fence="false" stretchy="false">{</mo><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo><mo fence="false" stretchy="false">}</mo></math></span></span></span><script type="math/tex; mode=display" id="MathJax-Element-9"> \{ (x, f(x))\}</script></p>
+		
+		
+	    <span class="Estilo2">
+	    <!--PEEjm1-->
+	    </span>
+    <div class="PE Estilo1 Estilo15">
+		
+		<h3 align="left">Ejemplo</h3>
+		
+	  <p>Vamos a representar la gráfica de la función </p>
+		
+		<p align="center">
+	  <img src="./FUNCIONES LINEALES_files/T3.png" title="f(x) = 2x - 3" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Hacemos una tabla para calcular dos puntos de la gráfica: </p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/T4.png" title="calculamos la imagen de 4 y -2 de la función y = 2x - 3" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Representamos la recta a partir de los puntos  <span class="MathJax_CHTML mjx-box" id="MathJax-Element-10-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-45" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-46" class="mjx-mrow"><span id="MJXc-Node-47" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-48" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">4</span></span><span id="MJXc-Node-49" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-50" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">5</span></span><span id="MJXc-Node-51" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-10">(4,5)</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-11-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;7&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-52" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-53" class="mjx-mrow"><span id="MJXc-Node-54" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-55" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-56" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span><span id="MJXc-Node-57" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-58" class="mjx-mo MJXc-space1"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-59" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">7</span></span><span id="MJXc-Node-60" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>7</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-11">(-2,-7)</script>:</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/g3.png" title="gráfica de la función y = 2x - 3" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Observad que la recta corta al eje Y por debajo del eje X, esto se debe a que la ordenada es negativa (<span class="MathJax_CHTML mjx-box" id="MathJax-Element-12-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-61" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-62" class="mjx-mrow"><span id="MJXc-Node-63" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">n</span></span><span id="MJXc-Node-64" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-65" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-66" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">3</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi><mo>=</mo><mo>−</mo><mn>3</mn></math></span></span><script type="math/tex" id="MathJax-Element-12">n = -3</script>). </p>
+	</div>
+	    <span class="Estilo2">
+	<!--endPEEjem1-->	
+	<br>	
+	    </span>
+    <h2 align="left" class="Estilo2">4. Puntos de corte con los ejes</h2><p align="center" class="Estilo2">
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+		</script></p>
+	    <span class="Estilo2"><br>
+	    </span>
+    <p class="Estilo2">Una función lineal siempre corta al eje Y en un punto. También, corta al eje X  en un punto.  </p>
+		
+	  <p class="Estilo2">El <strong>punto de corte con el eje Y</strong> es el punto de la recta que tiene la primera coordenada igual a <span class="MathJax_CHTML mjx-box" id="MathJax-Element-13-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-67" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-68" class="mjx-mrow"><span id="MJXc-Node-69" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-13">0</script>:</p>
+		
+	  <p align="center" class="Estilo2">
+	  <img src="./FUNCIONES LINEALES_files/T5.png" title="(0, f(0))" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+	  <p class="Estilo2">El <strong>punto de corte con el eje X</strong> es el punto de la recta que tiene <span class="MathJax_CHTML mjx-box" id="MathJax-Element-14-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-70" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-71" class="mjx-mrow"><span id="MJXc-Node-72" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-14">0</script> en la segunda coordenada. Se calcula igualando a <span class="MathJax_CHTML mjx-box" id="MathJax-Element-15-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-73" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-74" class="mjx-mrow"><span id="MJXc-Node-75" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-15">0</script> la función y resolviendo la ecuación obtenida. </p>
+		
+	    <span class="Estilo2">
+	    <!--PEEjm1-->
+	    </span>
+    <div class="PE Estilo1 Estilo22">
+		
+		<h3 align="left">Ejemplo</h3>
+		
+	  <p>Calculamos los puntos de corte de la función del ejemplo anterior,</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/T6.png" title="f(x) = 2x - 3" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+	  <p>Corte con el eje Y: </p>
+		
+	  <p align="center">
+	  <img src="./FUNCIONES LINEALES_files/T7.png" title="f(0) = -3" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+	  <p>Es el punto </p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/T8.png" title="(0,-3)" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+	  <p>Observad que la segunda coordenada es la ordenada.</p>
+		
+	  <p>Corte con el eje X: </p>
+		
+	  <p align="center">
+	  <img src="./FUNCIONES LINEALES_files/T9.png" title="resolvemos la ecuación 2x -3 = 0, obteniendo x = 3/2" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Es el punto </p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/T10.png" title="(3/2, 0)" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+	</div>
+    <span class="Estilo2">
+	<!--endPEEjem1-->	
+	<br>	
+	</span>
+	<h2 align="left" class="Estilo2">5. Función a partir de dos puntos</h2>
+		
+	  <p class="Estilo2">Si tenemos dos puntos de la recta, podemos calcular la expresión algebraica de la función. Sólo tenemos que sustituir las coordenadas de los puntos en la <strong>forma general</strong> de la función </p>
+		
+	  <p align="center" class="Estilo2">
+	  <img src="./FUNCIONES LINEALES_files/T11.png" title="y = m·x + n" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+	  <p class="Estilo2">y resolver el sistema de ecuaciones. </p>
+	    <span class="Estilo2">
+	    <!--PEEjm1-->
+	    </span>
+    <div class="PE Estilo1 Estilo28">
+		
+		<h3 align="left">Ejemplo</h3>
+		
+		<p>Vamos a calcular la función lineal que pasa por los puntos <span class="MathJax_CHTML mjx-box" id="MathJax-Element-16-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-76" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-77" class="mjx-mrow"><span id="MJXc-Node-78" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-79" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span><span id="MJXc-Node-80" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-81" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span><span id="MJXc-Node-82" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-16">(1,2)</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-17-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;7&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-83" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-84" class="mjx-mrow"><span id="MJXc-Node-85" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-86" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span><span id="MJXc-Node-87" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-88" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">7</span></span><span id="MJXc-Node-89" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>2</mn><mo>,</mo><mn>7</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-17">(2,7)</script>.</p>
+		
+		<p>Tenemos que hallar la pendiente, <span class="MathJax_CHTML mjx-box" id="MathJax-Element-18-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-90" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-91" class="mjx-mrow"><span id="MJXc-Node-92" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">m</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></span></span><script type="math/tex" id="MathJax-Element-18">m</script>, y la ordenada, <span class="MathJax_CHTML mjx-box" id="MathJax-Element-19-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-93" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-94" class="mjx-mrow"><span id="MJXc-Node-95" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">n</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></span></span><script type="math/tex" id="MathJax-Element-19">n</script>.</p>
+		
+		<p><strong>Primer punto</strong></p>
+		
+	  <p>Como <span class="MathJax_CHTML mjx-box" id="MathJax-Element-20-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-96" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-97" class="mjx-mrow"><span id="MJXc-Node-98" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-99" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-100" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-20">x =1</script> e <span class="MathJax_CHTML mjx-box" id="MathJax-Element-21-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-101" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-102" class="mjx-mrow"><span id="MJXc-Node-103" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.469em; padding-right: 0.006em;">y</span></span><span id="MJXc-Node-104" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-105" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi><mo>=</mo><mn>2</mn></math></span></span><script type="math/tex" id="MathJax-Element-21">y=2</script>, sustituyendo,</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/T12.png" title="2 = m·1 + n" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+	  <p><strong>Segundo punto</strong></p>
+		
+	  <p>Como <span class="MathJax_CHTML mjx-box" id="MathJax-Element-22-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-106" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-107" class="mjx-mrow"><span id="MJXc-Node-108" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-109" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-110" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mn>2</mn></math></span></span><script type="math/tex" id="MathJax-Element-22">x =2</script> e <span class="MathJax_CHTML mjx-box" id="MathJax-Element-23-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;7&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-111" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-112" class="mjx-mrow"><span id="MJXc-Node-113" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.469em; padding-right: 0.006em;">y</span></span><span id="MJXc-Node-114" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-115" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">7</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi><mo>=</mo><mn>7</mn></math></span></span><script type="math/tex" id="MathJax-Element-23">y=7</script>, sustituyendo,</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/T13.png" title="7 = m·2 + n" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+	  <p>Tenemos el sistema </p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/T14.png" title="sistema de ecuaciones m + n = 2, 2m + n = 7" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Resolviendo el sistema, por ejemplo, por reducción, tenemos que <span class="MathJax_CHTML mjx-box" id="MathJax-Element-24-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-116" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-117" class="mjx-mrow"><span id="MJXc-Node-118" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">m</span></span><span id="MJXc-Node-119" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-120" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">5</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi><mo>=</mo><mn>5</mn></math></span></span><script type="math/tex" id="MathJax-Element-24">m = 5</script> (con lo que <span class="MathJax_CHTML mjx-box" id="MathJax-Element-25-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-121" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-122" class="mjx-mrow"><span id="MJXc-Node-123" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">n</span></span><span id="MJXc-Node-124" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-125" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-126" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">3</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi><mo>=</mo><mo>−</mo><mn>3</mn></math></span></span><script type="math/tex" id="MathJax-Element-25">n=-3</script>). Por tanto, se trata de la función </p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/T15.png" title="gráfica de la función f(x) = 5x - 3" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+	</div>
+    <span class="Estilo2">
+	<!--endPEEjem1-->	
+	<br>	
+	</span>
+	<h2 align="left" class="Estilo2">6. Intersección de dos funciones</h2>
+		
+	  <p class="Estilo2">Si tenemos dos funciones lineales, podemos preguntarnos si las rectas que representan se cortan y en qué punto lo hacen. </p>
+		
+	  <p class="Estilo2">Para responder esta pregunta, sólo tenemos que igualar las dos expresiones algebraicas y resolver la ecuación. </p>
+		
+	    <span class="Estilo2">
+	    <!--PEEjm1-->
+	    </span>
+    <div class="PE Estilo1 Estilo34">
+		
+		<h3 align="left">Ejemplo</h3>
+		
+	  <p>Vamos a calcular el punto de corte de las dos siguientes rectas:</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/T16.png" title="y = 11 - x, y = 2x -1" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+	  <p>Como <span class="MathJax_CHTML mjx-box" id="MathJax-Element-26-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-127" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-128" class="mjx-mrow"><span id="MJXc-Node-129" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.469em; padding-right: 0.006em;">y</span></span><span id="MJXc-Node-130" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-131" class="mjx-mi MJXc-space3"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.469em; padding-right: 0.006em;">y</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi><mo>=</mo><mi>y</mi></math></span></span><script type="math/tex" id="MathJax-Element-26">y = y</script>, igualando, </p>
+		
+	  <p align="center">
+	  <img src="./FUNCIONES LINEALES_files/T17.png" title="11 - x = 2x - 1" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+	  <p>Resolvemos la ecuación:</p>
+		
+	  <p align="center">
+	  <img src="./FUNCIONES LINEALES_files/T18.png" title="resolvemos la ecuación 11 - x = 2x - 1, obteniendo x = 4" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>La primera coordenada del punto de corte es <span class="MathJax_CHTML mjx-box" id="MathJax-Element-27-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-132" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-133" class="mjx-mrow"><span id="MJXc-Node-134" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-135" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-136" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">4</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mn>4</mn></math></span></span><script type="math/tex" id="MathJax-Element-27">x=4</script>. La segunda coordenada la obtenemos calculando su imagen en alguna de las dos rectas:</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/T19.png" title="y = 11 - 4 = 7" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+	  <p>Por tanto, el punto de corte es <span class="MathJax_CHTML mjx-box" id="MathJax-Element-28-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;7&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-137" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-138" class="mjx-mrow"><span id="MJXc-Node-139" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-140" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">4</span></span><span id="MJXc-Node-141" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-142" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">7</span></span><span id="MJXc-Node-143" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>4</mn><mo>,</mo><mn>7</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-28">(4,7)</script>.</p>
+		
+	  <p>Gráfica:</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/g5.png" title="gráficas de las funciones y = 11 - x, y = 2x -1" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+	</div>
+    <span class="Estilo2">
+	<!--endPEEjem1-->	
+	<br>	
+	</span>
+	<h2 align="left" class="Estilo2">7. Paralelas y perpendiculares</h2>
+		
+	  <p class="Estilo2">Dos rectas son <strong>paralelas</strong> si no se cortan en ningún punto (o si son iguales). Esto ocurre cuando tienen la misma pendiente, <span class="MathJax_CHTML mjx-box" id="MathJax-Element-29-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-144" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-145" class="mjx-mrow"><span id="MJXc-Node-146" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">m</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></span></span><script type="math/tex" id="MathJax-Element-29">m</script>.</p>
+		
+	  <p class="Estilo2">Dos rectas son <strong>perpendiculares</strong> si se cortan formando un ángulo recto (ángulo de 45°). Las rectas perpendiculares a la recta con pendiente <span class="MathJax_CHTML mjx-box" id="MathJax-Element-30-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-147" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-148" class="mjx-mrow"><span id="MJXc-Node-149" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">m</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></span></span><script type="math/tex" id="MathJax-Element-30">m</script> son las que tienen pendiente <span class="MathJax_CHTML mjx-box" id="MathJax-Element-31-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo&gt;/&lt;/mo&gt;&lt;/mrow&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-150" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-151" class="mjx-mrow"><span id="MJXc-Node-152" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-153" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span><span id="MJXc-Node-154" class="mjx-texatom"><span id="MJXc-Node-155" class="mjx-mrow"><span id="MJXc-Node-156" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">/</span></span></span></span><span id="MJXc-Node-157" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">m</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>−</mo><mn>1</mn><mrow class="MJX-TeXAtom-ORD"><mo>/</mo></mrow><mi>m</mi></math></span></span><script type="math/tex" id="MathJax-Element-31">-1/m</script>. </p>
+		
+	    <span class="Estilo2">
+	    <!--PEEjm1-->
+	    </span>
+    <div class="PE Estilo1 Estilo40">
+		
+		<h3 align="left">Ejemplo</h3>
+		
+	  <p>Las siguientes rectas son paralelas porque tienen la misma pendiente (<span class="MathJax_CHTML mjx-box" id="MathJax-Element-32-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-158" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-159" class="mjx-mrow"><span id="MJXc-Node-160" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">m</span></span><span id="MJXc-Node-161" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-162" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi><mo>=</mo><mn>2</mn></math></span></span><script type="math/tex" id="MathJax-Element-32">m=2</script>): </p>
+		
+	  <p align="center">
+	  <img src="./FUNCIONES LINEALES_files/T20.png" title="gráficas de las funciones paralelas y = 2x + 1, y = 2x - 5" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Las siguientes rectas son perpendiculares porque la pendiente de la una es el opuesto del inverso de la pendiente de la otra: </p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/T21.png" title="gráficas de las funciones y = 2x + 1, y = 1 - x/2" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+	</div>
+	    <span class="Estilo2">
+	<!--endPEEjem1-->	
+	<br>	
+	    </span>
+    <h2 align="left" class="Estilo2">8. Problemas resueltos</h2>
+	
+	
+			
+		
+		
+		
+	    <span class="Estilo2">
+	    <!--PE1-->
+	    </span>
+    <div class="PE Estilo1 Estilo45">
+	
+	<h2 align="left">Problema 1</h2>
+	
+		 
+		
+	
+      <p>Calcular los puntos de corte con los ejes y representar la función. ¿Cuál es la pendiente de la recta?</p>
+			   
+	 
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P1.png" title="y = 4 - 2x" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+	
+	
+	<div class="BPE" onclick="desplegar(&#39;respuesta1&#39;)">Solución</div>
+	
+	<div class="respuesta" id="respuesta1" style="display: none;">
+		
+		
+		<p>La pendiente de la recta es <span class="MathJax_CHTML mjx-box" id="MathJax-Element-33-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-163" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-164" class="mjx-mrow"><span id="MJXc-Node-165" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">m</span></span><span id="MJXc-Node-166" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-167" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.307em; padding-bottom: 0.429em;">−</span></span><span id="MJXc-Node-168" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">2</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi><mo>=</mo><mo>−</mo><mn>2</mn></math></span></span><script type="math/tex" id="MathJax-Element-33">m = -2</script>. Como es negativa, es una recta decreciente.</p>
+		
+		<p>La recta corta al eje Y cuando <span class="MathJax_CHTML mjx-box" id="MathJax-Element-34-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-169" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-170" class="mjx-mrow"><span id="MJXc-Node-171" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">x</span></span><span id="MJXc-Node-172" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-173" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-34">x=0</script>, por tanto, lo hace en el punto</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P1-1.png" title="(0, 4)" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>La recta corta al eje X cuando <span class="MathJax_CHTML mjx-box" id="MathJax-Element-35-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-174" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-175" class="mjx-mrow"><span id="MJXc-Node-176" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.49em; padding-right: 0.006em;">y</span></span><span id="MJXc-Node-177" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-178" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi><mo>=</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-35">y=0</script>. Tenemos que resolver una ecuación:</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P1-2.png" title="resolvemos la ecuación 4 - 2x = 0, obteniendo x = 2" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>El punto de corte es </p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P1-3.png" title="(2,0)" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Como tenemos dos puntos de la recta, podemos representar su gráfica:</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P1g.png" title="gráfica de la función y = 4 - 2x" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+	</div><!--ERespt1-->	
+	</div>
+	    <span class="Estilo2">
+	<!--EPE1-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE2-->
+	    </span>
+    <div class="PE Estilo1 Estilo48">
+	
+	<h2 align="left">Problema 2</h2>
+	
+	
+		
+	
+		<p>Calcular y representar la función cuya gráfica es una recta que pasa por los puntos <span class="MathJax_CHTML mjx-box" id="MathJax-Element-36-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-179" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-180" class="mjx-mrow"><span id="MJXc-Node-181" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-182" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span><span id="MJXc-Node-183" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-184" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span><span id="MJXc-Node-185" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-36">(1,2)</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-37-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-186" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-187" class="mjx-mrow"><span id="MJXc-Node-188" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-189" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-190" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">3</span></span><span id="MJXc-Node-191" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-192" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">4</span></span><span id="MJXc-Node-193" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-37">(-3,4)</script>. ¿Cuál es su pendiente?</p>
+	
+	
+	<div class="BPE" onclick="desplegar(&#39;respuesta2&#39;)">Solución</div>
+	
+	<div class="respuesta" id="respuesta2" style="display: none;">
+		
+		
+		<p>La forma general de una recta es</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P2-1.png" title="y = mx + n" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Vamos a calcular <span class="MathJax_CHTML mjx-box" id="MathJax-Element-38-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-194" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-195" class="mjx-mrow"><span id="MJXc-Node-196" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">m</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></span></span><script type="math/tex" id="MathJax-Element-38">m</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-39-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-197" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-198" class="mjx-mrow"><span id="MJXc-Node-199" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">n</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></span></span><script type="math/tex" id="MathJax-Element-39">n</script> sustituyendo las coordenadas de los puntos. </p>
+		
+		<p>Primer punto:</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P2-2.png" title="2 = m·1 + n" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Segundo punto:</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P2-3.png" title="4 = m·(-3) + n" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Tenemos un <a href="https://www.matesfacil.com/ESO/Ecuaciones/resueltos-sistemas-ecuaciones.html">sistema de ecuaciones</a>: </p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P2-4.png" title="sistema de ecuaciones m + n = 2, -3m + n = 4" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Restando la primera ecuación a la segunda tenemos </p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P2-5.png" title="m = -1/2" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Sustituyendo <span class="MathJax_CHTML mjx-box" id="MathJax-Element-40-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-200" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-201" class="mjx-mrow"><span id="MJXc-Node-202" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">m</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></span></span><script type="math/tex" id="MathJax-Element-40">m</script>, tenemos <span class="MathJax_CHTML mjx-box" id="MathJax-Element-41-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo&gt;/&lt;/mo&gt;&lt;/mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-203" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-204" class="mjx-mrow"><span id="MJXc-Node-205" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">n</span></span><span id="MJXc-Node-206" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-207" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">5</span></span><span id="MJXc-Node-208" class="mjx-texatom"><span id="MJXc-Node-209" class="mjx-mrow"><span id="MJXc-Node-210" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">/</span></span></span></span><span id="MJXc-Node-211" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">2</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi><mo>=</mo><mn>5</mn><mrow class="MJX-TeXAtom-ORD"><mo>/</mo></mrow><mn>2</mn></math></span></span><script type="math/tex" id="MathJax-Element-41">n = 5/2</script>.  </p>
+		
+		<p>Por tanto, se trata de la función </p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P2-6.png" title="f(x) = (5 - x)/2" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Gráfica:</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P2g.png" title="gráfica de la función f(x) = (5 - x)/2" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>La pendiente de la función es <span class="MathJax_CHTML mjx-box" id="MathJax-Element-42-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo&gt;/&lt;/mo&gt;&lt;/mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-212" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-213" class="mjx-mrow"><span id="MJXc-Node-214" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">m</span></span><span id="MJXc-Node-215" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-216" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.307em; padding-bottom: 0.429em;">−</span></span><span id="MJXc-Node-217" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">1</span></span><span id="MJXc-Node-218" class="mjx-texatom"><span id="MJXc-Node-219" class="mjx-mrow"><span id="MJXc-Node-220" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">/</span></span></span></span><span id="MJXc-Node-221" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">2</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi><mo>=</mo><mo>−</mo><mn>1</mn><mrow class="MJX-TeXAtom-ORD"><mo>/</mo></mrow><mn>2</mn></math></span></span><script type="math/tex" id="MathJax-Element-42">m = -1/2</script>. </p>
+	</div><!--ERespt2-->	
+	</div>
+	    <span class="Estilo2">
+	<!--EPE2-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE3-->
+	    </span>
+    <div class="PE Estilo1 Estilo51">
+	
+	<h2 align="left">Problema 3</h2>
+	
+	<p>Las pendientes de tres rectas son <span class="MathJax_CHTML mjx-box" id="MathJax-Element-43-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-222" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-223" class="mjx-mrow"><span id="MJXc-Node-224" class="mjx-msubsup"><span class="mjx-base"><span id="MJXc-Node-225" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">m</span></span></span><span class="mjx-sub" style="font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;"><span id="MJXc-Node-226" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span><span id="MJXc-Node-227" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-228" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>m</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-43">m_1 = 1</script>, <span class="MathJax_CHTML mjx-box" id="MathJax-Element-44-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-229" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-230" class="mjx-mrow"><span id="MJXc-Node-231" class="mjx-msubsup"><span class="mjx-base"><span id="MJXc-Node-232" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">m</span></span></span><span class="mjx-sub" style="font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;"><span id="MJXc-Node-233" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span></span></span><span id="MJXc-Node-234" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-235" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-236" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mo>−</mo><mn>2</mn></math></span></span><script type="math/tex" id="MathJax-Element-44">m_2 = -2</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-45-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-237" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-238" class="mjx-mrow"><span id="MJXc-Node-239" class="mjx-msubsup"><span class="mjx-base"><span id="MJXc-Node-240" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">m</span></span></span><span class="mjx-sub" style="font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;"><span id="MJXc-Node-241" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">3</span></span></span></span><span id="MJXc-Node-242" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-243" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">3</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>m</mi><mn>3</mn></msub><mo>=</mo><mn>3</mn></math></span></span><script type="math/tex" id="MathJax-Element-45">m_3 = 3</script>. </p>
+		
+	<p>¿Cuál de ellas crece más rápidamente? ¿Cuál de ellas es una recta decreciente?</p>
+		
+		
+	
+	
+	<div class="BPE" onclick="desplegar(&#39;respuesta3&#39;)">Solución</div>
+	
+	<div class="respuesta" id="respuesta3" style="display: none;">
+		
+		
+		<p>La recta decreciente es la que tiene la pendiente negativa, <span class="MathJax_CHTML mjx-box" id="MathJax-Element-46-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-244" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-245" class="mjx-mrow"><span id="MJXc-Node-246" class="mjx-msubsup"><span class="mjx-base"><span id="MJXc-Node-247" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">m</span></span></span><span class="mjx-sub" style="font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;"><span id="MJXc-Node-248" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">2</span></span></span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>m</mi><mn>2</mn></msub></math></span></span><script type="math/tex" id="MathJax-Element-46">m_2</script>. </p>
+		
+		<p>Las otras dos rectas son crecientes y crece más rápido la que tiene pendiente <span class="MathJax_CHTML mjx-box" id="MathJax-Element-47-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-249" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-250" class="mjx-mrow"><span id="MJXc-Node-251" class="mjx-msubsup"><span class="mjx-base"><span id="MJXc-Node-252" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">m</span></span></span><span class="mjx-sub" style="font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;"><span id="MJXc-Node-253" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">3</span></span></span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>m</mi><mn>3</mn></msub></math></span></span><script type="math/tex" id="MathJax-Element-47">m_3</script>.</p>
+	</div><!--ERespt3-->	
+	</div>
+	    <span class="Estilo2">
+	<!--EPE3-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE4-->
+	    </span>
+    <div class="PE Estilo1 Estilo54">
+	
+	<h2 align="left">Problema 4</h2>
+	
+	
+		<p>Hallar, si existe, el punto de corte de las siguientes rectas:</p>
+
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P4.png" title="y = x/2 + 3, y = 2x -3" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+   	    <p>¿Son rectas paralelas o perpendiculares?</p>		  			  
+							   
+	 
+	
+	
+	<div class="BPE" onclick="desplegar(&#39;respuesta4&#39;)">Solución</div>
+	
+	<div class="respuesta" id="respuesta4" style="display: none;">
+		
+		<p>Igualamos las funciones para calcular el punto de corte:</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P4-1.png" title="igualamos ambas funciones: x/2 + 3 = 2x - 3" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Resolvemos la <a href="https://www.matesfacil.com/ESO/Ecuaciones/resueltos-ecuaciones-ec.html">ecuación</a>:</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P4-2.png" title="resolvemos la ecuación x/2 + 3 = 2x - 3, obteniendo x = 4" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Calculamos <span class="MathJax_CHTML mjx-box" id="MathJax-Element-48-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-254" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-255" class="mjx-mrow"><span id="MJXc-Node-256" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.49em; padding-right: 0.006em;">y</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi></math></span></span><script type="math/tex" id="MathJax-Element-48">y</script> a partir de <span class="MathJax_CHTML mjx-box" id="MathJax-Element-49-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-257" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-258" class="mjx-mrow"><span id="MJXc-Node-259" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">x</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi></math></span></span><script type="math/tex" id="MathJax-Element-49">x</script>:</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P4-3.png" title="y = 5" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Las rectas se cortan en el punto <span class="MathJax_CHTML mjx-box" id="MathJax-Element-50-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-260" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-261" class="mjx-mrow"><span id="MJXc-Node-262" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">(</span></span><span id="MJXc-Node-263" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">4</span></span><span id="MJXc-Node-264" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.18em; padding-bottom: 0.551em;">,</span></span><span id="MJXc-Node-265" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">5</span></span><span id="MJXc-Node-266" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-50">(4,5)</script>.</p>
+		
+		<p>Como se cortan, no pueden ser paralelas. </p>
+		
+		<p>Tampoco son perpendiculares porque las pendientes son positivas (es indispensable tener pendientes de signo contrario para ser perpendiculares). </p>
+		
+		<p>Gráfica:</p>
+		
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P4g.png" title="gráficas de las funciones y = x/2 + 3, y = 2x -3" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+	</div><!--ERespt4-->	
+	</div>
+	    <span class="Estilo2">
+	<!--EPE4-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE5-->
+	    </span>
+    <div class="PE Estilo1 Estilo57">
+	
+	<h2 align="left">Problema 5</h2>
+	
+	
+		<p>Hallar, si existe, el punto de corte de las siguientes rectas:</p>
+	
+	  <p align="center">
+	  <img src="./FUNCIONES LINEALES_files/P5.png" title="y = (x + 5)/3, y = x/3 - 1" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>¿Son rectas paralelas o perpendiculares?</p>					   
+	 
+	
+	
+	
+	<div class="BPE" onclick="desplegar(&#39;respuesta5&#39;)">Solución</div>
+	
+	<div class="respuesta" id="respuesta5" style="display: none;">
+		
+		
+		
+		<p>Las dos rectas tienen la misma pendiente:</p>
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P5-1.png" title="m = 1/3" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		<p>Por tanto, se trata de dos rectas paralelas, lo que significa que no se cortan, a no ser que sean la misma recta. </p>
+		<p>Por ejemplo, el punto <span class="MathJax_CHTML mjx-box" id="MathJax-Element-51-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-267" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-268" class="mjx-mrow"><span id="MJXc-Node-269" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">(</span></span><span id="MJXc-Node-270" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">1</span></span><span id="MJXc-Node-271" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.18em; padding-bottom: 0.551em;">,</span></span><span id="MJXc-Node-272" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">2</span></span><span id="MJXc-Node-273" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-51">(1,2)</script> es un punto de la primera función, pero no de la segunda, así que no son la misma recta.</p>
+		
+		<p>Gráfica:</p>
+		
+		
+		<p align="center">
+		<img src="./FUNCIONES LINEALES_files/P5g.png" title="gráficas de las funciones y = (x + 5)/3, y = x/3 - 1" alt="Definimos función lineal y explicamos algunos conceptos: pendiente, ordenada, gráfica, punto de corte con los ejes, intersección de dos funciones, rectas paralelas y perpendiculares. Finalmente, resolvemos problemas de aplicación. Matemáticas. Secundaria."></p>
+		
+		
+		<p>También, podemos igualar las funciones, pero como las rectas son paralelas, obtendremos una igualdad falsa. </p>
+	</div><!--ERespt5-->	
+	</div>
+	    <span class="Estilo2">
+	    <!--EPE5-->
+    </span></div></div>
+<span class="Estilo2"><br>
+</span>
+
+<!--ELAT-->
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"><ins id="aswift_4_expand" style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><ins id="aswift_4_anchor" style="display:block;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;">
+<iframe id="aswift_4" name="aswift_4" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" src="./FUNCIONES LINEALES_files/ads.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!4" data-load-complete="true"></iframe></ins></ins></ins><iframe id="google_osd_static_frame_9149960239599" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./FUNCIONES LINEALES_files/saved_resource.html"></iframe></body>
+<iframe id="google_esf" name="google_esf" src="./FUNCIONES LINEALES_files/zrt_lookup.html" data-ad-client="ca-pub-3309204359100394" style="display: none;"></iframe></html>

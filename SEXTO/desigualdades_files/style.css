@@ -1,0 +1,154 @@
+*{
+	font-family: arial;
+}
+
+a{
+	text-decoration: none !important;
+	color: blue;
+}
+
+a:hover{
+	text-decoration: underline !important;
+}
+
+#mainBody{
+	margin: 3px 0 0 0;
+}
+
+img{
+	border: none;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+#contentFrame{
+	position: absolute;
+	top: 45px;
+	left: 0;
+	width: 926px
+	height: 650px;
+}
+
+#header{
+}
+
+#tab1{
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	width: 170px;
+	height: 46px;
+	text-align: center;
+}
+
+#tab2{
+	position: absolute;
+	top: 0px;
+	left: 400px;
+	color: white;
+	width: 170px;
+	height: 46px;
+	text-align: center;
+}
+
+#tab3{
+	position: absolute;
+	top: 0px;
+	left: 600px;
+	color: white;
+	width: 170px;
+	height: 46px;
+	text-align: center;
+}
+
+#languageLink{
+	position: absolute;
+	top: 11px;
+	left: 837px;
+	color: white;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: underline !important;
+}
+
+.manga{
+	color: #1ca683;
+}
+
+.urban{
+	color: #000000;
+}
+
+.whimsey{
+	color: #e54200;
+}
+
+.popup{
+	color: #009704;
+}
+
+.tab{
+	background-image: none;
+	width: 170px;
+	height: 26px;
+	padding-top: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.selected{
+	background-image: url(interface/text_tab.png);
+	background-repeat: no-repeat;
+}
+
+#glossary{
+	display: none;
+	background: white;
+	border: solid black 2px;
+	position: absolute;
+	width: 300px;
+	font-family: arial;
+	font-size: 11pt;
+	z-index: 1;
+}
+
+#glossary_close{
+	float: right;
+	text-align: center;
+}
+
+#glossary .term{
+	font-weight: bold;
+	background: #88f;
+	padding: 5px;
+}
+
+#glossary .definition{
+	background: white;
+	padding: 5px;
+}
+
+#glossaryTable .term{
+	font-weight: bold;
+	vertical-align: top;
+	width: 200px;
+	border-bottom: solid black 1px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+#glossaryTable .definition{
+	vertical-align: top;
+	border-bottom: solid black 1px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+#copyright{
+	width: 926px;
+	position: absolute;
+	top: 700px;
+	font-size: 10pt;
+}

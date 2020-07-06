@@ -1,0 +1,1552 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0117)https://www.problemasyecuaciones.com/integrales/partes/metodo-integracion-partes-integrales-resueltas-explicadas.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!--GouAut-->
+<script src="./integrales_files/f.txt"></script><script src="./integrales_files/f(1).txt"></script><script src="./integrales_files/osd.js.descarga"></script><script type="text/javascript" async="" src="./integrales_files/analytics.js.descarga"></script><script src="./integrales_files/f(2).txt" id="google_shimpl"></script><script async="" src="./integrales_files/f(3).txt"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-3309204359100394",
+          enable_page_level_ads: true
+     });
+</script>	
+<!--EGouAu-->
+
+
+
+<!--K-->
+<meta name="viewport" content="width=device-width, initial-scale=1 ">
+<link rel="stylesheet" href="./integrales_files/pyesty.css" type="text/css">
+<link href="./integrales_files/css" rel="stylesheet">
+
+<script type="teXt/javascript"> 
+function verMenu() { 
+var men = document.getElementById('hojaLAT');
+var mini = document.getElementById('minimenu');
+var barras = document.getElementsByClassName('minimenubarra');
+var i;
+
+
+switch(men.style.display) { 
+case 'block':
+
+	men.style.display = 'none'; 
+	mini.style.backgroundColor ="transparent";
+	for (i = 0; i < barras.length; i++) {
+    barras[i].style.backgroundColor ="white";
+	} 
+	break; 
+	
+
+	case 'none': 
+	men.style.display = 'block';  
+	mini.style.backgroundColor ="white";
+	for (i = 0; i < barras.length; i++) {
+    barras[i].style.backgroundColor ="rgba(30,4,138,1)";
+	} 	
+	
+	break; 	
+
+
+	
+default: 
+
+	men.style.display = 'block';  
+	mini.style.backgroundColor ="white";
+	for (i = 0; i < barras.length; i++) {
+    barras[i].style.backgroundColor ="rgba(30,4,138,1)";
+	} 	
+	
+	break; 	
+
+} 
+} 
+</script><link rel="preload" href="./integrales_files/f(4).txt" as="script"><script type="text/javascript" src="./integrales_files/f(4).txt"></script><link rel="preload" href="./integrales_files/f(5).txt" as="script"><script type="text/javascript" src="./integrales_files/f(5).txt"></script> 
+
+
+
+<meta name="robots" content="index/follow">
+
+<script src="./integrales_files/MathJax.js.descarga" id="">
+</script>
+<link rel="shortcut icon" href="https://elcoleencasa.000webhostapp.com/huajlaya.ico">
+
+
+
+
+
+<!--K-->
+
+<!-- goanaly -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./integrales_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-34239017-2');
+</script>
+
+<!--ENDgoanaly-->
+
+<!--show-->
+<script type="teXt/javascript"> 
+function desplegar(tabla) { 
+var tablA = document.getElementById(tabla); 
+
+switch(tablA.style.display) { 
+case "none": 
+tablA.style.display = "block";  
+break; 
+default: 
+tablA.style.display = "none";  
+break; 
+} 
+} 
+</script> 
+<!--Eshow-->
+
+<!--tex-->
+<script src="./integrales_files/MathJax.js.descarga" id="">
+</script>
+<!--Etex-->
+
+<!-- Cookies -->
+<link rel="stylesheet" type="text/css" href="./integrales_files/cookieconsent.min.css">
+<script src="./integrales_files/cookieconsent.min.js.descarga"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#3c404d",
+      "text": "#d6d6d6"
+    },
+    "button": {
+      "background": "#f7f78b",
+      "text": "#3c404d"
+    }
+  },
+ 
+  }
+})});
+</script>
+<!--ECookies-->
+
+
+
+
+
+
+
+<title>Integrales resueltas por partes</title>
+<meta name="keywords" content="solucion, resueltos, secundaria, ESO, pasos, explicados, ejemplos, problemas, integral, integrales, funcion, derivada, metodo, integracion, por, partes, formula, u, v, dv, du, resueltas, integracion, primitiva">
+<meta name="description" content="Método de integración por partes explicado con ejemplos. Integrales resueltas por partes. Fórmula integral(udv) = u·v - integral(vdu). Análisis de una variable real.">
+
+<style type="text/css">
+.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">
+#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">
+.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">
+.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">
+#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">
+.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style></style><style type="text/css">
+.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">
+.mjx-chtml {display: inline-block; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0}
+.MJXc-display {display: block; text-align: center; margin: 1em 0; padding: 0}
+.mjx-chtml[tabindex]:focus, body :focus .mjx-chtml[tabindex] {display: inline-table}
+.mjx-full-width {text-align: center; display: table-cell!important; width: 10000em}
+.mjx-math {display: inline-block; border-collapse: separate; border-spacing: 0}
+.mjx-math * {display: inline-block; -webkit-box-sizing: content-box!important; -moz-box-sizing: content-box!important; box-sizing: content-box!important; text-align: left}
+.mjx-numerator {display: block; text-align: center}
+.mjx-denominator {display: block; text-align: center}
+.MJXc-stacked {height: 0; position: relative}
+.MJXc-stacked > * {position: absolute}
+.MJXc-bevelled > * {display: inline-block}
+.mjx-stack {display: inline-block}
+.mjx-op {display: block}
+.mjx-under {display: table-cell}
+.mjx-over {display: block}
+.mjx-over > * {padding-left: 0px!important; padding-right: 0px!important}
+.mjx-under > * {padding-left: 0px!important; padding-right: 0px!important}
+.mjx-stack > .mjx-sup {display: block}
+.mjx-stack > .mjx-sub {display: block}
+.mjx-prestack > .mjx-presup {display: block}
+.mjx-prestack > .mjx-presub {display: block}
+.mjx-delim-h > .mjx-char {display: inline-block}
+.mjx-surd {vertical-align: top}
+.mjx-mphantom * {visibility: hidden}
+.mjx-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 2px 3px; font-style: normal; font-size: 90%}
+.mjx-annotation-xml {line-height: normal}
+.mjx-menclose > svg {fill: none; stroke: currentColor}
+.mjx-mtr {display: table-row}
+.mjx-mlabeledtr {display: table-row}
+.mjx-mtd {display: table-cell; text-align: center}
+.mjx-label {display: table-row}
+.mjx-box {display: inline-block}
+.mjx-block {display: block}
+.mjx-span {display: inline}
+.mjx-char {display: block; white-space: pre}
+.mjx-itable {display: inline-table; width: auto}
+.mjx-row {display: table-row}
+.mjx-cell {display: table-cell}
+.mjx-table {display: table; width: 100%}
+.mjx-line {display: block; height: 0}
+.mjx-strut {width: 0; padding-top: 1em}
+.mjx-vsize {width: 0}
+.MJXc-space1 {margin-left: .167em}
+.MJXc-space2 {margin-left: .222em}
+.MJXc-space3 {margin-left: .278em}
+.mjx-chartest {display: block; visibility: hidden; position: absolute; top: 0; line-height: normal; font-size: 500%}
+.mjx-chartest .mjx-char {display: inline}
+.mjx-chartest .mjx-box {padding-top: 1000px}
+.MJXc-processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MJXc-processed {display: none}
+.mjx-test {display: block; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow: hidden; height: 1px}
+.mjx-ex-box-test {position: absolute; width: 1px; height: 60ex}
+.mjx-line-box-test {display: table!important}
+.mjx-line-box-test span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+#MathJax_CHTML_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.mjx-chtml .mjx-noError {line-height: 1.2; vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+.MJXc-TeX-unknown-R {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: normal; font-weight: normal}
+.MJXc-TeX-unknown-I {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: italic; font-weight: normal}
+.MJXc-TeX-unknown-B {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: normal; font-weight: bold}
+.MJXc-TeX-unknown-BI {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: italic; font-weight: bold}
+.MJXc-TeX-ams-R {font-family: MJXc-TeX-ams-R,MJXc-TeX-ams-Rw}
+.MJXc-TeX-cal-B {font-family: MJXc-TeX-cal-B,MJXc-TeX-cal-Bx,MJXc-TeX-cal-Bw}
+.MJXc-TeX-frak-R {font-family: MJXc-TeX-frak-R,MJXc-TeX-frak-Rw}
+.MJXc-TeX-frak-B {font-family: MJXc-TeX-frak-B,MJXc-TeX-frak-Bx,MJXc-TeX-frak-Bw}
+.MJXc-TeX-math-BI {font-family: MJXc-TeX-math-BI,MJXc-TeX-math-BIx,MJXc-TeX-math-BIw}
+.MJXc-TeX-sans-R {font-family: MJXc-TeX-sans-R,MJXc-TeX-sans-Rw}
+.MJXc-TeX-sans-B {font-family: MJXc-TeX-sans-B,MJXc-TeX-sans-Bx,MJXc-TeX-sans-Bw}
+.MJXc-TeX-sans-I {font-family: MJXc-TeX-sans-I,MJXc-TeX-sans-Ix,MJXc-TeX-sans-Iw}
+.MJXc-TeX-script-R {font-family: MJXc-TeX-script-R,MJXc-TeX-script-Rw}
+.MJXc-TeX-type-R {font-family: MJXc-TeX-type-R,MJXc-TeX-type-Rw}
+.MJXc-TeX-cal-R {font-family: MJXc-TeX-cal-R,MJXc-TeX-cal-Rw}
+.MJXc-TeX-main-B {font-family: MJXc-TeX-main-B,MJXc-TeX-main-Bx,MJXc-TeX-main-Bw}
+.MJXc-TeX-main-I {font-family: MJXc-TeX-main-I,MJXc-TeX-main-Ix,MJXc-TeX-main-Iw}
+.MJXc-TeX-main-R {font-family: MJXc-TeX-main-R,MJXc-TeX-main-Rw}
+.MJXc-TeX-math-I {font-family: MJXc-TeX-math-I,MJXc-TeX-math-Ix,MJXc-TeX-math-Iw}
+.MJXc-TeX-size1-R {font-family: MJXc-TeX-size1-R,MJXc-TeX-size1-Rw}
+.MJXc-TeX-size2-R {font-family: MJXc-TeX-size2-R,MJXc-TeX-size2-Rw}
+.MJXc-TeX-size3-R {font-family: MJXc-TeX-size3-R,MJXc-TeX-size3-Rw}
+.MJXc-TeX-size4-R {font-family: MJXc-TeX-size4-R,MJXc-TeX-size4-Rw}
+@font-face {font-family: MJXc-TeX-ams-R; src: local('MathJax_AMS'), local('MathJax_AMS-Regular')}
+@font-face {font-family: MJXc-TeX-ams-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_AMS-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-cal-B; src: local('MathJax_Caligraphic Bold'), local('MathJax_Caligraphic-Bold')}
+@font-face {font-family: MJXc-TeX-cal-Bx; src: local('MathJax_Caligraphic'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-cal-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-frak-R; src: local('MathJax_Fraktur'), local('MathJax_Fraktur-Regular')}
+@font-face {font-family: MJXc-TeX-frak-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-frak-B; src: local('MathJax_Fraktur Bold'), local('MathJax_Fraktur-Bold')}
+@font-face {font-family: MJXc-TeX-frak-Bx; src: local('MathJax_Fraktur'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-frak-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-math-BI; src: local('MathJax_Math BoldItalic'), local('MathJax_Math-BoldItalic')}
+@font-face {font-family: MJXc-TeX-math-BIx; src: local('MathJax_Math'); font-weight: bold; font-style: italic}
+@font-face {font-family: MJXc-TeX-math-BIw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Math-BoldItalic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Math-BoldItalic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Math-BoldItalic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-sans-R; src: local('MathJax_SansSerif'), local('MathJax_SansSerif-Regular')}
+@font-face {font-family: MJXc-TeX-sans-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-sans-B; src: local('MathJax_SansSerif Bold'), local('MathJax_SansSerif-Bold')}
+@font-face {font-family: MJXc-TeX-sans-Bx; src: local('MathJax_SansSerif'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-sans-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-sans-I; src: local('MathJax_SansSerif Italic'), local('MathJax_SansSerif-Italic')}
+@font-face {font-family: MJXc-TeX-sans-Ix; src: local('MathJax_SansSerif'); font-style: italic}
+@font-face {font-family: MJXc-TeX-sans-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Italic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-script-R; src: local('MathJax_Script'), local('MathJax_Script-Regular')}
+@font-face {font-family: MJXc-TeX-script-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Script-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Script-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-type-R; src: local('MathJax_Typewriter'), local('MathJax_Typewriter-Regular')}
+@font-face {font-family: MJXc-TeX-type-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Typewriter-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Typewriter-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Typewriter-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-cal-R; src: local('MathJax_Caligraphic'), local('MathJax_Caligraphic-Regular')}
+@font-face {font-family: MJXc-TeX-cal-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-main-B; src: local('MathJax_Main Bold'), local('MathJax_Main-Bold')}
+@font-face {font-family: MJXc-TeX-main-Bx; src: local('MathJax_Main'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-main-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-main-I; src: local('MathJax_Main Italic'), local('MathJax_Main-Italic')}
+@font-face {font-family: MJXc-TeX-main-Ix; src: local('MathJax_Main'); font-style: italic}
+@font-face {font-family: MJXc-TeX-main-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-main-R; src: local('MathJax_Main'), local('MathJax_Main-Regular')}
+@font-face {font-family: MJXc-TeX-main-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-math-I; src: local('MathJax_Math Italic'), local('MathJax_Math-Italic')}
+@font-face {font-family: MJXc-TeX-math-Ix; src: local('MathJax_Math'); font-style: italic}
+@font-face {font-family: MJXc-TeX-math-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size1-R; src: local('MathJax_Size1'), local('MathJax_Size1-Regular')}
+@font-face {font-family: MJXc-TeX-size1-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size2-R; src: local('MathJax_Size2'), local('MathJax_Size2-Regular')}
+@font-face {font-family: MJXc-TeX-size2-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size3-R; src: local('MathJax_Size3'), local('MathJax_Size3-Regular')}
+@font-face {font-family: MJXc-TeX-size3-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size4-R; src: local('MathJax_Size4'), local('MathJax_Size4-Regular')}
+@font-face {font-family: MJXc-TeX-size4-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf') format('opentype')}
+.Estilo2 {display: inline-block; text-align: center; margin: 1em 0; padding: 0; }
+.Estilo3 {
+	font-family: MJXc-TeX-ams-R, MJXc-TeX-ams-Rw;
+	font-style: italic;
+}
+.Estilo4 {font-style: italic}
+.Estilo5 {font-family: MJXc-TeX-ams-R, MJXc-TeX-ams-Rw}
+.Estilo8 {font-style: italic}
+.Estilo13 {font-style: italic}
+.Estilo18 {font-style: italic}
+.Estilo21 {font-style: italic}
+.Estilo24 {font-style: italic}
+.Estilo29 {font-style: italic}
+.Estilo34 {font-style: italic}
+.Estilo37 {font-style: italic}
+.Estilo40 {font-style: italic}
+.Estilo43 {font-style: italic}
+.Estilo44 {font-family: MJXc-TeX-ams-R, MJXc-TeX-ams-Rw; font-style: italic; color: #FF0000; }
+</style></head>
+
+<body contenteditable="false"><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-color-override--2088522006 cc-invisible" style="display: none;"><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message"><strong>Política de cookies:</strong> Las cookies de este sitio web se usan para personalizar el contenido y los anuncios, ofrecer funciones de redes sociales y analizar el tráfico. Además, compartimos información sobre el uso que haga del sitio web con nuestros partners de redes sociales, publicidad y análisis web, quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de sus servicios.  <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.google.com/intl/es/policies/privacy/partners/" target="_blank">Más información</a></span><div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">¡Entendido!</a></div><!--googleon: all--></div><div id="MathJax_Message" style="display: none;"></div>
+
+<div id="barra"><a href="https://elcoleencasa.000webhostapp.com/6primaria_comunicacion.html"><img src="integrales_files/LOGO.png" alt="logo" width="308" height="52" border="0" longdesc="logo" /></a><a href="https://www.problemasyecuaciones.com/"> </a>
+  <div id="tit" style="text-decoration: none;"><a href="https://www.problemasyecuaciones.com/">
+		</a><h1>inicio</h1><a href="https://www.problemasyecuaciones.com/">
+	</a></div><a href="https://www.problemasyecuaciones.com/">	
+		
+		
+	</a>
+	
+	
+	
+</div><!--EBarra-->
+
+
+<div id="hoja2">
+	
+	<div class="hojatexto">
+	<h1 align="center" class="Estilo44">Integración por partes</h1>
+
+	
+	 <p class="Estilo3">En esta página explicamos el <strong>método de integración por partes</strong> paso a paso. Calcularemos 11 integrales mediante este método para ver el procedimiento. Este método se basa en la aplicación de la siguiente fórmula: </p>
+	
+	<h2 align="center" class="Estilo3"><span class="Estilo2" style="text-align: center;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0"><span class="MathJax_CHTML mjx-box" id="MathJax-Element-1-Frame" style="font-size: 103%; text-align: center; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mo&gt;&amp;#x222B;&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mtext&gt;&amp;#xA0;&lt;/mtext&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mo&gt;&amp;#x22C5;&lt;/mo&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mo&gt;&amp;#x222B;&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mtext&gt;&amp;#xA0;&lt;/mtext&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-1" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-2" class="mjx-mrow"><span id="MJXc-Node-3" class="mjx-mo" style="vertical-align: 0.001em; padding-right: 0.388em;"><span class="mjx-char " style="padding-top: 1.153em; padding-bottom: 1.153em;">∫</span></span><span id="MJXc-Node-4" class="mjx-texatom MJXc-space1"><span id="MJXc-Node-5" class="mjx-mrow"><span id="MJXc-Node-6" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.219em; padding-bottom: 0.282em;">u</span></span><span id="MJXc-Node-7" class="mjx-mtext"><span class="mjx-char " style="margin-top: -0.279em; padding-bottom: 0.344em;">&nbsp;</span></span><span id="MJXc-Node-8" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.468em; padding-bottom: 0.282em; padding-right: 0.003em;">d</span></span><span id="MJXc-Node-9" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.219em; padding-bottom: 0.282em;">v</span></span></span></span><span id="MJXc-Node-10" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.095em; padding-bottom: 0.313em;">=</span></span><span id="MJXc-Node-11" class="mjx-mi MJXc-space3"><span class="mjx-char " style="padding-top: 0.219em; padding-bottom: 0.282em;">u</span></span><span id="MJXc-Node-12" class="mjx-mo MJXc-space2"><span class="mjx-char " style="padding-top: 0.033em; padding-bottom: 0.313em;">⋅</span></span><span id="MJXc-Node-13" class="mjx-mi MJXc-space2"><span class="mjx-char " style="padding-top: 0.219em; padding-bottom: 0.282em;">v</span></span><span id="MJXc-Node-14" class="mjx-mo MJXc-space2"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.437em;">−</span></span><span id="MJXc-Node-15" class="mjx-mo MJXc-space2" style="vertical-align: 0.001em; padding-right: 0.388em;"><span class="mjx-char " style="padding-top: 1.153em; padding-bottom: 1.153em;">∫</span></span><span id="MJXc-Node-16" class="mjx-texatom MJXc-space1"><span id="MJXc-Node-17" class="mjx-mrow"><span id="MJXc-Node-18" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.219em; padding-bottom: 0.282em;">v</span></span><span id="MJXc-Node-19" class="mjx-mtext"><span class="mjx-char " style="margin-top: -0.279em; padding-bottom: 0.344em;">&nbsp;</span></span><span id="MJXc-Node-20" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.468em; padding-bottom: 0.282em; padding-right: 0.003em;">d</span></span><span id="MJXc-Node-21" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.219em; padding-bottom: 0.282em;">u</span></span></span></span></span></span><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo>∫</mo><mrow class="MJX-TeXAtom-ORD"><mi>u</mi><mtext>&nbsp;</mtext><mi>d</mi><mi>v</mi></mrow><mo>=</mo><mi>u</mi><mo>⋅</mo><mi>v</mi><mo>−</mo><mo>∫</mo><mrow class="MJX-TeXAtom-ORD"><mi>v</mi><mtext>&nbsp;</mtext><mi>d</mi><mi>u</mi></mrow></math></span></span></span><script type="math/tex; mode=display" id="MathJax-Element-1"> \int{u\ dv } = u\cdot v -\int{v\ du}</script></h2>	
+		
+	<p class="Estilo3">donde</p>
+		
+	<ul class="Estilo4">
+		<li>
+			<p class="Estilo5">u
+			  <math xmlns="http://www.w3.org/1998/Math/MathML">
+			    <mi>u</mi>
+		    </math>
+			  <script type="math/tex" id="MathJax-Element-2">u</script> 
+		    es una función y du
+			  <math xmlns="http://www.w3.org/1998/Math/MathML">
+			    <mi>d</mi>
+			    <mi>u</mi>
+		    </math>
+			  <script type="math/tex" id="MathJax-Element-3">du</script> 
+		    es su derivada</p>
+		</li>
+		<li>
+			<p class="Estilo5">v
+			  <math xmlns="http://www.w3.org/1998/Math/MathML">
+			    <mi>v</mi>
+		    </math>
+			  <script type="math/tex" id="MathJax-Element-4">v</script> 
+		    es una función y dv
+			  <math xmlns="http://www.w3.org/1998/Math/MathML">
+			    <mi>d</mi>
+			    <mi>v</mi>
+		    </math>
+			  <script type="math/tex" id="MathJax-Element-5">dv</script> 
+		    es su derivada</p>
+		</li>
+	</ul>
+
+		<p class="Estilo3">El método se aplica, sobre todo, cuando el integrando es un producto de funciones.</p>
+		
+		<p class="Estilo3"><strong>Notación:</strong> escribiremos la función logaritmo natural (logaritmo en base <span class="MathJax_CHTML mjx-box" id="MathJax-Element-6-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-36" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-37" class="mjx-mrow"><span id="MJXc-Node-38" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">e</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></span></span><script type="math/tex" id="MathJax-Element-6">e</script> como <span class="MathJax_CHTML mjx-box" id="MathJax-Element-7-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo&gt;&amp;#x2061;&lt;/mo&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-39" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-40" class="mjx-mrow"><span id="MJXc-Node-41" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.282em;">l</span></span><span id="MJXc-Node-42" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">n</span></span><span id="MJXc-Node-46" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-47" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-48" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>l</mi><mi>n</mi><mrow class="MJX-TeXAtom-ORD"><mo>⁡</mo></mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-7">ln⁡(x)</script>.</p>
+
+	   
+	
+		
+	    <span class="Estilo3">
+	    <!--PE0-->
+	    </span>
+      <div class="Estilo8">
+	
+	<h2 align="center" class="PE  Estilo5">Ejemplo</h2>
+	<p class="PE  Estilo5"><strong>Calculamos la integral </strong></p>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P0.png" title="integral de x·ln(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<p class="PE  Estilo5">El integrando es un producto de dos funciones. </p>
+	<h3 align="left" class="PE  Estilo5">1. Identificamos u
+	      <math xmlns="http://www.w3.org/1998/Math/MathML">
+	        <mi>u</mi>
+        </math>
+	  <script type="math/tex" id="MathJax-Element-8">u</script> 
+	  y dv
+	  <math xmlns="http://www.w3.org/1998/Math/MathML">
+	    <mi>d</mi>
+	    <mi>v</mi>
+	    </math>
+	  <script type="math/tex" id="MathJax-Element-9">dv</script>
+	  </h3>
+	<p class="PE  Estilo5">Es importante pensar la elección de u
+	      <math xmlns="http://www.w3.org/1998/Math/MathML">
+	        <mi>u</mi>
+        </math>
+	  <script type="math/tex" id="MathJax-Element-10">u</script> 
+	  y dv
+	  <math xmlns="http://www.w3.org/1998/Math/MathML">
+	    <mi>d</mi>
+	    <mi>v</mi>
+	    </math>
+	  <script type="math/tex" id="MathJax-Element-11">dv</script> 
+	  porque luego tenemos que derivar u
+	  <math xmlns="http://www.w3.org/1998/Math/MathML">
+	    <mi>u</mi>
+	    </math>
+	  <script type="math/tex" id="MathJax-Element-12">u</script> 
+	  e integrar dv
+	  <math xmlns="http://www.w3.org/1998/Math/MathML">
+	    <mi>d</mi>
+	    <mi>v</mi>
+	    </math>
+	  <script type="math/tex" id="MathJax-Element-13">dv</script>
+	  . Además, tenemos que calcular la integral de la fórmula.</p>
+	<p class="PE  Estilo5">Si escogemos u=x
+	      <math xmlns="http://www.w3.org/1998/Math/MathML">
+	        <mi>u</mi>
+	        <mo>=</mo>
+	        <mi>x</mi>
+        </math>
+	  <script type="math/tex" id="MathJax-Element-14">u=x</script>
+	  , entonces su derivada es du=dx
+	  <math xmlns="http://www.w3.org/1998/Math/MathML">
+	    <mi>d</mi>
+	    <mi>u</mi>
+	    <mo>=</mo>
+	    <mi>d</mi>
+	    <mi>x</mi>
+	    </math>
+	  <script type="math/tex" id="MathJax-Element-15">du=dx</script>
+	  . Pero, entonces, tenemos que escoger dv=ln(x)dx
+	  <math xmlns="http://www.w3.org/1998/Math/MathML">
+	    <mi>d</mi>
+	    <mi>v</mi>
+	    <mo>=</mo>
+	    <mi>l</mi>
+	    <mi>n</mi>
+	    <mo stretchy="false">(</mo>
+	    <mi>x</mi>
+	    <mo stretchy="false">)</mo>
+	    <mi>d</mi>
+	    <mi>x</mi>
+	    </math>
+	  <script type="math/tex" id="MathJax-Element-16">dv=ln(x)dx</script> 
+	  y para calcular v
+	  <math xmlns="http://www.w3.org/1998/Math/MathML">
+	    <mi>v</mi>
+	    </math>
+	  <script type="math/tex" id="MathJax-Element-17">v</script> 
+	  tenemos que integrar el logaritmo.</p>
+	<p class="PE  Estilo5">Por tanto, escogemos la otra opción: </p>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P0-1.png" title="u = ln(x), dv = x dx" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<h3 align="left" class="PE  Estilo5">2. Calculamos du
+	      <math xmlns="http://www.w3.org/1998/Math/MathML">
+	        <mi>d</mi>
+	        <mi>u</mi>
+        </math>
+	  <script type="math/tex" id="MathJax-Element-18">du</script> 
+	  y v
+	  <math xmlns="http://www.w3.org/1998/Math/MathML">
+	    <mi>v</mi>
+	    </math>
+	  <script type="math/tex" id="MathJax-Element-19">v</script>
+	  </h3>
+	<p class="PE  Estilo5">Para calcular du
+	      <math xmlns="http://www.w3.org/1998/Math/MathML">
+	        <mi>d</mi>
+	        <mi>u</mi>
+        </math>
+	  <script type="math/tex" id="MathJax-Element-20">du</script> 
+	  tenemos que derivar u
+	  <math xmlns="http://www.w3.org/1998/Math/MathML">
+	    <mi>u</mi>
+	    </math>
+	  <script type="math/tex" id="MathJax-Element-21">u</script>
+	  :</p>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P0-2.png" title="u = ln(x), du = 1/x dx" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<p class="PE  Estilo5">Para calcular v
+	      <math xmlns="http://www.w3.org/1998/Math/MathML">
+	        <mi>v</mi>
+        </math>
+	  <script type="math/tex" id="MathJax-Element-22">v</script> 
+	  tenemos que integrar dv
+	  <math xmlns="http://www.w3.org/1998/Math/MathML">
+	    <mi>d</mi>
+	    <mi>v</mi>
+	    </math>
+	  <script type="math/tex" id="MathJax-Element-23">dv</script>
+	  :</p>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P0-3.png" title="v = x^2/2" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<h3 align="left" class="PE  Estilo5">3. Aplicamos la fórmula</h3>
+	<p class="PE  Estilo5">Sólo tenemos que sustituir las variables de la fórmula:</p>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P0-4.png" title="aplicamos la fórmula de integración por partes para calcular la integral de x·ln(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<h3 align="left" class="PE  Estilo5">4. Calculamos la integral que queda</h3>
+	<p class="PE  Estilo5">La integral que queda es inmediata:</p>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P0-5.png" title="integral de x es x^2/4" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<p class="PE  Estilo5">Por tanto, </p>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P0-6.png" title="el resultado final de la integral de x·ln(x) es x^2/2·(ln(x) - 1/2) + K" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<p class="PE  Estilo5">No olvidéis la <strong>constante de integración</strong> K
+	      <math xmlns="http://www.w3.org/1998/Math/MathML">
+	        <mi>K</mi>
+        </math>
+	  <script type="math/tex" id="MathJax-Element-24">K</script>
+	  .</p>
+      </div>
+      <span class="Estilo3">
+	<!--EPE0-->
+	<br>
+	  </span>
+	<h2 align="center" class="Estilo3">Más integrales resueltas</h2>
+		
+	
+		
+		
+	<p class="Estilo3">No es necesario tener un producto en el integrando para aplicar integración por partes. La siguiente integral es un ejemplo de ello. </p>		
+		
+	<span class="Estilo3">
+	<!--PE1-->
+	</span>
+	<div class="Estilo13">
+		
+	
+	
+	<h2 align="left" class="PE  Estilo5">Integral 1</h2>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P1.png" title="integral de ln(x^2)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<div class="PE  Estilo5" onclick="desplegar(&#39;respuesta1&#39;)">Solución</div>
+	<div id="respuesta1" style="display: none;">
+	  
+	  <p class="respuesta">Antes que nada, aprovechamos las propiedades de los <strong>logaritmos</strong> para simplificar el integrando: </p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P1-1.png" title="integral de ln(x^2) es igual a 2·integral de ln(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Vamos a calcular la integral del logaritmo natural (luego ya multilicaremos por 2).</p>
+	  <p class="respuesta">Podemos escribir el integrando como un producto para ver claramente la aplicación de la fórmula:</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P1-2.png" title="integral del ln(x) es igual a integral de 1·ln(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <h3 align="left" class="respuesta">1. Identificamos u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-25">u</script> 
+	    y dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-26">dv</script>
+	    </h3>
+	  <p class="respuesta">Obviamente, no debemos escoger dv=ln(x)dx
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>d</mi>
+	          <mi>v</mi>
+	          <mo>=</mo>
+	          <mi>l</mi>
+	          <mi>n</mi>
+	          <mo stretchy="false">(</mo>
+	          <mi>x</mi>
+	          <mo stretchy="false">)</mo>
+	          <mi>d</mi>
+	          <mi>x</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-27">dv=ln(x)dx</script> 
+	    ya que entonces, tendríamos que calcular la integral del logaritmo, que es precisamente lo que estamos haciendo. Por tanto, </p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P1-3.png" title="u = ln(x), dv = 1 dx" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <h3 align="left" class="respuesta">2. Calculamos du
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>d</mi>
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-28">du</script> 
+	    y v
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-29">v</script>
+	    </h3>
+	  <p class="respuesta">Derivamos e integramos:</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P1-4.png" title="du = 1/x dx, v = x" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <h3 align="left" class="respuesta">3. Aplicamos la fórmula</h3>
+	  <p class="respuesta">Sustituimos en la fórmula:</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P1-5.png" title="aplicamos la fórmula de integración por partes para calcular la integral de ln(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Por tanto, la integral del problema es</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P1-6.png" title="el resultado final de la integral de ln(x^2) es 2x·(ln(x) -1) + K" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  </div>
+	<span class="PE  Estilo5">
+	<!--ERespt1-->	
+	</span></div>
+	<span class="Estilo3">
+	<!--EPE1-->
+	<br>
+	</span>
+	<p class="Estilo3">En algunas integrales tendremos que aplicar el método <strong>varias veces</strong>. En estos casos, es importante mantener la elección de los factores <span class="MathJax_CHTML mjx-box" id="MathJax-Element-30-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-147" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-148" class="mjx-mrow"><span id="MJXc-Node-149" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">u</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>u</mi></math></span></span><script type="math/tex" id="MathJax-Element-30">u</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-31-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-150" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-151" class="mjx-mrow"><span id="MJXc-Node-152" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.282em; padding-right: 0.003em;">d</span></span><span id="MJXc-Node-153" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">v</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>d</mi><mi>v</mi></math></span></span><script type="math/tex" id="MathJax-Element-31">dv</script>. La siguiente integral es un ejemplo de ello.</p>
+	
+	
+	<span class="Estilo3">
+	<!--PE2-->
+	</span>
+	<div class="Estilo18">
+	
+	<h2 align="left" class="PE  Estilo5">Integral 2</h2>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P2.png" title="integral de x^2·e^x" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<div class="PE  Estilo5" onclick="desplegar(&#39;respuesta2&#39;)">Solución</div>
+	<div id="respuesta2" style="display: none;">
+	  
+	  <p class="respuesta">El integrando es un producto de dos funciones. </p>
+	  <h3 align="left" class="respuesta">1. Identificamos u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-32">u</script> 
+	    y dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-33">dv</script>
+	    </h3>
+	  <p class="respuesta">No importa si ex
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <msup>
+	            <mi>e</mi>
+	            <mi>x</mi>
+              </msup>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-34">e^x</script> 
+	    es u
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>u</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-35">u</script> 
+	    ó dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-36">dv</script> 
+	    porque tanto su derivada como su integral es ex
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <msup>
+	        <mi>e</mi>
+	        <mi>x</mi>
+	        </msup>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-37">e^x</script>
+	    .</p>
+	  <p class="respuesta">Si escogemos dv=x2
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>d</mi>
+	          <mi>v</mi>
+	          <mo>=</mo>
+	          <msup>
+	            <mi>x</mi>
+	            <mn>2</mn>
+              </msup>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-38">dv=x^2</script>
+	    , tendremos que calcular la integral</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P2-1.png" title="integral de (1/3)·x^3·e^x" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Así que es mejor escoger u=x2
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+	          <mo>=</mo>
+	          <msup>
+	            <mi>x</mi>
+	            <mn>2</mn>
+              </msup>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-39">u=x^2</script> 
+	    para bajar el grado del monomio.</p>
+	  <h3 align="left" class="respuesta">2. Calculamos du
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>d</mi>
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-40">du</script> 
+	    y v
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-41">v</script>
+	    </h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P2-2.png" title="u = x^2, du = 2x dx; dv = e^x dx, v = e^x" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <h3 align="left" class="respuesta">3. Aplicamos la fórmula</h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P2-3.png" title="aplicamos la fórmula de integración por partes para calcular la integral de  x^2·e^x" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Aplicamos de nuevo integración por partes para calcular la integral que nos queda. Para no deshacer los cálculos anteriores, mantenemos la elección de u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-42">u</script> 
+	    y dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-43">dv</script>
+	    :</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P2-4.png" title="u = x, du = dx; dv = e^x dx, v = e^x" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Por tanto, </p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P2-5.png" title="integral de x·e^x es igual a x·e^x - e^x" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Volviendo al comienzo, </p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P2-6.png" title="el resultado final de la integral de x^2·e^x es (x^2 -2x +2)·e^x + K" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  </div>
+	<span class="PE  Estilo5">
+	<!--ERespt2-->	
+	</span></div>
+	<span class="Estilo3">
+	<!--EPE2-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE3-->
+	</span>
+	<div class="Estilo21">
+	
+	<h2 align="left" class="PE  Estilo5">Integral 3</h2>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P3.png" title="integral de x^2·cos(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<div class="PE  Estilo5" onclick="desplegar(&#39;respuesta3&#39;)">Solución</div>
+	<div id="respuesta3" style="display: none;">
+	  
+	  
+	  
+	  <h3 align="left" class="respuesta">1. Identificamos u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-44">u</script> 
+	    y dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-45">dv</script>
+	    </h3>
+	  <p class="respuesta">No importa si cos(x)
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>c</mi>
+	          <mi>o</mi>
+	          <mi>s</mi>
+	          <mrow class="MJX-TeXAtom-ORD">
+	            <mo>⁡</mo>
+              </mrow>
+	          <mo stretchy="false">(</mo>
+	          <mi>x</mi>
+	          <mo stretchy="false">)</mo>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-46">cos⁡(x)</script> 
+	    es dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-47">dv</script> 
+	    ó u
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>u</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-48">u</script> 
+	    porque tanto su integral como su derivada son ±sin(x)
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mo>±</mo>
+	      <mi>s</mi>
+	      <mi>i</mi>
+	      <mi>n</mi>
+	      <mrow class="MJX-TeXAtom-ORD">
+	        <mo>⁡</mo>
+	        </mrow>
+	      <mo stretchy="false">(</mo>
+	      <mi>x</mi>
+	      <mo stretchy="false">)</mo>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-49"> \pm sin⁡(x)</script>
+	    .</p>
+	  <p class="respuesta">Escogemos u=x2
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+	          <mo>=</mo>
+	          <msup>
+	            <mi>x</mi>
+	            <mn>2</mn>
+              </msup>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-50">u=x^2</script> 
+	    para rebajar su grado.</p>
+	  <h3 align="left" class="respuesta">2. Calculamos du
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>d</mi>
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-51">du</script> 
+	    y v
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-52">v</script>
+	    </h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P3-1.png" title="u = x^2, du = 2x dx; dv = cos(x) dx; v = sin(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <h3 align="left" class="respuesta">3. Aplicamos la fórmula</h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P3-2.png" title="aplicamos la fórmula de integración por partes para calcular la integral de x^2·cos(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Aplicamos de nuevo integración por partes para calcular la integral que nos falta. Como dijimos en el problema anterior, debemos mantener la elección de los factores u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-53">u</script> 
+	    y dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-54">dv</script>
+	    :</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P3-3.png" title="u = x, du = dx; dv = sin(x) dx, v = -cos(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Aplicamos la fórmula:</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P3-4.png" title="aplicamos la fórmula de integración por partes para calcular la integral de x·sin(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Por tanto, </p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P3-5.png" title="el resultado final de la integral de x^2·cos(x) es (x^2 -2)·sin(x) + 2x·cos(x) + K" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  </div>
+	<span class="PE  Estilo5">
+	<!--ERespt3-->	
+	</span></div>
+	<span class="Estilo3">
+	<!--EPE3-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE4-->
+	</span>
+	<p class="Estilo3">Elegimos un método de integración u otro según nuestra intuición. La siguiente integral la resolvemos por el método de integración por partes, pero la podemos resolver también fácilmente por el <strong>método de sustitución</strong> (con el cambio <span class="MathJax_CHTML mjx-box" id="MathJax-Element-55-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msup&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-265" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-266" class="mjx-mrow"><span id="MJXc-Node-267" class="mjx-msubsup"><span class="mjx-base"><span id="MJXc-Node-268" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">s</span></span></span><span class="mjx-sup" style="font-size: 70.7%; vertical-align: 0.513em; padding-left: 0px; padding-right: 0.071em;"><span id="MJXc-Node-269" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span></span></span><span id="MJXc-Node-270" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-271" class="mjx-mi MJXc-space3"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-272" class="mjx-mo MJXc-space2"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">+</span></span><span id="MJXc-Node-273" class="mjx-mn MJXc-space2"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mi>x</mi><mo>+</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-55">s^2=x+1</script>). </p>	
+		
+	<div class="Estilo24">
+	
+	<h2 align="left" class="PE  Estilo5">Integral 4</h2>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P4.png" title="integral de x·raíz(x+1)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<div class="PE  Estilo5" onclick="desplegar(&#39;respuesta4&#39;)">Solución</div>
+	<div id="respuesta4" style="display: none;">
+	  
+	  
+	  <h3 align="left" class="respuesta">1. Identificamos u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-56">u</script> 
+	    y dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-57">dv</script>
+	    </h3>
+	  <p class="respuesta">Como en los problemas anteriores, escogemos u=x
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+	          <mo>=</mo>
+	          <mi>x</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-58">u=x</script> 
+	    para rebajar su grado. </p>
+	  <h3 align="left" class="respuesta">2. Calculamos du
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>d</mi>
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-59">du</script> 
+	    y v
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-60">v</script>
+	    </h3>
+	  <p class="respuesta">Vamos a escribir la raíz como una potencia: </p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P4-1.png" title="raíz(x+1) = (x+1)^(1/2)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">La derivada de u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-61">u</script> 
+	    es inmediata:</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P4-2.png" title="u = x, du = dx" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Calculamos v
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>v</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-62">v</script> 
+	    integrando dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-63">dv</script>
+	    :</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P4-3.png" title="dv = (x+1)^(1/2), v = (2/3)·(x+1)^(3/2)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Por  si lo necesitáis, vamos a escribir el cálculo de v
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>v</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-64">v</script>
+	    : </p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P4-4.png" title="operaciones del cálculo de la integral de (x+1)^(1/2)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <h3 align="left" class="respuesta">3. Aplicamos la fórmula</h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P4-5.png" title="aplicamos la fórmula de integración por partes para calcular la integral de x·raíz(x+1)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Si operamos un poco, el resultado final queda como</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P4-6.png" title="el resultado final de la integral de x·raíz(x+1) es 2/15·(3x - 2)·(x + 1)^(3/2) + K" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  </div>
+	<span class="PE  Estilo5">
+	<!--ERespt4-->	
+	</span></div>
+	<span class="Estilo3">
+	<!--EPE4-->
+	<br>
+	</span>
+	<p class="Estilo3">Hasta ahora, hemos hablado siempre de productos. Sin embargo, el método podemos utilizarlo para <strong>cocientes</strong>. Un ejemplo de ello es la siguiente integral.</p>
+	
+	
+	
+	
+	<span class="Estilo3">
+	<!--PE5-->
+	</span>
+	<div class="Estilo29">
+	
+	<h2 align="left" class="PE  Estilo5">Integral 5</h2>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P5.png" title="integral de ln(x)/(x^2)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<div class="PE  Estilo5" onclick="desplegar(&#39;respuesta5&#39;)">Solución</div>
+	<div id="respuesta5" style="display: none;">
+	  
+	  <p class="respuesta">Para aplicar el método cuando el integrando es un cociente, sólo hay que escribir el cociente como un producto:</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P5-1.png" title="integral de ln(x)·1/(x^2)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <h3 align="left" class="respuesta">1. Identificamos u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-65">u</script> 
+	    y dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-66">dv</script>
+	    </h3>
+	  <p class="respuesta">Como en las integrales anteriores, el logaritmo debe ser el factor u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-67">u</script>
+	    .</p>
+	  <h3 align="left" class="respuesta">2. Calculamos du
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>d</mi>
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-68">du</script> 
+	    y v
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-69">v</script>
+	    </h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P5-2.png" title="u = ln(x), du = 1/x dx; dv = 1/(x^2) dx, v = -1/x" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <h3 align="left" class="respuesta">3. Aplicamos la fórmula</h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P5-3.png" title="aplicamos la fórmula de integración por partes para calcular la integral de ln(x)/(x^2) y obtenemos - (ln(x) + 1)/x + K" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  </div>
+	<span class="PE  Estilo5">
+	<!--ERespt5-->	
+	</span></div>
+	<span class="Estilo3">
+	<!--EPE5-->
+	<br>
+	</span>
+	<p class="Estilo3">Muchas veces, tenemos que <strong>despejar la integral</strong> de la fórmula de integración por partes como hacemos en la siguiente integral.</p>
+	
+	
+	
+	<span class="Estilo3">
+	<!--PE6-->
+	</span>
+	<div class="Estilo34">
+	
+	<h2 align="left" class="PE  Estilo5">Integral 6</h2>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P6.png" title="integral de e^x·sin(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<div class="PE  Estilo5" onclick="desplegar(&#39;respuesta6&#39;)">Solución</div>
+	<div id="respuesta6" style="display: none;">
+	  
+	  
+	  
+	  <h3 align="left" class="respuesta">1. Identificamos u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-70">u</script> 
+	    y dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-71">dv</script>
+	    </h3>
+	  <p class="respuesta">En esta integral no importa cuáles sean  u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-72">u</script> 
+	    y dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-73">dv</script> 
+	    porque es irrelevante derivar o integrar la exponencial o el seno. Escogemos, por ejemplo, </p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P6-1.png" title="u = sin(x), dv = e^x dx" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <h3 align="left" class="respuesta">2. Calculamos du
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>d</mi>
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-74">du</script> 
+	    y v
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-75">v</script>
+	    </h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P6-2.png" title="u = sin(x), du = cos(x) dx; dv = e^x dx, v = e^x" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <h3 align="left" class="respuesta">3. Aplicamos la fórmula</h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P6-3.png" title="aplicamos la fórmula de integración por partes para calcular la integral de e^x·sin(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Aplicamos de nuevo integración por partes:</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P6-4.png" title="aplicamos otra vez integración por partes siendo u = cos(x) y dv = e^x dx" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Volviendo al comienzo, tenemos</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P6-5.png" title="integral de e^x·sin(x) es igual a e^x·(sin(x) - cos(x)) - integral de e^x·sin(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Pasamos la integral del lado derecho sumando al lado izquierdo: </p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P6-6.png" title="2·integral de e^x·sin(x) es igual a e^x(sin(x) - cos(x))" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">De donde podemos <strong>aislar</strong> la integral que buscamos:</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P6-7.png" title="el resultado final de la integral de e^x·sin(x) es e^x·(sin(x) - cos(x))/2 + K" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  </div>
+	<span class="PE  Estilo5">
+	<!--ERespt6-->	
+	</span></div>
+	<span class="Estilo3">
+	<!--EPE6-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE7-->
+	</span>
+	<div class="Estilo37">
+	
+	<h2 align="left" class="PE  Estilo5">Integral 7</h2>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P7.png" title="integral de x^3·e^x" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<div class="PE  Estilo5" onclick="desplegar(&#39;respuesta7&#39;)">Solución</div>
+	<div id="respuesta7" style="display: none;">
+	  
+	  
+	  <h3 align="left" class="respuesta">1. Identificamos u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-76">u</script> 
+	    y dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-77">dv</script>
+	    </h3>
+	  <p class="respuesta">Escogemos u=x3
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+	          <mo>=</mo>
+	          <msup>
+	            <mi>x</mi>
+	            <mn>3</mn>
+              </msup>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-78">u=x^3</script> 
+	    para rebajar su grado.</p>
+	  <h3 align="left" class="respuesta">2. Calculamos du
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>d</mi>
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-79">du</script> 
+	    y v
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-80">v</script>
+	    </h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P7-1.png" title="u = x^3, du = 3x^2 dx; dv = e^x dx, v = e^x" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <h3 align="left" class="respuesta">3. Aplicamos la fórmula</h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P7-2.png" title="aplicamos la fórmula de integración por partes para calcular la integral de x^3·e^x" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Repetimos el proceso dos veces más:</p>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P7-3.png" title="aplicamos integración por partes dos veces más obteniendo e^x·(x^3 - 3x^2 + 6x - 6) + K" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <p class="respuesta">Observad que, por ejemplo, para resolver la integral de x100⋅ex
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <msup>
+	            <mi>x</mi>
+	            <mrow class="MJX-TeXAtom-ORD">
+	              <mn>100</mn>
+                </mrow>
+              </msup>
+	          <mo>⋅</mo>
+	          <msup>
+	            <mi>e</mi>
+	            <mi>x</mi>
+              </msup>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-81">x^{100}\cdot e^x</script> 
+	    tendríamos que aplicar integración por partes 100 veces.</p>
+	  </div>
+	<span class="PE  Estilo5">
+	<!--ERespt7-->	
+	</span></div>
+	<span class="Estilo3">
+	<!--EPE7-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE8-->
+	</span>
+	<div class="Estilo40">
+	
+	<h2 align="left" class="PE  Estilo5">Integral 8</h2>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P8.png" title="integral de x·3^x" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<div class="PE  Estilo5" onclick="desplegar(&#39;respuesta8&#39;)">Solución</div>
+	<div id="respuesta8" style="display: none;">
+	  
+	  
+	  
+	  <h3 align="left" class="respuesta">1. Identificamos u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-82">u</script> 
+	    y dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-83">dv</script>
+	    </h3>
+	  <p class="respuesta">Escogemos u=x
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+	          <mo>=</mo>
+	          <mi>x</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-84">u=x</script> 
+	    para eliminar este factor de la integral. </p>
+	  <p class="respuesta">Recordad que la derivada de ax
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <msup>
+	            <mi>a</mi>
+	            <mi>x</mi>
+              </msup>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-85">a^x</script> 
+	    es ax⋅ln(a)
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <msup>
+	        <mi>a</mi>
+	        <mi>x</mi>
+	        </msup>
+	      <mo>⋅</mo>
+	      <mi>l</mi>
+	      <mi>n</mi>
+	      <mrow class="MJX-TeXAtom-ORD">
+	        <mo>⁡</mo>
+	        </mrow>
+	      <mo stretchy="false">(</mo>
+	      <mi>a</mi>
+	      <mo stretchy="false">)</mo>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-86">a^x\cdot ln⁡(a)</script>
+	    . </p>
+	  <h3 align="left" class="respuesta">2. Calculamos du
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>d</mi>
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-87">du</script> 
+	    y v
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-88">v</script>
+	    </h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P8-1.png" title="u = x, du = dx; dv = 3^x dx, v = 3^x/ln(3)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <h3 align="left" class="respuesta">3. Aplicamos la fórmula</h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P8-2.png" title="aplicamos la fórmula de integración por partes para calcular la integral de x·3^x obteniendo 3^x/ln(3)·(x - 1/ln(3)) + K" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  </div>
+	<span class="PE  Estilo5">
+	<!--ERespt8-->	
+	</span></div>
+	<span class="Estilo3">
+	<!--EPE8-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE9-->
+	</span>
+	<div class="Estilo43">
+	
+	<h2 align="left" class="PE  Estilo5">Integral 9</h2>
+	<p align="center">
+	  
+	  <span class="PE  Estilo5"><img src="./integrales_files/P9.png" title="integral de ln(x)/raíz(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	<div class="PE  Estilo5" onclick="desplegar(&#39;respuesta9&#39;)">Solución</div>
+	<div id="respuesta9" style="display: none;">
+	  
+	  
+	  
+	  <h3 align="left" class="respuesta">1. Identificamos u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-89">u</script> 
+	    y dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-90">dv</script>
+	    </h3>
+	  <p class="respuesta">Escogemos el logaritmo como u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-91">u</script>
+	    .</p>
+	  <h3 align="left" class="respuesta">2. Calculamos du
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>d</mi>
+	          <mi>u</mi>
+          </math>
+	    <script type="math/tex" id="MathJax-Element-92">du</script> 
+	    y v
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-93">v</script>
+	    </h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P9-1.png" title="u = ln(x), du = 1/x dx; dv = 1/raíz(x) dx, v = 2raíz(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  <h3 align="left" class="respuesta">3. Aplicamos la fórmula</h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><img src="./integrales_files/P9-2.png" title="aplicamos la fórmula de integración por partes para calcular la integral de ln(x)/raíz(x) obteniendo 2·raíz(x)·(ln(x) - 2) + K" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </span></p>
+	  </div>
+	<span class="PE  Estilo5">
+	<!--ERespt9-->	
+	</span></div>
+	<span class="Estilo3">
+	<!--EPE9-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE10-->
+	</span>
+	<div>
+	
+	<h2 align="left" class="PE"><em>Integral 10</em></h2>
+	<p align="center" class="PE"><em>
+	  
+	  <img src="./integrales_files/P10.png" title="integral de arccos(x)" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </em></p>
+	<div class="PE" onclick="desplegar(&#39;respuesta10&#39;)"><em>Solución</em></div>
+	<div id="respuesta10" style="display: none;">
+	  
+	  
+	  <h3 align="left" class="respuesta"><em>1. Identificamos u
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+            </math>
+          <script type="math/tex" id="MathJax-Element-94">u</script> 
+	    y dv
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-95">dv</script>
+	    </em></h3>
+	  <p class="respuesta"><em>Elegimos u=arccos(x)
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>u</mi>
+	          <mo>=</mo>
+	          <mi>a</mi>
+	          <mi>r</mi>
+	          <mi>c</mi>
+	          <mi>c</mi>
+	          <mi>o</mi>
+	          <mi>s</mi>
+	          <mrow class="MJX-TeXAtom-ORD">
+	            <mo>⁡</mo>
+              </mrow>
+	          <mo stretchy="false">(</mo>
+	          <mi>x</mi>
+	          <mo stretchy="false">)</mo>
+            </math>
+          <script type="math/tex" id="MathJax-Element-96">u=arccos⁡(x)</script> 
+	    y dv=dx
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>d</mi>
+	      <mi>v</mi>
+	      <mo>=</mo>
+	      <mi>d</mi>
+	      <mi>x</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-97">dv=dx</script>
+	    .</em></p>
+	  <h3 align="left" class="respuesta"><em>2. Calculamos du
+	        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	          <mi>d</mi>
+	          <mi>u</mi>
+            </math>
+          <script type="math/tex" id="MathJax-Element-98">du</script> 
+	    y v
+	    <math xmlns="http://www.w3.org/1998/Math/MathML">
+	      <mi>v</mi>
+	      </math>
+	    <script type="math/tex" id="MathJax-Element-99">v</script>
+	    </em></h3>
+	  <p align="center" class="respuesta"><em>
+	    
+	    <img src="./integrales_files/P10-1.png" title="u = arccos(x), du = - 1/raíz(1 - x^2) dx; dv = dx, v = x" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable.">	  </em></p>
+	  <h3 align="left" class="respuesta"><em>3. Aplicamos la fórmula</em></h3>
+	  <p align="center">
+	    
+	    <span class="respuesta"><em><img src="./integrales_files/P10-2.png" title="aplicamos la fórmula de integración por partes para calcular la integral de arccos(x) obteniendo x·arccos(x) - raíz (1 - x^2) + K" alt="Método de integración por partes explicado e integrales resueltas. Análisis de una variable."> </em></span></p>
+	  <span class="respuesta"></span></div>
+	<span class="PE"></span><span class="PE">
+	<!--ERespt10-->	
+	</span></div><!--EPE10-->
+	</div>
+</div><br><!--ELAT-->
+
+
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><ins id="aswift_0_anchor" style="display:block;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" src="./integrales_files/ads.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!0" data-load-complete="true"></iframe></ins></ins></ins><iframe id="google_osd_static_frame_5308441459030" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./integrales_files/saved_resource.html"></iframe></body><iframe id="google_esf" name="google_esf" src="./integrales_files/zrt_lookup.html" data-ad-client="ca-pub-3309204359100394" style="display: none;"></iframe></html>

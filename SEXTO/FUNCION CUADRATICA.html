@@ -1,0 +1,1071 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0154)https://www.problemasyecuaciones.com/funciones/parabolica/funcion-cuadratica-parabolica-vertice-puntos-corte-canonica-factorizada-problemas-resueltos.html -->
+<html xmlns="https://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+<!--K-->
+<meta name="viewport" content="width=device-width, initial-scale=1 ">
+<link rel="stylesheet" href="./FUNCION CUADRATICA_files/pyesty.css" type="text/css">
+<link href="./FUNCION CUADRATICA_files/css" rel="stylesheet">
+
+<script src="./FUNCION CUADRATICA_files/f.txt"></script><script src="./FUNCION CUADRATICA_files/osd.js.descarga"></script><script type="text/javascript" async="" src="./FUNCION CUADRATICA_files/analytics.js.descarga"></script><script src="./FUNCION CUADRATICA_files/f(1).txt"></script><script src="./FUNCION CUADRATICA_files/f(2).txt" id="google_shimpl"></script><script type="teXt/javascript"> 
+function verMenu() { 
+var men = document.getElementById('hojaLAT');
+var mini = document.getElementById('minimenu');
+var barras = document.getElementsByClassName('minimenubarra');
+var i;
+
+
+switch(men.style.display) { 
+case 'block':
+
+	men.style.display = 'none'; 
+	mini.style.backgroundColor ="transparent";
+	for (i = 0; i < barras.length; i++) {
+    barras[i].style.backgroundColor ="white";
+	} 
+	break; 
+	
+
+	case 'none': 
+	men.style.display = 'block';  
+	mini.style.backgroundColor ="white";
+	for (i = 0; i < barras.length; i++) {
+    barras[i].style.backgroundColor ="rgba(30,4,138,1)";
+	} 	
+	
+	break; 	
+
+
+	
+default: 
+
+	men.style.display = 'block';  
+	mini.style.backgroundColor ="white";
+	for (i = 0; i < barras.length; i++) {
+    barras[i].style.backgroundColor ="rgba(30,4,138,1)";
+	} 	
+	
+	break; 	
+
+} 
+} 
+</script> 
+
+
+
+<meta name="robots" content="index/follow">
+
+<script src="./FUNCION CUADRATICA_files/MathJax.js.descarga" id="">
+</script>
+<link rel="shortcut icon" href="https://elcoleencasa.000webhostapp.com/huajlaya.ico">
+
+
+
+
+
+<!--K-->
+
+<!-- goanaly -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./FUNCION CUADRATICA_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-34239017-2');
+</script>
+
+<!--ENDgoanaly-->
+
+<!--show-->
+<script type="teXt/javascript"> 
+function desplegar(tabla) { 
+var tablA = document.getElementById(tabla); 
+
+switch(tablA.style.display) { 
+case "none": 
+tablA.style.display = "block";  
+break; 
+default: 
+tablA.style.display = "none";  
+break; 
+} 
+} 
+</script> 
+<!--Eshow-->
+
+<!--tex-->
+<script src="./FUNCION CUADRATICA_files/MathJax.js.descarga" id="">
+</script>
+<!--Etex-->
+
+<!-- Cookies -->
+<link rel="stylesheet" type="text/css" href="./FUNCION CUADRATICA_files/cookieconsent.min.css">
+<script src="./FUNCION CUADRATICA_files/cookieconsent.min.js.descarga"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#3c404d",
+      "text": "#d6d6d6"
+    },
+    "button": {
+      "background": "#f7f78b",
+      "text": "#3c404d"
+    }
+  },
+  
+  }
+})});
+</script>
+<!--ECookies-->
+
+
+
+
+
+
+
+<title>Función cuadrática o parábola</title>
+	
+<meta name="keywords" content="problema, problemas, resueltos, ejemplo, ejemplos, explicados, funcion, funciones, parabola, cuadratica, parabolas, cuadraticas, segundo, grado, polinomia, puntos, corte, eje, ejes, abscisas, ordenadas, forma, factorizada, canonica, interseccion, matematicas, coeficiente, solucion, soluciones">
+	
+<meta name="description" content="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas.">
+
+<link rel="preload" href="./FUNCION CUADRATICA_files/f(3).txt" as="script"><script type="text/javascript" src="./FUNCION CUADRATICA_files/f(3).txt"></script><link rel="preload" href="./FUNCION CUADRATICA_files/f(4).txt" as="script"><script type="text/javascript" src="./FUNCION CUADRATICA_files/f(4).txt"></script><style type="text/css">
+.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">
+#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">
+.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">
+.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">
+#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">
+.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style></style><style type="text/css">
+.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">
+.mjx-chtml {display: inline-block; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0}
+.MJXc-display {display: block; text-align: center; margin: 1em 0; padding: 0}
+.mjx-chtml[tabindex]:focus, body :focus .mjx-chtml[tabindex] {display: inline-table}
+.mjx-full-width {text-align: center; display: table-cell!important; width: 10000em}
+.mjx-math {display: inline-block; border-collapse: separate; border-spacing: 0}
+.mjx-math * {display: inline-block; -webkit-box-sizing: content-box!important; -moz-box-sizing: content-box!important; box-sizing: content-box!important; text-align: left}
+.mjx-numerator {display: block; text-align: center}
+.mjx-denominator {display: block; text-align: center}
+.MJXc-stacked {height: 0; position: relative}
+.MJXc-stacked > * {position: absolute}
+.MJXc-bevelled > * {display: inline-block}
+.mjx-stack {display: inline-block}
+.mjx-op {display: block}
+.mjx-under {display: table-cell}
+.mjx-over {display: block}
+.mjx-over > * {padding-left: 0px!important; padding-right: 0px!important}
+.mjx-under > * {padding-left: 0px!important; padding-right: 0px!important}
+.mjx-stack > .mjx-sup {display: block}
+.mjx-stack > .mjx-sub {display: block}
+.mjx-prestack > .mjx-presup {display: block}
+.mjx-prestack > .mjx-presub {display: block}
+.mjx-delim-h > .mjx-char {display: inline-block}
+.mjx-surd {vertical-align: top}
+.mjx-mphantom * {visibility: hidden}
+.mjx-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 2px 3px; font-style: normal; font-size: 90%}
+.mjx-annotation-xml {line-height: normal}
+.mjx-menclose > svg {fill: none; stroke: currentColor}
+.mjx-mtr {display: table-row}
+.mjx-mlabeledtr {display: table-row}
+.mjx-mtd {display: table-cell; text-align: center}
+.mjx-label {display: table-row}
+.mjx-box {display: inline-block}
+.mjx-block {display: block}
+.mjx-span {display: inline}
+.mjx-char {display: block; white-space: pre}
+.mjx-itable {display: inline-table; width: auto}
+.mjx-row {display: table-row}
+.mjx-cell {display: table-cell}
+.mjx-table {display: table; width: 100%}
+.mjx-line {display: block; height: 0}
+.mjx-strut {width: 0; padding-top: 1em}
+.mjx-vsize {width: 0}
+.MJXc-space1 {margin-left: .167em}
+.MJXc-space2 {margin-left: .222em}
+.MJXc-space3 {margin-left: .278em}
+.mjx-chartest {display: block; visibility: hidden; position: absolute; top: 0; line-height: normal; font-size: 500%}
+.mjx-chartest .mjx-char {display: inline}
+.mjx-chartest .mjx-box {padding-top: 1000px}
+.MJXc-processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MJXc-processed {display: none}
+.mjx-test {display: block; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow: hidden; height: 1px}
+.mjx-ex-box-test {position: absolute; width: 1px; height: 60ex}
+.mjx-line-box-test {display: table!important}
+.mjx-line-box-test span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+#MathJax_CHTML_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.mjx-chtml .mjx-noError {line-height: 1.2; vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+.MJXc-TeX-unknown-R {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: normal; font-weight: normal}
+.MJXc-TeX-unknown-I {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: italic; font-weight: normal}
+.MJXc-TeX-unknown-B {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: normal; font-weight: bold}
+.MJXc-TeX-unknown-BI {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: italic; font-weight: bold}
+.MJXc-TeX-ams-R {font-family: MJXc-TeX-ams-R,MJXc-TeX-ams-Rw}
+.MJXc-TeX-cal-B {font-family: MJXc-TeX-cal-B,MJXc-TeX-cal-Bx,MJXc-TeX-cal-Bw}
+.MJXc-TeX-frak-R {font-family: MJXc-TeX-frak-R,MJXc-TeX-frak-Rw}
+.MJXc-TeX-frak-B {font-family: MJXc-TeX-frak-B,MJXc-TeX-frak-Bx,MJXc-TeX-frak-Bw}
+.MJXc-TeX-math-BI {font-family: MJXc-TeX-math-BI,MJXc-TeX-math-BIx,MJXc-TeX-math-BIw}
+.MJXc-TeX-sans-R {font-family: MJXc-TeX-sans-R,MJXc-TeX-sans-Rw}
+.MJXc-TeX-sans-B {font-family: MJXc-TeX-sans-B,MJXc-TeX-sans-Bx,MJXc-TeX-sans-Bw}
+.MJXc-TeX-sans-I {font-family: MJXc-TeX-sans-I,MJXc-TeX-sans-Ix,MJXc-TeX-sans-Iw}
+.MJXc-TeX-script-R {font-family: MJXc-TeX-script-R,MJXc-TeX-script-Rw}
+.MJXc-TeX-type-R {font-family: MJXc-TeX-type-R,MJXc-TeX-type-Rw}
+.MJXc-TeX-cal-R {font-family: MJXc-TeX-cal-R,MJXc-TeX-cal-Rw}
+.MJXc-TeX-main-B {font-family: MJXc-TeX-main-B,MJXc-TeX-main-Bx,MJXc-TeX-main-Bw}
+.MJXc-TeX-main-I {font-family: MJXc-TeX-main-I,MJXc-TeX-main-Ix,MJXc-TeX-main-Iw}
+.MJXc-TeX-main-R {font-family: MJXc-TeX-main-R,MJXc-TeX-main-Rw}
+.MJXc-TeX-math-I {font-family: MJXc-TeX-math-I,MJXc-TeX-math-Ix,MJXc-TeX-math-Iw}
+.MJXc-TeX-size1-R {font-family: MJXc-TeX-size1-R,MJXc-TeX-size1-Rw}
+.MJXc-TeX-size2-R {font-family: MJXc-TeX-size2-R,MJXc-TeX-size2-Rw}
+.MJXc-TeX-size3-R {font-family: MJXc-TeX-size3-R,MJXc-TeX-size3-Rw}
+.MJXc-TeX-size4-R {font-family: MJXc-TeX-size4-R,MJXc-TeX-size4-Rw}
+@font-face {font-family: MJXc-TeX-ams-R; src: local('MathJax_AMS'), local('MathJax_AMS-Regular')}
+@font-face {font-family: MJXc-TeX-ams-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_AMS-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-cal-B; src: local('MathJax_Caligraphic Bold'), local('MathJax_Caligraphic-Bold')}
+@font-face {font-family: MJXc-TeX-cal-Bx; src: local('MathJax_Caligraphic'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-cal-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-frak-R; src: local('MathJax_Fraktur'), local('MathJax_Fraktur-Regular')}
+@font-face {font-family: MJXc-TeX-frak-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-frak-B; src: local('MathJax_Fraktur Bold'), local('MathJax_Fraktur-Bold')}
+@font-face {font-family: MJXc-TeX-frak-Bx; src: local('MathJax_Fraktur'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-frak-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-math-BI; src: local('MathJax_Math BoldItalic'), local('MathJax_Math-BoldItalic')}
+@font-face {font-family: MJXc-TeX-math-BIx; src: local('MathJax_Math'); font-weight: bold; font-style: italic}
+@font-face {font-family: MJXc-TeX-math-BIw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Math-BoldItalic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Math-BoldItalic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Math-BoldItalic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-sans-R; src: local('MathJax_SansSerif'), local('MathJax_SansSerif-Regular')}
+@font-face {font-family: MJXc-TeX-sans-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-sans-B; src: local('MathJax_SansSerif Bold'), local('MathJax_SansSerif-Bold')}
+@font-face {font-family: MJXc-TeX-sans-Bx; src: local('MathJax_SansSerif'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-sans-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-sans-I; src: local('MathJax_SansSerif Italic'), local('MathJax_SansSerif-Italic')}
+@font-face {font-family: MJXc-TeX-sans-Ix; src: local('MathJax_SansSerif'); font-style: italic}
+@font-face {font-family: MJXc-TeX-sans-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Italic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-script-R; src: local('MathJax_Script'), local('MathJax_Script-Regular')}
+@font-face {font-family: MJXc-TeX-script-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Script-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Script-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-type-R; src: local('MathJax_Typewriter'), local('MathJax_Typewriter-Regular')}
+@font-face {font-family: MJXc-TeX-type-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Typewriter-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Typewriter-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Typewriter-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-cal-R; src: local('MathJax_Caligraphic'), local('MathJax_Caligraphic-Regular')}
+@font-face {font-family: MJXc-TeX-cal-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-main-B; src: local('MathJax_Main Bold'), local('MathJax_Main-Bold')}
+@font-face {font-family: MJXc-TeX-main-Bx; src: local('MathJax_Main'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-main-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-main-I; src: local('MathJax_Main Italic'), local('MathJax_Main-Italic')}
+@font-face {font-family: MJXc-TeX-main-Ix; src: local('MathJax_Main'); font-style: italic}
+@font-face {font-family: MJXc-TeX-main-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-main-R; src: local('MathJax_Main'), local('MathJax_Main-Regular')}
+@font-face {font-family: MJXc-TeX-main-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-math-I; src: local('MathJax_Math Italic'), local('MathJax_Math-Italic')}
+@font-face {font-family: MJXc-TeX-math-Ix; src: local('MathJax_Math'); font-style: italic}
+@font-face {font-family: MJXc-TeX-math-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size1-R; src: local('MathJax_Size1'), local('MathJax_Size1-Regular')}
+@font-face {font-family: MJXc-TeX-size1-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size2-R; src: local('MathJax_Size2'), local('MathJax_Size2-Regular')}
+@font-face {font-family: MJXc-TeX-size2-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size3-R; src: local('MathJax_Size3'), local('MathJax_Size3-Regular')}
+@font-face {font-family: MJXc-TeX-size3-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size4-R; src: local('MathJax_Size4'), local('MathJax_Size4-Regular')}
+@font-face {font-family: MJXc-TeX-size4-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf') format('opentype')}
+.Estilo1 {
+	font-family: MJXc-TeX-ams-R, MJXc-TeX-ams-Rw;
+	font-style: italic;
+}
+.Estilo2 {font-family: MJXc-TeX-ams-R, MJXc-TeX-ams-Rw; font-style: italic; font-weight: bold; }
+</style></head>
+
+<body contenteditable="false"><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-color-override--2088522006 cc-invisible" style="display: none;"><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message"><strong>Política de cookies:</strong> Las cookies de este sitio web se usan para personalizar el contenido y los anuncios, ofrecer funciones de redes sociales y analizar el tráfico. Además, compartimos información sobre el uso que haga del sitio web con nuestros partners de redes sociales, publicidad y análisis web, quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de sus servicios.  <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.google.com/intl/es/policies/privacy/partners/" target="_blank">Más información</a></span><div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">¡Entendido!</a></div><!--googleon: all--></div><div id="MathJax_Message" style="display: none;"></div>
+
+<div id="barra"><a href="https://elcoleencasa.000webhostapp.com/6primaria_comunicacion.html"><img src="FUNCION CUADRATICA_files/LOGO.png" alt="logo" width="308" height="52" border="0" longdesc="logo" /></a><a href="https://www.problemasyecuaciones.com/"> </a>
+  <div id="tit" style="text-decoration: none;"><a href="https://www.problemasyecuaciones.com/">
+		</a><h1>INICIO</h1><a href="https://www.problemasyecuaciones.com/">
+	</a></div><a href="https://www.problemasyecuaciones.com/">	
+		
+		
+	</a>
+	
+	
+	
+</div><!--EBarra-->
+
+
+<div id="hoja2">
+	
+	<div class="hojatexto">
+	<h1 align="center" class="Estilo2">Función cuadrática</h1>
+	 
+	<p class="Estilo1">Explicamos los conceptos básicos relacionados con las funciones cuadráticas y resolvemos algunos problemas. </p>
+		
+	 <p class="Estilo1"><strong>Índice:</strong></p>
+		
+	<ol class="Estilo1">
+		<li>
+			Definición y ejemplo		</li>	
+		
+		<li>
+			Vértice	  </li>	
+		
+		<li>
+			Puntos de corte con los ejes	  </li>	
+		
+		<li>
+			Formas factorizada y canónica		</li>	
+		
+		<li>
+			Intersección de dos parábolas		</li>	
+		
+		
+		<li>
+			Problemas resueltos		</li>		
+	</ol>
+	   
+		
+	<span class="Estilo1"><br>
+	</span>
+	<h2 align="left" class="Estilo1">1. Definición y ejemplo</h2>
+		
+		<p class="Estilo1">Una <strong>función cuadrática</strong> (o <strong>parabólica</strong>) es una función polinómica de segundo grado. Es decir, tiene la forma </p>
+		
+		<p align="center" class="Estilo1">
+		<img src="./FUNCION CUADRATICA_files/T1.png" title="forma general de una ecuación cuadrática: f(x) = ax^2 + bx + c" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+	  <p class="Estilo1">siendo <span class="MathJax_CHTML mjx-box" id="MathJax-Element-1-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;&amp;#x2260;&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-1" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-2" class="mjx-mrow"><span id="MJXc-Node-3" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">a</span></span><span id="MJXc-Node-4" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.422em; padding-bottom: 0.562em;">≠</span></span><span id="MJXc-Node-5" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>≠</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-1">a\neq 0</script>. </p>
+		
+	  <p class="Estilo1">Esta forma de escribir la función se denomina <strong>forma general</strong>. </p>
+		
+		<p class="Estilo1">La gráfica de una función cuadrática siempre es una parábola.</p>
+		
+	    <span class="Estilo1">
+	    <!--PEEjm1-->
+	    </span>
+      <div class="PE Estilo1">
+		
+		<h3 align="left">Ejemplo</h3>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/T2.png" title="gráfica de la parábola f(x) = x^2 + x + 2" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+	  <p>Las parábolas tienen forma de <span class="MathJax_CHTML mjx-box" id="MathJax-Element-2-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo&gt;&amp;#x222A;&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-6" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-7" class="mjx-mrow"><span id="MJXc-Node-8" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.329em; padding-bottom: 0.376em;">∪</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∪</mo></math></span></span><script type="math/tex" id="MathJax-Element-2">\cup</script> (si <span class="MathJax_CHTML mjx-box" id="MathJax-Element-3-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;&amp;gt;&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-9" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-10" class="mjx-mrow"><span id="MJXc-Node-11" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">a</span></span><span id="MJXc-Node-12" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.376em;">&gt;</span></span><span id="MJXc-Node-13" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>&gt;</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-3">a> 0</script>) o de <span class="MathJax_CHTML mjx-box" id="MathJax-Element-4-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo&gt;&amp;#x2229;&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-14" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-15" class="mjx-mrow"><span id="MJXc-Node-16" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.329em; padding-bottom: 0.376em;">∩</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∩</mo></math></span></span><script type="math/tex" id="MathJax-Element-4">\cap</script> (si <span class="MathJax_CHTML mjx-box" id="MathJax-Element-5-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;&amp;lt;&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-17" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-18" class="mjx-mrow"><span id="MJXc-Node-19" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">a</span></span><span id="MJXc-Node-20" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.376em;">&lt;</span></span><span id="MJXc-Node-21" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>&lt;</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-5">a< 0</script>).  </p>
+		
+		<p>Además de la orientación, el coeficiente <span class="MathJax_CHTML mjx-box" id="MathJax-Element-6-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-22" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-23" class="mjx-mrow"><span id="MJXc-Node-24" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">a</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi></math></span></span><script type="math/tex" id="MathJax-Element-6">a</script> es la causa de la amplitud de la función: cuanto mayor es <span class="MathJax_CHTML mjx-box" id="MathJax-Element-7-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;|&lt;/mo&gt;&lt;/mrow&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;|&lt;/mo&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-25" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-26" class="mjx-mrow"><span id="MJXc-Node-27" class="mjx-texatom"><span id="MJXc-Node-28" class="mjx-mrow"><span id="MJXc-Node-29" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">|</span></span></span></span><span id="MJXc-Node-30" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">a</span></span><span id="MJXc-Node-31" class="mjx-texatom"><span id="MJXc-Node-32" class="mjx-mrow"><span id="MJXc-Node-33" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">|</span></span></span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow class="MJX-TeXAtom-ORD"><mo stretchy="false">|</mo></mrow><mi>a</mi><mrow class="MJX-TeXAtom-ORD"><mo stretchy="false">|</mo></mrow></math></span></span><script type="math/tex" id="MathJax-Element-7">|a|</script>, más rápido crece (o decrece) la parábola, por lo que es más cerrada. </p>
+	</div>
+	    <span class="Estilo1">
+	<!--endPEEjem1-->	
+	<br>	
+	    </span>
+      <h2 align="left" class="Estilo1">2. Vértice</h2><p align="center" class="Estilo1">
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+		</script></p>
+	    <span class="Estilo1"><br>
+	    </span>
+      <p class="Estilo1">Las funciones cuadráticas tienen un máximo (si <span class="MathJax_CHTML mjx-box" id="MathJax-Element-8-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;&amp;lt;&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-34" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-35" class="mjx-mrow"><span id="MJXc-Node-36" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">a</span></span><span id="MJXc-Node-37" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.376em;">&lt;</span></span><span id="MJXc-Node-38" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>&lt;</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-8">a< 0</script>) o un mínimo (si <span class="MathJax_CHTML mjx-box" id="MathJax-Element-9-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;&amp;gt;&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-39" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-40" class="mjx-mrow"><span id="MJXc-Node-41" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">a</span></span><span id="MJXc-Node-42" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.376em;">&gt;</span></span><span id="MJXc-Node-43" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>&gt;</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-9">a> 0</script>). Este punto es el <strong>vértice</strong> de la parábola.</p>
+		
+	<p class="Estilo1">La primera coordenada del vértice es </p>
+	
+		<p align="center" class="Estilo1">
+		<img src="./FUNCION CUADRATICA_files/T3.png" title="primera coordenada del vértice de una parábola: x = -b/(2a)" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+			
+	<p class="Estilo1">Y la segunda coordenada es su imagen: </p>
+		
+		<p align="center" class="Estilo1">
+		<img src="./FUNCION CUADRATICA_files/T4.png" title="f(-b/(2a))" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		<span class="Estilo1"><br>
+	
+		
+	
+	
+	    <!--PEEjm1-->
+	    </span>
+	  <div class="PE Estilo1">
+		
+		<h3 align="left">Ejemplo</h3>
+		
+		
+		<p>Calculamos el vértice de la función </p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/T5.png" title="f(x) = -2x^2 + 3x" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+	  <p>Identificamos los coeficientes: </p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/T6.png" title="a = -2, b = 3, c = 0" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+	  <p>Como <span class="MathJax_CHTML mjx-box" id="MathJax-Element-10-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-44" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-45" class="mjx-mrow"><span id="MJXc-Node-46" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">a</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi></math></span></span><script type="math/tex" id="MathJax-Element-10">a</script> es negativo, la parábola tiene forma de <span class="MathJax_CHTML mjx-box" id="MathJax-Element-11-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo&gt;&amp;#x2229;&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-47" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-48" class="mjx-mrow"><span id="MJXc-Node-49" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.329em; padding-bottom: 0.376em;">∩</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∩</mo></math></span></span><script type="math/tex" id="MathJax-Element-11">\cap</script>. El vértice es un máximo.</p>
+		
+	  <p>La primera coordenada del vértice es</p>
+		
+	  <p align="center">
+	  <img src="./FUNCION CUADRATICA_files/T7.png" title="x = 3/4" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+	  <p>Calculamos la segunda coordenada:</p>
+		
+	  <p align="center">
+	  <img src="./FUNCION CUADRATICA_files/T8.png" title="calculamos f(3/4) = 9/8" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Por tanto, el vértice es el punto</p>
+		
+	  <p align="center">
+	  <img src="./FUNCION CUADRATICA_files/T9.png" title="(3/4, 9/8)" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Gráfica: </p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/g2.png" title="gráfica y vértice de la parábola f(x) = -2x^2 + 3x" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+	</div>
+		<span class="Estilo1">
+	<!--endPEEjem1-->	
+	<br>	
+	    </span>
+	  <h2 align="left" class="Estilo1">3. Puntos de corte con los ejes</h2>
+		
+		<p class="Estilo1">Una parábola siempre corta el eje de ordenadas (eje Y) en un punto. Como esto ocurre cuando <span class="MathJax_CHTML mjx-box" id="MathJax-Element-12-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-50" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-51" class="mjx-mrow"><span id="MJXc-Node-52" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-53" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-54" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-12">x=0</script>, se trata del punto <span class="MathJax_CHTML mjx-box" id="MathJax-Element-13-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-55" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-56" class="mjx-mrow"><span id="MJXc-Node-57" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-58" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span><span id="MJXc-Node-59" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-60" class="mjx-mi MJXc-space1"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">c</span></span><span id="MJXc-Node-61" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mi>c</mi><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-13">(0,c)</script> puesto que <span class="MathJax_CHTML mjx-box" id="MathJax-Element-14-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-62" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-63" class="mjx-mrow"><span id="MJXc-Node-64" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.469em; padding-right: 0.06em;">f</span></span><span id="MJXc-Node-65" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-66" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span><span id="MJXc-Node-67" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span><span id="MJXc-Node-68" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-69" class="mjx-mi MJXc-space3"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">c</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo><mo>=</mo><mi>c</mi></math></span></span><script type="math/tex" id="MathJax-Element-14">f(0)=c</script>. </p>
+		
+	  <p class="Estilo1">Una función corta al eje de abscisas cuando <span class="MathJax_CHTML mjx-box" id="MathJax-Element-15-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-70" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-71" class="mjx-mrow"><span id="MJXc-Node-72" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.469em; padding-right: 0.006em;">y</span></span><span id="MJXc-Node-73" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-74" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi><mo>=</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-15">y=0</script>. Por tanto, para hallar estos puntos de corte, tenemos que resolver una ecuación cuadrática:</p>
+		
+		<p align="center" class="Estilo1">
+		<img src="./FUNCION CUADRATICA_files/T10.png" title="ax^2 + bx + c = 0" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+	  <p class="Estilo1">Como una ecuación cuadrática puede tener una, dos o ninguna solución, puede haber uno, dos o ningún punto de corte con el eje X. </p>
+		
+	  <p class="Estilo1">Recordamos la fórmula que necesitamos: </p>
+		
+		<p align="center" class="Estilo1">
+		<img src="./FUNCION CUADRATICA_files/T11.png" title="fórmula para resolver una ecuación cuadrática: x = (-b ± raíz(b^2 - 4ac))/(2a)" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p><p align="center" class="Estilo1">
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+		</script></p>
+	    <span class="Estilo1"><br>
+	
+	
+	    <!--PEEjm1-->
+	    </span>
+      <div class="PE Estilo1">
+		
+		
+		<h3 align="left">Ejemplo</h3>
+		
+	  <p>Calculamos los puntos de corte de la función </p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/T12.png" title="f(x) = x^2 - 1" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+	  <p>Los coeficientes de la ecuación son <span class="MathJax_CHTML mjx-box" id="MathJax-Element-16-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-75" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-76" class="mjx-mrow"><span id="MJXc-Node-77" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">a</span></span><span id="MJXc-Node-78" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-79" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>=</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-16">a=1</script>, <span class="MathJax_CHTML mjx-box" id="MathJax-Element-17-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-80" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-81" class="mjx-mrow"><span id="MJXc-Node-82" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.282em;">b</span></span><span id="MJXc-Node-83" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-84" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>b</mi><mo>=</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-17">b=0</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-18-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-85" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-86" class="mjx-mrow"><span id="MJXc-Node-87" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">c</span></span><span id="MJXc-Node-88" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-89" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-90" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>c</mi><mo>=</mo><mo>−</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-18">c=-1</script>. </p>
+		
+		
+		
+		<p><strong>Eje Y:</strong> </p>
+		
+		<p>El punto de corte con el eje Y es <span class="MathJax_CHTML mjx-box" id="MathJax-Element-19-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-91" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-92" class="mjx-mrow"><span id="MJXc-Node-93" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-94" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span><span id="MJXc-Node-95" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-96" class="mjx-mo MJXc-space1"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-97" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span><span id="MJXc-Node-98" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-19">(0,-1)</script>.</p>
+		
+	  <p><strong>Eje X:</strong> </p>
+		
+		
+		
+		
+	  <p>Resolvemos la ecuación de segundo grado: </p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/T13.png" title="resolvemos la ecuación x^2-1=0, obteniendo las soluciones x=1 y x=-1" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+	  <p>Hay dos soluciones: <span class="MathJax_CHTML mjx-box" id="MathJax-Element-20-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-99" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-100" class="mjx-mrow"><span id="MJXc-Node-101" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-102" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-103" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-20">x = 1</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-21-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-104" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-105" class="mjx-mrow"><span id="MJXc-Node-106" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-107" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-108" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-109" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mo>−</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-21">x = -1</script>. </p>
+		
+	  <p>La segunda coordenada es <span class="MathJax_CHTML mjx-box" id="MathJax-Element-22-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-110" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-111" class="mjx-mrow"><span id="MJXc-Node-112" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-22">0</script>. </p>
+		
+	  <p>Por tanto, tenemos los puntos de corte</p>
+		
+	  <p align="center">
+	  <img src="./FUNCION CUADRATICA_files/T14.png" title="(1,0), (-1,0)" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Gráfica: </p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/g3.png" title="gráfica y puntos de corte con los ejes de la parábola f(x) = x^2 - 1" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+	</div>
+	    <span class="Estilo1">
+	<!--endPEEjem1-->	
+	<br>	
+	    </span>
+      <h2 align="left" class="Estilo1">4. Formas factorizada y canónica</h2><p align="center" class="Estilo1">
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+		</script></p>
+	    <span class="Estilo1"><br>
+		</span>
+	    <p class="Estilo1">La <strong>forma factorizada</strong> de una función cuadrática es </p>
+		
+	  <p align="center" class="Estilo1">
+	  <img src="./FUNCION CUADRATICA_files/T15.png" title="forma factorizada de una función cuadrática: f(x) = a(x - x1)(x - x2)" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p class="Estilo1">donde <span class="MathJax_CHTML mjx-box" id="MathJax-Element-23-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-113" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-114" class="mjx-mrow"><span id="MJXc-Node-115" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">a</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi></math></span></span><script type="math/tex" id="MathJax-Element-23">a</script> es el coeficiente principal (visto anteriormente); <span class="MathJax_CHTML mjx-box" id="MathJax-Element-24-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-116" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-117" class="mjx-mrow"><span id="MJXc-Node-118" class="mjx-msubsup"><span class="mjx-base"><span id="MJXc-Node-119" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span></span><span class="mjx-sub" style="font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;"><span id="MJXc-Node-120" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>x</mi><mn>1</mn></msub></math></span></span><script type="math/tex" id="MathJax-Element-24">x_1</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-25-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-121" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-122" class="mjx-mrow"><span id="MJXc-Node-123" class="mjx-msubsup"><span class="mjx-base"><span id="MJXc-Node-124" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span></span><span class="mjx-sub" style="font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;"><span id="MJXc-Node-125" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span></span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>x</mi><mn>2</mn></msub></math></span></span><script type="math/tex" id="MathJax-Element-25">x_2</script> son las soluciones de la ecuación <span class="MathJax_CHTML mjx-box" id="MathJax-Element-26-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-126" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-127" class="mjx-mrow"><span id="MJXc-Node-128" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">a</span></span><span id="MJXc-Node-129" class="mjx-msubsup"><span class="mjx-base"><span id="MJXc-Node-130" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span></span><span class="mjx-sup" style="font-size: 70.7%; vertical-align: 0.513em; padding-left: 0px; padding-right: 0.071em;"><span id="MJXc-Node-131" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span></span></span><span id="MJXc-Node-132" class="mjx-mo MJXc-space2"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">+</span></span><span id="MJXc-Node-133" class="mjx-mi MJXc-space2"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.282em;">b</span></span><span id="MJXc-Node-134" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-135" class="mjx-mo MJXc-space2"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">+</span></span><span id="MJXc-Node-136" class="mjx-mi MJXc-space2"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">c</span></span><span id="MJXc-Node-137" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-138" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-26">ax^2+bx+c=0</script>. </p>
+		
+		<ul class="Estilo1">
+			<li>
+				Si la ecuación <span class="MathJax_CHTML mjx-box" id="MathJax-Element-27-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-139" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-140" class="mjx-mrow"><span id="MJXc-Node-141" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">a</span></span><span id="MJXc-Node-142" class="mjx-msubsup"><span class="mjx-base"><span id="MJXc-Node-143" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span></span><span class="mjx-sup" style="font-size: 70.7%; vertical-align: 0.513em; padding-left: 0px; padding-right: 0.071em;"><span id="MJXc-Node-144" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span></span></span><span id="MJXc-Node-145" class="mjx-mo MJXc-space2"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">+</span></span><span id="MJXc-Node-146" class="mjx-mi MJXc-space2"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.282em;">b</span></span><span id="MJXc-Node-147" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-148" class="mjx-mo MJXc-space2"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">+</span></span><span id="MJXc-Node-149" class="mjx-mi MJXc-space2"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">c</span></span><span id="MJXc-Node-150" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-151" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-27">ax^2+bx+c=0</script> no tiene soluciones, no podemos factorizar la función.			</li>
+			
+			<li>
+				Si la ecuación sólo tiene una solución, <span class="MathJax_CHTML mjx-box" id="MathJax-Element-28-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-152" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-153" class="mjx-mrow"><span id="MJXc-Node-154" class="mjx-msubsup"><span class="mjx-base"><span id="MJXc-Node-155" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span></span><span class="mjx-sub" style="font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;"><span id="MJXc-Node-156" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>x</mi><mn>1</mn></msub></math></span></span><script type="math/tex" id="MathJax-Element-28">x_1</script>, la forma factorizada es <span class="MathJax_CHTML mjx-box" id="MathJax-Element-29-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;msup&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-157" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-158" class="mjx-mrow"><span id="MJXc-Node-159" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.469em; padding-right: 0.06em;">f</span></span><span id="MJXc-Node-160" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-161" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-162" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span><span id="MJXc-Node-163" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-164" class="mjx-mi MJXc-space3"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">a</span></span><span id="MJXc-Node-165" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-166" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-167" class="mjx-mo MJXc-space2"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-168" class="mjx-msubsup MJXc-space2"><span class="mjx-base"><span id="MJXc-Node-169" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span></span><span class="mjx-sub" style="font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;"><span id="MJXc-Node-170" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span><span id="MJXc-Node-171" class="mjx-msubsup"><span class="mjx-base"><span id="MJXc-Node-172" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span><span class="mjx-sup" style="font-size: 70.7%; vertical-align: 0.513em; padding-left: 0px; padding-right: 0.071em;"><span id="MJXc-Node-173" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span></span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>a</mi><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><msup><mo stretchy="false">)</mo><mn>2</mn></msup></math></span></span><script type="math/tex" id="MathJax-Element-29">f(x) = a(x-x_1)^2</script>.			</li>
+		</ul>
+	
+		
+	    <span class="Estilo1">
+	    <!--PEEjm1-->
+	    </span>
+      <div class="PE Estilo1">
+		
+		<h3 align="left">Ejemplo</h3>
+		
+		
+		
+	  <p>En el ejemplo anterior vimos que los puntos de corte con el eje X de la función <span class="MathJax_CHTML mjx-box" id="MathJax-Element-30-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-174" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-175" class="mjx-mrow"><span id="MJXc-Node-176" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.469em; padding-right: 0.06em;">f</span></span><span id="MJXc-Node-177" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-178" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-179" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span><span id="MJXc-Node-180" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-181" class="mjx-msubsup MJXc-space3"><span class="mjx-base"><span id="MJXc-Node-182" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span></span><span class="mjx-sup" style="font-size: 70.7%; vertical-align: 0.513em; padding-left: 0px; padding-right: 0.071em;"><span id="MJXc-Node-183" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span></span></span><span id="MJXc-Node-184" class="mjx-mo MJXc-space2"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-185" class="mjx-mn MJXc-space2"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-30">f(x) = x^2-1</script> son <span class="MathJax_CHTML mjx-box" id="MathJax-Element-31-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-186" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-187" class="mjx-mrow"><span id="MJXc-Node-188" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-189" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span><span id="MJXc-Node-190" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-191" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span><span id="MJXc-Node-192" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-31">(1,0)</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-32-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-193" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-194" class="mjx-mrow"><span id="MJXc-Node-195" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-196" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-197" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span><span id="MJXc-Node-198" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-199" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span><span id="MJXc-Node-200" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-32">(-1,0)</script>. Por tanto, la forma factorizada de esta función es</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/T16.png" title="f(x) = (x-1)(x+1)" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+	</div>
+	    <span class="Estilo1">
+	    <!--endPEEjem1-->	
+		</span>
+	    <p class="Estilo1">La <strong>forma canónica</strong> de una función cuadrática es</p>
+		
+	  <p align="center" class="Estilo1">
+	  <img src="./FUNCION CUADRATICA_files/T17.png" title="fórma canónica de una función cuadrática: f(x) = a(x-h)^2 + h" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p class="Estilo1">donde <span class="MathJax_CHTML mjx-box" id="MathJax-Element-33-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-201" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-202" class="mjx-mrow"><span id="MJXc-Node-203" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">a</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi></math></span></span><script type="math/tex" id="MathJax-Element-33">a</script> es el coeficiente principal visto ya; <span class="MathJax_CHTML mjx-box" id="MathJax-Element-34-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-204" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-205" class="mjx-mrow"><span id="MJXc-Node-206" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.282em;">h</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></span></span><script type="math/tex" id="MathJax-Element-34">h</script> es la primera coordenada del vértice y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-35-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-207" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-208" class="mjx-mrow"><span id="MJXc-Node-209" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.282em;">k</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></span></span><script type="math/tex" id="MathJax-Element-35">k</script> es la segunda. </p>
+			
+		<span class="Estilo1">
+		<!--PEEjm1-->
+	    </span>
+	  <div class="PE Estilo1">
+		
+		<h3 align="left">Ejemplo</h3>
+		
+		
+		<p>Vimos en un ejemplo que el vértice de la función <span class="MathJax_CHTML mjx-box" id="MathJax-Element-36-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-210" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-211" class="mjx-mrow"><span id="MJXc-Node-212" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.469em; padding-right: 0.06em;">f</span></span><span id="MJXc-Node-213" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-214" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-215" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span><span id="MJXc-Node-216" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-217" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-218" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span><span id="MJXc-Node-219" class="mjx-msubsup"><span class="mjx-base"><span id="MJXc-Node-220" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span></span><span class="mjx-sup" style="font-size: 70.7%; vertical-align: 0.513em; padding-left: 0px; padding-right: 0.071em;"><span id="MJXc-Node-221" class="mjx-mn" style=""><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span></span></span><span id="MJXc-Node-222" class="mjx-mo MJXc-space2"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">+</span></span><span id="MJXc-Node-223" class="mjx-mn MJXc-space2"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">3</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn></math></span></span><script type="math/tex" id="MathJax-Element-36">f(x)=-2x^2+3</script> es <span class="MathJax_CHTML mjx-box" id="MathJax-Element-37-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo&gt;/&lt;/mo&gt;&lt;/mrow&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;9&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo&gt;/&lt;/mo&gt;&lt;/mrow&gt;&lt;mn&gt;8&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-224" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-225" class="mjx-mrow"><span id="MJXc-Node-226" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-227" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">3</span></span><span id="MJXc-Node-228" class="mjx-texatom"><span id="MJXc-Node-229" class="mjx-mrow"><span id="MJXc-Node-230" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">/</span></span></span></span><span id="MJXc-Node-231" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">4</span></span><span id="MJXc-Node-232" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-233" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">9</span></span><span id="MJXc-Node-234" class="mjx-texatom"><span id="MJXc-Node-235" class="mjx-mrow"><span id="MJXc-Node-236" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">/</span></span></span></span><span id="MJXc-Node-237" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">8</span></span><span id="MJXc-Node-238" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>3</mn><mrow class="MJX-TeXAtom-ORD"><mo>/</mo></mrow><mn>4</mn><mo>,</mo><mn>9</mn><mrow class="MJX-TeXAtom-ORD"><mo>/</mo></mrow><mn>8</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-37">(3/4,9/8)</script>. Por tanto, su forma canónica es </p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/T18.png" title="f(x) = -2(x -3/4)^2 + 9/8" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+	</div>
+	  <span class="Estilo1">
+	<!--endPEEjem1-->	
+	<br>	
+	</span>
+	<h2 align="left" class="Estilo1">5. Intersección de dos parábolas</h2>
+	
+	
+		<p class="Estilo1">Podemos preguntarnos si las gráficas de dos funciones se cortan entre sí. Para resolver esta pregunta, tenemos que igualar las funciones y resolver la ecuación resultante. </p>
+		
+	    <span class="Estilo1">
+	    <!--PEEjm1-->
+	    </span>
+      <div class="PE Estilo1">
+		
+		<h3 align="left">Ejemplo</h3>
+		
+		
+	  <p>Calculamos la intersección de las siguientes parábolas:</p>
+		
+	  <p align="center">
+	  <img src="./FUNCION CUADRATICA_files/T19.png" title="f(x) = 2-2x^2, g(x) = x^2-1" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Igualamos ambas funciones y resolvemos la ecuación: </p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/T20.png" title="3(x^2-1) = 0" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+	  <p>Las soluciones de la ecuación son <span class="MathJax_CHTML mjx-box" id="MathJax-Element-38-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-239" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-240" class="mjx-mrow"><span id="MJXc-Node-241" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-242" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-243" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-38">x=1</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-39-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-244" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-245" class="mjx-mrow"><span id="MJXc-Node-246" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-247" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-248" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-249" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mo>−</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-39">x=-1</script>. </p>
+		
+	  <p>La segunda coordenada se obtiene calculando la imagen:</p>
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/T21.png" title="g(1) = 0, g(-1) = 0" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+	  <p>Por tanto, los puntos de corte son <span class="MathJax_CHTML mjx-box" id="MathJax-Element-40-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-250" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-251" class="mjx-mrow"><span id="MJXc-Node-252" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-253" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span><span id="MJXc-Node-254" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-255" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span><span id="MJXc-Node-256" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-40">(1,0)</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-41-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-257" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-258" class="mjx-mrow"><span id="MJXc-Node-259" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-260" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.422em;">−</span></span><span id="MJXc-Node-261" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span><span id="MJXc-Node-262" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.184em; padding-bottom: 0.516em;">,</span></span><span id="MJXc-Node-263" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.376em;">0</span></span><span id="MJXc-Node-264" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-41">(-1,0)</script>.</p>
+		
+	  <p>Gráfica:</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/g4.png" title="gráficas y puntos de intersección de las parábolas f(x) = 2-2x^2, g(x) = x^2-1" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+	</div>
+      <span class="Estilo1">
+	<!--endPEEjem1-->	
+	<br>	
+	</span>
+	<h2 align="left" class="Estilo1">6. Problemas resueltos</h2>
+	
+		
+		
+			
+		
+		
+		
+	<span class="Estilo1">
+	<!--PE1-->
+	</span>
+	<div class="PE Estilo1">
+	
+	<h2 align="left">Problema 1</h2>
+	
+		 
+		
+	
+      <p>Calcular el vértice de la siguiente función parabólica: </p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P1.png" title="f(x) = -3x^2 + 6x + 5" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+			   
+	 
+	
+	
+	<div class="BPE" onclick="desplegar(&#39;respuesta1&#39;)">Solución</div>
+	
+	<div class="respuesta" id="respuesta1" style="display: none;">
+		
+		
+		
+		<p>Los coeficientes son <span class="MathJax_CHTML mjx-box" id="MathJax-Element-42-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-265" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-266" class="mjx-mrow"><span id="MJXc-Node-267" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">a</span></span><span id="MJXc-Node-268" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-269" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.307em; padding-bottom: 0.429em;">−</span></span><span id="MJXc-Node-270" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">3</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>=</mo><mo>−</mo><mn>3</mn></math></span></span><script type="math/tex" id="MathJax-Element-42">a=-3</script>, <span class="MathJax_CHTML mjx-box" id="MathJax-Element-43-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;6&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-271" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-272" class="mjx-mrow"><span id="MJXc-Node-273" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.307em;">b</span></span><span id="MJXc-Node-274" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-275" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">6</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>b</mi><mo>=</mo><mn>6</mn></math></span></span><script type="math/tex" id="MathJax-Element-43">b=6</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-44-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-276" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-277" class="mjx-mrow"><span id="MJXc-Node-278" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">c</span></span><span id="MJXc-Node-279" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-280" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">5</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>c</mi><mo>=</mo><mn>5</mn></math></span></span><script type="math/tex" id="MathJax-Element-44">c=5</script>. </p>
+		
+		<p>La primera coordenada del vértice es</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P1-1.png" title="calculamos la primera coordenada del vértice: x = 1" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Calculamos la segunda coordenada:</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P1-2.png" title="calculamos la segunda coordenada del vértice: f(1) = 8" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Por tanto, el vértice es el punto <span class="MathJax_CHTML mjx-box" id="MathJax-Element-45-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;8&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-281" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-282" class="mjx-mrow"><span id="MJXc-Node-283" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">(</span></span><span id="MJXc-Node-284" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">1</span></span><span id="MJXc-Node-285" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.18em; padding-bottom: 0.551em;">,</span></span><span id="MJXc-Node-286" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">8</span></span><span id="MJXc-Node-287" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>8</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-45">(1,8)</script>.</p>
+		
+		<p>Gráfica:</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P1g.png" title="gráfica y vértice de la parábola f(x) = -3x^2 + 6x + 5" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+	</div><!--ERespt1-->	
+	</div>
+	<span class="Estilo1">
+	<!--EPE1-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE2-->
+	</span>
+	<div class="PE Estilo1">
+	
+	<h2 align="left">Problema 2</h2>
+	
+	
+		
+	
+		<p>Determinar los puntos de corte y el vértice de la siguiente función: </p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P2.png" title="f(x) = 4x^2 + 4x - 8" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+								   
+	 
+	
+	
+	<div class="BPE" onclick="desplegar(&#39;respuesta2&#39;)">Solución</div>
+	
+	<div class="respuesta" id="respuesta2" style="display: none;">
+		
+		
+		
+		<p>Los coeficientes son <span class="MathJax_CHTML mjx-box" id="MathJax-Element-46-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-288" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-289" class="mjx-mrow"><span id="MJXc-Node-290" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">a</span></span><span id="MJXc-Node-291" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-292" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">4</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>=</mo><mn>4</mn></math></span></span><script type="math/tex" id="MathJax-Element-46">a=4</script>, <span class="MathJax_CHTML mjx-box" id="MathJax-Element-47-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-293" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-294" class="mjx-mrow"><span id="MJXc-Node-295" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.307em;">b</span></span><span id="MJXc-Node-296" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-297" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">4</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>b</mi><mo>=</mo><mn>4</mn></math></span></span><script type="math/tex" id="MathJax-Element-47">b=4</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-48-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;8&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-298" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-299" class="mjx-mrow"><span id="MJXc-Node-300" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">c</span></span><span id="MJXc-Node-301" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-302" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.307em; padding-bottom: 0.429em;">−</span></span><span id="MJXc-Node-303" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">8</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>c</mi><mo>=</mo><mo>−</mo><mn>8</mn></math></span></span><script type="math/tex" id="MathJax-Element-48">c=-8</script>. </p>
+		
+		<p>La primera coordenada del vértice es</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P2-1.png" title="la primera coordenada del vértice es -1/2" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Calculamos la segunda coordenada:</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P2-2.png" title="calculamos la segunda coordenada del vértice: f(-1/2) = -9" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Por tanto, el vértice es el punto </p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P2-3.png" title="(-1/2, -9)" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p><strong>Punto de corte con el eje Y</strong></p>
+		
+		<p>Ocurre cuando <span class="MathJax_CHTML mjx-box" id="MathJax-Element-49-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-304" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-305" class="mjx-mrow"><span id="MJXc-Node-306" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">x</span></span><span id="MJXc-Node-307" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-308" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-49">x=0</script>, así que se trata del punto <span class="MathJax_CHTML mjx-box" id="MathJax-Element-50-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;8&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-309" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-310" class="mjx-mrow"><span id="MJXc-Node-311" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">(</span></span><span id="MJXc-Node-312" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span><span id="MJXc-Node-313" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.18em; padding-bottom: 0.551em;">,</span></span><span id="MJXc-Node-314" class="mjx-mo MJXc-space1"><span class="mjx-char " style="padding-top: 0.307em; padding-bottom: 0.429em;">−</span></span><span id="MJXc-Node-315" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">8</span></span><span id="MJXc-Node-316" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mo>−</mo><mn>8</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-50">(0,-8)</script>.</p>
+		
+		<p><strong>Punto de corte con el eje X</strong></p>
+		
+		<p>Resolvemos la ecuación cuadrática asociada:</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P2-4.png" title="x^2 + x -2 = 0" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Hemos dividido la ecuación entre <span class="MathJax_CHTML mjx-box" id="MathJax-Element-51-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-317" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-318" class="mjx-mrow"><span id="MJXc-Node-319" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">4</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>4</mn></math></span></span><script type="math/tex" id="MathJax-Element-51">4</script> (esta operación no cambia las soluciones). </p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P2-5.png" title="resolvemos la ecuación x^2 + x -2 = 0 obteniendo las soluciones 1 y -2" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Por tanto, los puntos de corte son <span class="MathJax_CHTML mjx-box" id="MathJax-Element-52-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-320" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-321" class="mjx-mrow"><span id="MJXc-Node-322" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">(</span></span><span id="MJXc-Node-323" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">1</span></span><span id="MJXc-Node-324" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.18em; padding-bottom: 0.551em;">,</span></span><span id="MJXc-Node-325" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span><span id="MJXc-Node-326" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-52">(1,0)</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-53-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-327" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-328" class="mjx-mrow"><span id="MJXc-Node-329" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">(</span></span><span id="MJXc-Node-330" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.307em; padding-bottom: 0.429em;">−</span></span><span id="MJXc-Node-331" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">2</span></span><span id="MJXc-Node-332" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.18em; padding-bottom: 0.551em;">,</span></span><span id="MJXc-Node-333" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span><span id="MJXc-Node-334" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-53">(-2,0)</script>. </p>
+		
+		<p>Gráfica:</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P2g.png" title="gráfica, vértice y puntos de corte con el eje X de la parábola f(x) = 4x^2 + 4x - 8" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+	</div><!--ERespt2-->	
+	</div>
+	<span class="Estilo1">
+	<!--EPE2-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE3-->
+	</span>
+	<div class="PE Estilo1">
+	
+	<h2 align="left">Problema 3</h2>
+	
+	<p>Determinar los puntos de corte y el vértice de la siguiente función: </p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P3.png" title="f(x) = x^2 + 1" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+							   
+		
+						   
+	 
+	
+	
+	
+	<div class="BPE" onclick="desplegar(&#39;respuesta3&#39;)">Solución</div>
+	
+	<div class="respuesta" id="respuesta3" style="display: none;">
+		
+		
+		<p>Los coeficientes son <span class="MathJax_CHTML mjx-box" id="MathJax-Element-54-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-335" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-336" class="mjx-mrow"><span id="MJXc-Node-337" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">a</span></span><span id="MJXc-Node-338" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-339" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>=</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-54">a=1</script>, <span class="MathJax_CHTML mjx-box" id="MathJax-Element-55-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-340" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-341" class="mjx-mrow"><span id="MJXc-Node-342" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.307em;">b</span></span><span id="MJXc-Node-343" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-344" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>b</mi><mo>=</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-55">b=0</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-56-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-345" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-346" class="mjx-mrow"><span id="MJXc-Node-347" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">c</span></span><span id="MJXc-Node-348" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-349" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>c</mi><mo>=</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-56">c=1</script>. </p>
+		
+		<p>La primera coordenada del vértice es</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P3-1.png" title="la primera coordenada del vértice es x = 0" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Calculamos la segunda coordenada:</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P3-2.png" title="calculamos la segunda coordenada del vértice: f(0) = 1" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Por tanto, el vértice es el punto <span class="MathJax_CHTML mjx-box" id="MathJax-Element-57-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-350" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-351" class="mjx-mrow"><span id="MJXc-Node-352" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">(</span></span><span id="MJXc-Node-353" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span><span id="MJXc-Node-354" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.18em; padding-bottom: 0.551em;">,</span></span><span id="MJXc-Node-355" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">1</span></span><span id="MJXc-Node-356" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-57">(0,1)</script>.</p>
+		
+		<p><strong>Punto de corte con el eje Y</strong></p>
+		
+		<p>Ocurre cuando <span class="MathJax_CHTML mjx-box" id="MathJax-Element-58-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-357" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-358" class="mjx-mrow"><span id="MJXc-Node-359" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">x</span></span><span id="MJXc-Node-360" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-361" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-58">x=0</script>, así que se trata del punto <span class="MathJax_CHTML mjx-box" id="MathJax-Element-59-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-362" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-363" class="mjx-mrow"><span id="MJXc-Node-364" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">(</span></span><span id="MJXc-Node-365" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span><span id="MJXc-Node-366" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.18em; padding-bottom: 0.551em;">,</span></span><span id="MJXc-Node-367" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">1</span></span><span id="MJXc-Node-368" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-59">(0,1)</script>.</p>
+		
+		<p><strong>Punto de corte con el eje X</strong></p>
+		
+		<p>Resolvemos la ecuación cuadrática asociada:</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P3-3.png" title="la ecuación cuadrática x^2+1=0 no tiene soluciones (reales)" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Esta ecuación no tiene soluciones. Por tanto, la parábola no corta al eje de abscisas. </p>
+		
+		<p>Gráfica:</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P3g.png" title="gráfica y vértice de la parábola f(x) = x^2 + 1" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+	</div><!--ERespt3-->	
+	</div>
+	<span class="Estilo1">
+	<!--EPE3-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE4-->
+	</span>
+	<div class="PE Estilo1">
+	
+	<h2 align="left">Problema 4</h2>
+	
+	
+		<p>Determinar los puntos de corte de la parábola </p>
+
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P4.png" title="f(x) = 3(x-1)(x+2)" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+			
+   	    <p>Y el vértice de la parábola </p>		  			  
+			
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P4b.png" title="g(x) = 5(x-2)^2-4" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+							   
+	 
+	
+	
+	<div class="BPE" onclick="desplegar(&#39;respuesta4&#39;)">Solución</div>
+	
+	<div class="respuesta" id="respuesta4" style="display: none;">
+		
+		
+		<p>La forma factorizada nos facilita calcular los puntos de corte con el eje X:</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P4-1.png" title="(1,0), (-2,0)" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Punto de corte con el eje Y (sustituimos <span class="MathJax_CHTML mjx-box" id="MathJax-Element-60-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-369" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-370" class="mjx-mrow"><span id="MJXc-Node-371" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">x</span></span><span id="MJXc-Node-372" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-373" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mn>0</mn></math></span></span><script type="math/tex" id="MathJax-Element-60">x=0</script>):</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P4-2.png" title="calculamos f(0) = -6" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Por tanto, es el punto <span class="MathJax_CHTML mjx-box" id="MathJax-Element-61-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;6&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-374" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-375" class="mjx-mrow"><span id="MJXc-Node-376" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">(</span></span><span id="MJXc-Node-377" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span><span id="MJXc-Node-378" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.18em; padding-bottom: 0.551em;">,</span></span><span id="MJXc-Node-379" class="mjx-mo MJXc-space1"><span class="mjx-char " style="padding-top: 0.307em; padding-bottom: 0.429em;">−</span></span><span id="MJXc-Node-380" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">6</span></span><span id="MJXc-Node-381" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mo>−</mo><mn>6</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-61">(0,-6)</script>.</p>
+		
+		<p>Gráfica de <span class="MathJax_CHTML mjx-box" id="MathJax-Element-62-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-382" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-383" class="mjx-mrow"><span id="MJXc-Node-384" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.49em; padding-right: 0.06em;">f</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi></math></span></span><script type="math/tex" id="MathJax-Element-62">f</script>:</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P4g.png" title="gráfica y puntos de corte de la parábola f(x) = 3(x-1)(x+2)" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>La forma canónica de la función <span class="MathJax_CHTML mjx-box" id="MathJax-Element-63-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-385" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-386" class="mjx-mrow"><span id="MJXc-Node-387" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.49em; padding-right: 0.003em;">g</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>g</mi></math></span></span><script type="math/tex" id="MathJax-Element-63">g</script> nos proporciona las coordenadas de su vértice: <span class="MathJax_CHTML mjx-box" id="MathJax-Element-64-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-388" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-389" class="mjx-mrow"><span id="MJXc-Node-390" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">(</span></span><span id="MJXc-Node-391" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">2</span></span><span id="MJXc-Node-392" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.18em; padding-bottom: 0.551em;">,</span></span><span id="MJXc-Node-393" class="mjx-mo MJXc-space1"><span class="mjx-char " style="padding-top: 0.307em; padding-bottom: 0.429em;">−</span></span><span id="MJXc-Node-394" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">4</span></span><span id="MJXc-Node-395" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>4</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-64">(2,-4)</script>.</p>
+		
+		<p>Gráfica de <span class="MathJax_CHTML mjx-box" id="MathJax-Element-65-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-396" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-397" class="mjx-mrow"><span id="MJXc-Node-398" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.49em; padding-right: 0.003em;">g</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>g</mi></math></span></span><script type="math/tex" id="MathJax-Element-65">g</script>:</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P4gb.png" title="gráfica y vértice de la parábola g(x) = 5(x-2)^2-4" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+	</div><!--ERespt4-->	
+	</div>
+	<span class="Estilo1">
+	<!--EPE4-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE5-->
+	</span>
+	<div class="PE Estilo1">
+	
+	<h2 align="left">Problema 5</h2>
+	
+	
+		<p>Escribir la siguiente función en las formas factorizada y  canónica:</p>
+	
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P5.png" title="f(x) = x^2/2 + x - 4" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+			
+							   
+	 
+	
+	
+	
+	<div class="BPE" onclick="desplegar(&#39;respuesta5&#39;)">Solución</div>
+	
+	<div class="respuesta" id="respuesta5" style="display: none;">
+		
+		
+		<p>Los coeficientes son <span class="MathJax_CHTML mjx-box" id="MathJax-Element-66-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo&gt;/&lt;/mo&gt;&lt;/mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-399" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-400" class="mjx-mrow"><span id="MJXc-Node-401" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">a</span></span><span id="MJXc-Node-402" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-403" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">1</span></span><span id="MJXc-Node-404" class="mjx-texatom"><span id="MJXc-Node-405" class="mjx-mrow"><span id="MJXc-Node-406" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">/</span></span></span></span><span id="MJXc-Node-407" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">2</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>=</mo><mn>1</mn><mrow class="MJX-TeXAtom-ORD"><mo>/</mo></mrow><mn>2</mn></math></span></span><script type="math/tex" id="MathJax-Element-66">a=1/2</script>, <span class="MathJax_CHTML mjx-box" id="MathJax-Element-67-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-408" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-409" class="mjx-mrow"><span id="MJXc-Node-410" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.307em;">b</span></span><span id="MJXc-Node-411" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-412" class="mjx-mn MJXc-space3"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">1</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>b</mi><mo>=</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-67">b=1</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-68-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-413" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-414" class="mjx-mrow"><span id="MJXc-Node-415" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.246em; padding-bottom: 0.307em;">c</span></span><span id="MJXc-Node-416" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.064em; padding-bottom: 0.307em;">=</span></span><span id="MJXc-Node-417" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.307em; padding-bottom: 0.429em;">−</span></span><span id="MJXc-Node-418" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">4</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>c</mi><mo>=</mo><mo>−</mo><mn>4</mn></math></span></span><script type="math/tex" id="MathJax-Element-68">c=-4</script>.</p>
+		
+		<p>La primera coordenada del vértice es</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P5-1.png" title="la primera coordenada del vértice es x = -1" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Calculamos la segunda coordenada:</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P5-2.png" title="la segunda coordenada del vértice es y=-9/2" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Por tanto, el vértice es el punto</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P5-3.png" title="(-1,-9/2)" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>La forma canónica de la función es</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P5-4.png" title="f(x) = (1/2)(x+1)^2 - 9/2" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p><strong>Punto de corte con el eje Y:</strong> <span class="MathJax_CHTML mjx-box" id="MathJax-Element-69-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-419" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-420" class="mjx-mrow"><span id="MJXc-Node-421" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">(</span></span><span id="MJXc-Node-422" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span><span id="MJXc-Node-423" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.18em; padding-bottom: 0.551em;">,</span></span><span id="MJXc-Node-424" class="mjx-mo MJXc-space1"><span class="mjx-char " style="padding-top: 0.307em; padding-bottom: 0.429em;">−</span></span><span id="MJXc-Node-425" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">4</span></span><span id="MJXc-Node-426" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mo>−</mo><mn>4</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-69">(0,-4)</script>.</p>
+		
+		<p><strong>Punto de corte con el eje X</strong></p>
+		
+		<p>Resolvemos la ecuación cuadrática asociada:</p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P5-5.png" title="resolvemos la ecuación cuadrática x^2/2+x-4=0, obteniendo las soluciones x=2 y x=-4" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Son los puntos <span class="MathJax_CHTML mjx-box" id="MathJax-Element-70-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-427" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-428" class="mjx-mrow"><span id="MJXc-Node-429" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">(</span></span><span id="MJXc-Node-430" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">2</span></span><span id="MJXc-Node-431" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.18em; padding-bottom: 0.551em;">,</span></span><span id="MJXc-Node-432" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span><span id="MJXc-Node-433" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>2</mn><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-70">(2,0)</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-71-Frame" style="font-size: 79%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-434" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-435" class="mjx-mrow"><span id="MJXc-Node-436" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">(</span></span><span id="MJXc-Node-437" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.307em; padding-bottom: 0.429em;">−</span></span><span id="MJXc-Node-438" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">4</span></span><span id="MJXc-Node-439" class="mjx-mo"><span class="mjx-char " style="margin-top: -0.18em; padding-bottom: 0.551em;">,</span></span><span id="MJXc-Node-440" class="mjx-mn MJXc-space1"><span class="mjx-char " style="padding-top: 0.368em; padding-bottom: 0.368em;">0</span></span><span id="MJXc-Node-441" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.49em; padding-bottom: 0.612em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-71">(-4,0)</script>.</p>
+		
+		<p>La forma factorizada de la ecuación es </p>
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P5-6.png" title="forma factorizada: f(x) = (1/2)(x-2)(x+4)" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p>Gráfica:</p>
+		
+		
+		<p align="center">
+		<img src="./FUNCION CUADRATICA_files/P5g.png" title="gráfica, vértice y puntos de corte con el eje X de la parábola f(x) = x^2/2 + x - 4" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+	</div><!--ERespt5-->	
+	</div>
+	<span class="Estilo1">
+	<!--EPE5-->
+	<br>
+	
+	
+	
+	
+	
+	
+	<!--PE6-->
+	</span>
+	<div class="PE">
+	
+	<h2 align="left" class="Estilo1">Problema 6</h2>
+	
+	
+		<p class="Estilo1">Calcular los puntos de intersección de las siguientes funciones: </p>
+		
+		<p align="center" class="Estilo1">
+		<img src="./FUNCION CUADRATICA_files/P6.png" title="f(x) = 2x^2+4x+2, g(x) = 2x^2+x+1" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+							   
+		
+		
+	
+	
+	
+	<div class="BPE Estilo1" onclick="desplegar(&#39;respuesta6&#39;)">Solución</div>
+	
+	<div class="respuesta" id="respuesta6" style="display: none;">
+		
+		
+		<p class="Estilo1">Igualamos ambas funciones y resolvemos la ecuación:</p>
+		
+		<p align="center" class="Estilo1">
+		<img src="./FUNCION CUADRATICA_files/P6-1.png" title="resolvemos la ecuación 2x^2+4x+2 = 2x^2+x+1, obteniendo x = -1/3" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p class="Estilo1">Calculamos la otra coordenada:</p>
+		
+		<p align="center" class="Estilo1">
+		<img src="./FUNCION CUADRATICA_files/P6-2.png" title="g(-1/3) = 8/9" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p class="Estilo1">Sólo hay un punto de intersección:</p>
+		
+		<p align="center" class="Estilo1">
+		<img src="./FUNCION CUADRATICA_files/P6-3.png" title="(-1/3, 8/9)" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></p>
+		
+		<p class="Estilo1">Gráfica:</p>
+		
+		<p align="center">
+		  <span class="Estilo1"><img src="./FUNCION CUADRATICA_files/P6g.png" title="gráficas e intersección de las parábolas f(x) = 2x^2+4x+2 y g(x) = 2x^2+x+1" alt="Explicamos las funciones cuadráticas o parábolas (definición, ejemplos, vértice, puntos de corte con los ejes, forma factorizada, forma canónica, intersección) y resolvemos problemas. Matemáticas. Funciones. Gráficas."></span></p>
+	</div><!--ERespt6-->	
+	</div><!--EPE6-->
+	</div>
+</div><br><!--ELAT-->
+
+
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"><ins id="aswift_4_expand" style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><ins id="aswift_4_anchor" style="display:block;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><iframe id="aswift_4" name="aswift_4" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" src="./FUNCION CUADRATICA_files/ads.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!4" data-load-complete="true"></iframe></ins></ins></ins><iframe id="google_osd_static_frame_1926679835458" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./FUNCION CUADRATICA_files/saved_resource.html"></iframe></body><iframe id="google_esf" name="google_esf" src="./FUNCION CUADRATICA_files/zrt_lookup.html" data-ad-client="ca-pub-3309204359100394" style="display: none;"></iframe></html>

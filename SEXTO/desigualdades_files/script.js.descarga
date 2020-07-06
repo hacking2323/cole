@@ -1,0 +1,75 @@
+function toggle(obj){
+	var div = obj.nextSibling;
+
+	if(div.state == 'on'){
+		div.style.display = "none";
+		div.state = 'off';
+	}
+	else{
+		div.style.display = "block";
+		div.state = "on";
+	}
+}
+
+function showGlossaryTerm(obj, name, description){
+	var glossary = document.getElementById("glossary");
+	var definition = document.getElementById("definition");
+
+	glossary.style.display =  "block";
+	glossary.style.left = getLeft(obj);
+	glossary.style.top = getTop(obj);
+	if(glossary.offsetLeft + glossary.offsetWidth > 900){
+		glossary.style.left = 900 - glossary.offsetWidth;
+	}
+	definition.innerHTML = "<div class=\"term\">" + name + "</div><div class=\"definition\">" + description + "</div>";
+}
+
+function getLeft(obj){
+	var current = obj.offsetLeft;
+	var parent = obj;
+
+	while((parent = parent.offsetParent) != null)
+		current += parent.offsetLeft;
+
+	return current;
+}
+
+function getTop(obj){
+	var current = obj.offsetTop;
+	var parent = obj;
+
+	while((parent = parent.offsetParent) != null)
+		current += parent.offsetTop;
+
+	return current;
+}
+
+function hideGlossaryTerm(){
+	var glossary = document.getElementById("glossary");
+
+	glossary.style.display =  "none";
+}
+
+function selectTab(obj){
+	unselectTab(document.getElementById("tab1"));
+	unselectTab(document.getElementById("tab2"));
+	unselectTab(document.getElementById("tab3"));
+	obj.style.background = "url(interface/text_tab.png) no-repeat";
+	obj.style.color = skinColor;
+}
+
+function unselectTab(obj){
+	obj.style.background = "none";
+	obj.style.color = "white";
+}
+
+function passThruObjective(){
+	var str = location.href;
+	var index = str.indexOf("#Objective_");
+
+	if(index >= 0){
+		var frame = document.getElementById("contentFrame");
+
+		frame.src = frame.src + str.substring(index);
+	}
+}

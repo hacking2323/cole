@@ -1,0 +1,706 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0134)https://www.problemasyecuaciones.com/funciones/derivadas/reglas-derivacion-cadena-ejemplos-suma-resta-producto-cociente-derivadas.html -->
+<html xmlns="https://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+<!--K-->
+<meta name="viewport" content="width=device-width, initial-scale=1 ">
+<link rel="stylesheet" href="./derivada_files/pyesty.css" type="text/css">
+<link href="./derivada_files/css" rel="stylesheet">
+
+<script src="./derivada_files/f.txt"></script><script src="./derivada_files/osd.js.descarga"></script><script type="text/javascript" async="" src="./derivada_files/analytics.js.descarga"></script><script src="./derivada_files/f(1).txt"></script><script src="./derivada_files/f(2).txt" id="google_shimpl"></script><script type="teXt/javascript"> 
+function verMenu() { 
+var men = document.getElementById('hojaLAT');
+var mini = document.getElementById('minimenu');
+var barras = document.getElementsByClassName('minimenubarra');
+var i;
+
+
+switch(men.style.display) { 
+case 'block':
+
+	men.style.display = 'none'; 
+	mini.style.backgroundColor ="transparent";
+	for (i = 0; i < barras.length; i++) {
+    barras[i].style.backgroundColor ="white";
+	} 
+	break; 
+	
+
+	case 'none': 
+	men.style.display = 'block';  
+	mini.style.backgroundColor ="white";
+	for (i = 0; i < barras.length; i++) {
+    barras[i].style.backgroundColor ="rgba(30,4,138,1)";
+	} 	
+	
+	break; 	
+
+
+	
+default: 
+
+	men.style.display = 'block';  
+	mini.style.backgroundColor ="white";
+	for (i = 0; i < barras.length; i++) {
+    barras[i].style.backgroundColor ="rgba(30,4,138,1)";
+	} 	
+	
+	break; 	
+
+} 
+} 
+</script> 
+
+
+
+<meta name="robots" content="index/follow">
+
+<script src="./derivada_files/MathJax.js.descarga" id="">
+</script>
+<link rel="shortcut icon" href="https://elcoleencasa.000webhostapp.com/huajlaya.ico">
+
+
+
+
+
+<!--K-->
+
+<!-- goanaly -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./derivada_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-34239017-2');
+</script>
+
+<!--ENDgoanaly-->
+
+<!--show-->
+<script type="teXt/javascript"> 
+function desplegar(tabla) { 
+var tablA = document.getElementById(tabla); 
+
+switch(tablA.style.display) { 
+case "none": 
+tablA.style.display = "block";  
+break; 
+default: 
+tablA.style.display = "none";  
+break; 
+} 
+} 
+</script> 
+<!--Eshow-->
+
+<!--tex-->
+<script src="./derivada_files/MathJax.js.descarga" id="">
+</script>
+<!--Etex-->
+
+<!-- Cookies -->
+<link rel="stylesheet" type="text/css" href="./derivada_files/cookieconsent.min.css">
+<script src="./derivada_files/cookieconsent.min.js.descarga"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#3c404d",
+      "text": "#d6d6d6"
+    },
+    "button": {
+      "background": "#f7f78b",
+      "text": "#3c404d"
+    }
+  },
+ 
+  }
+})});
+</script>
+<!--ECookies-->
+
+
+
+
+
+
+
+	
+<title>Reglas de derivación y regla de la cadena</title>
+	
+<meta name="keywords" content="ejemplo, ejemplos, derivada, derivadas, regla, reglas, cadena, producto, cociente, suma, resta, funcion, funciones, calculo, diferencial, composicion">
+	
+<meta name="description" content="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas.">
+
+<link rel="preload" href="./derivada_files/f(3).txt" as="script"><script type="text/javascript" src="./derivada_files/f(3).txt"></script><link rel="preload" href="./derivada_files/f(4).txt" as="script"><script type="text/javascript" src="./derivada_files/f(4).txt"></script><style type="text/css">
+.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">
+#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">
+.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">
+.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">
+#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">
+.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style></style><style type="text/css">
+.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">
+.mjx-chtml {display: inline-block; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0}
+.MJXc-display {display: block; text-align: center; margin: 1em 0; padding: 0}
+.mjx-chtml[tabindex]:focus, body :focus .mjx-chtml[tabindex] {display: inline-table}
+.mjx-full-width {text-align: center; display: table-cell!important; width: 10000em}
+.mjx-math {display: inline-block; border-collapse: separate; border-spacing: 0}
+.mjx-math * {display: inline-block; -webkit-box-sizing: content-box!important; -moz-box-sizing: content-box!important; box-sizing: content-box!important; text-align: left}
+.mjx-numerator {display: block; text-align: center}
+.mjx-denominator {display: block; text-align: center}
+.MJXc-stacked {height: 0; position: relative}
+.MJXc-stacked > * {position: absolute}
+.MJXc-bevelled > * {display: inline-block}
+.mjx-stack {display: inline-block}
+.mjx-op {display: block}
+.mjx-under {display: table-cell}
+.mjx-over {display: block}
+.mjx-over > * {padding-left: 0px!important; padding-right: 0px!important}
+.mjx-under > * {padding-left: 0px!important; padding-right: 0px!important}
+.mjx-stack > .mjx-sup {display: block}
+.mjx-stack > .mjx-sub {display: block}
+.mjx-prestack > .mjx-presup {display: block}
+.mjx-prestack > .mjx-presub {display: block}
+.mjx-delim-h > .mjx-char {display: inline-block}
+.mjx-surd {vertical-align: top}
+.mjx-mphantom * {visibility: hidden}
+.mjx-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 2px 3px; font-style: normal; font-size: 90%}
+.mjx-annotation-xml {line-height: normal}
+.mjx-menclose > svg {fill: none; stroke: currentColor}
+.mjx-mtr {display: table-row}
+.mjx-mlabeledtr {display: table-row}
+.mjx-mtd {display: table-cell; text-align: center}
+.mjx-label {display: table-row}
+.mjx-box {display: inline-block}
+.mjx-block {display: block}
+.mjx-span {display: inline}
+.mjx-char {display: block; white-space: pre}
+.mjx-itable {display: inline-table; width: auto}
+.mjx-row {display: table-row}
+.mjx-cell {display: table-cell}
+.mjx-table {display: table; width: 100%}
+.mjx-line {display: block; height: 0}
+.mjx-strut {width: 0; padding-top: 1em}
+.mjx-vsize {width: 0}
+.MJXc-space1 {margin-left: .167em}
+.MJXc-space2 {margin-left: .222em}
+.MJXc-space3 {margin-left: .278em}
+.mjx-chartest {display: block; visibility: hidden; position: absolute; top: 0; line-height: normal; font-size: 500%}
+.mjx-chartest .mjx-char {display: inline}
+.mjx-chartest .mjx-box {padding-top: 1000px}
+.MJXc-processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MJXc-processed {display: none}
+.mjx-test {display: block; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow: hidden; height: 1px}
+.mjx-ex-box-test {position: absolute; width: 1px; height: 60ex}
+.mjx-line-box-test {display: table!important}
+.mjx-line-box-test span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+#MathJax_CHTML_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.mjx-chtml .mjx-noError {line-height: 1.2; vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+.MJXc-TeX-unknown-R {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: normal; font-weight: normal}
+.MJXc-TeX-unknown-I {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: italic; font-weight: normal}
+.MJXc-TeX-unknown-B {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: normal; font-weight: bold}
+.MJXc-TeX-unknown-BI {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: italic; font-weight: bold}
+.MJXc-TeX-ams-R {font-family: MJXc-TeX-ams-R,MJXc-TeX-ams-Rw}
+.MJXc-TeX-cal-B {font-family: MJXc-TeX-cal-B,MJXc-TeX-cal-Bx,MJXc-TeX-cal-Bw}
+.MJXc-TeX-frak-R {font-family: MJXc-TeX-frak-R,MJXc-TeX-frak-Rw}
+.MJXc-TeX-frak-B {font-family: MJXc-TeX-frak-B,MJXc-TeX-frak-Bx,MJXc-TeX-frak-Bw}
+.MJXc-TeX-math-BI {font-family: MJXc-TeX-math-BI,MJXc-TeX-math-BIx,MJXc-TeX-math-BIw}
+.MJXc-TeX-sans-R {font-family: MJXc-TeX-sans-R,MJXc-TeX-sans-Rw}
+.MJXc-TeX-sans-B {font-family: MJXc-TeX-sans-B,MJXc-TeX-sans-Bx,MJXc-TeX-sans-Bw}
+.MJXc-TeX-sans-I {font-family: MJXc-TeX-sans-I,MJXc-TeX-sans-Ix,MJXc-TeX-sans-Iw}
+.MJXc-TeX-script-R {font-family: MJXc-TeX-script-R,MJXc-TeX-script-Rw}
+.MJXc-TeX-type-R {font-family: MJXc-TeX-type-R,MJXc-TeX-type-Rw}
+.MJXc-TeX-cal-R {font-family: MJXc-TeX-cal-R,MJXc-TeX-cal-Rw}
+.MJXc-TeX-main-B {font-family: MJXc-TeX-main-B,MJXc-TeX-main-Bx,MJXc-TeX-main-Bw}
+.MJXc-TeX-main-I {font-family: MJXc-TeX-main-I,MJXc-TeX-main-Ix,MJXc-TeX-main-Iw}
+.MJXc-TeX-main-R {font-family: MJXc-TeX-main-R,MJXc-TeX-main-Rw}
+.MJXc-TeX-math-I {font-family: MJXc-TeX-math-I,MJXc-TeX-math-Ix,MJXc-TeX-math-Iw}
+.MJXc-TeX-size1-R {font-family: MJXc-TeX-size1-R,MJXc-TeX-size1-Rw}
+.MJXc-TeX-size2-R {font-family: MJXc-TeX-size2-R,MJXc-TeX-size2-Rw}
+.MJXc-TeX-size3-R {font-family: MJXc-TeX-size3-R,MJXc-TeX-size3-Rw}
+.MJXc-TeX-size4-R {font-family: MJXc-TeX-size4-R,MJXc-TeX-size4-Rw}
+@font-face {font-family: MJXc-TeX-ams-R; src: local('MathJax_AMS'), local('MathJax_AMS-Regular')}
+@font-face {font-family: MJXc-TeX-ams-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_AMS-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-cal-B; src: local('MathJax_Caligraphic Bold'), local('MathJax_Caligraphic-Bold')}
+@font-face {font-family: MJXc-TeX-cal-Bx; src: local('MathJax_Caligraphic'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-cal-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-frak-R; src: local('MathJax_Fraktur'), local('MathJax_Fraktur-Regular')}
+@font-face {font-family: MJXc-TeX-frak-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-frak-B; src: local('MathJax_Fraktur Bold'), local('MathJax_Fraktur-Bold')}
+@font-face {font-family: MJXc-TeX-frak-Bx; src: local('MathJax_Fraktur'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-frak-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-math-BI; src: local('MathJax_Math BoldItalic'), local('MathJax_Math-BoldItalic')}
+@font-face {font-family: MJXc-TeX-math-BIx; src: local('MathJax_Math'); font-weight: bold; font-style: italic}
+@font-face {font-family: MJXc-TeX-math-BIw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Math-BoldItalic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Math-BoldItalic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Math-BoldItalic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-sans-R; src: local('MathJax_SansSerif'), local('MathJax_SansSerif-Regular')}
+@font-face {font-family: MJXc-TeX-sans-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-sans-B; src: local('MathJax_SansSerif Bold'), local('MathJax_SansSerif-Bold')}
+@font-face {font-family: MJXc-TeX-sans-Bx; src: local('MathJax_SansSerif'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-sans-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-sans-I; src: local('MathJax_SansSerif Italic'), local('MathJax_SansSerif-Italic')}
+@font-face {font-family: MJXc-TeX-sans-Ix; src: local('MathJax_SansSerif'); font-style: italic}
+@font-face {font-family: MJXc-TeX-sans-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Italic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-script-R; src: local('MathJax_Script'), local('MathJax_Script-Regular')}
+@font-face {font-family: MJXc-TeX-script-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Script-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Script-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-type-R; src: local('MathJax_Typewriter'), local('MathJax_Typewriter-Regular')}
+@font-face {font-family: MJXc-TeX-type-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Typewriter-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Typewriter-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Typewriter-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-cal-R; src: local('MathJax_Caligraphic'), local('MathJax_Caligraphic-Regular')}
+@font-face {font-family: MJXc-TeX-cal-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-main-B; src: local('MathJax_Main Bold'), local('MathJax_Main-Bold')}
+@font-face {font-family: MJXc-TeX-main-Bx; src: local('MathJax_Main'); font-weight: bold}
+@font-face {font-family: MJXc-TeX-main-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-main-I; src: local('MathJax_Main Italic'), local('MathJax_Main-Italic')}
+@font-face {font-family: MJXc-TeX-main-Ix; src: local('MathJax_Main'); font-style: italic}
+@font-face {font-family: MJXc-TeX-main-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-main-R; src: local('MathJax_Main'), local('MathJax_Main-Regular')}
+@font-face {font-family: MJXc-TeX-main-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-math-I; src: local('MathJax_Math Italic'), local('MathJax_Math-Italic')}
+@font-face {font-family: MJXc-TeX-math-Ix; src: local('MathJax_Math'); font-style: italic}
+@font-face {font-family: MJXc-TeX-math-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size1-R; src: local('MathJax_Size1'), local('MathJax_Size1-Regular')}
+@font-face {font-family: MJXc-TeX-size1-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size2-R; src: local('MathJax_Size2'), local('MathJax_Size2-Regular')}
+@font-face {font-family: MJXc-TeX-size2-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size3-R; src: local('MathJax_Size3'), local('MathJax_Size3-Regular')}
+@font-face {font-family: MJXc-TeX-size3-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf') format('opentype')}
+@font-face {font-family: MJXc-TeX-size4-R; src: local('MathJax_Size4'), local('MathJax_Size4-Regular')}
+@font-face {font-family: MJXc-TeX-size4-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf') format('opentype')}
+.Estilo1 {
+	font-family: MJXc-TeX-ams-R, MJXc-TeX-ams-Rw;
+	font-style: italic;
+}
+.Estilo2 {
+	font-family: MJXc-TeX-ams-R, MJXc-TeX-ams-Rw;
+	font-style: italic;
+	font-weight: bold;
+	color: #FF0000;
+}
+</style></head>
+
+<body contenteditable="false"><div id="MathJax_Message" style="display: none;"></div><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-color-override--2088522006 cc-invisible" style="display: none;"><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message"><strong>Política de cookies:</strong> Las cookies de este sitio web se usan para personalizar el contenido y los anuncios, ofrecer funciones de redes sociales y analizar el tráfico. Además, compartimos información sobre el uso que haga del sitio web con nuestros partners de redes sociales, publicidad y análisis web, quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de sus servicios.  <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.google.com/intl/es/policies/privacy/partners/" target="_blank">Más información</a></span><div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">¡Entendido!</a></div><!--googleon: all--></div>
+
+<div id="barra"><a href="https://elcoleencasa.000webhostapp.com/6primaria_comunicacion.html"><img src="derivada_files/LOGO.png" alt="logo" width="308" height="52" border="0" longdesc="logo" /></a><a href="https://www.problemasyecuaciones.com/"> </a>
+  <div id="tit" style="text-decoration: none;"><a href="https://www.problemasyecuaciones.com/">
+		</a><h1>inicio</h1><a href="https://www.problemasyecuaciones.com/">
+	</a></div><a href="https://www.problemasyecuaciones.com/">	
+		
+		
+	</a></div><!--EBarra-->
+
+
+<div id="hoja2">
+	
+  <div class="hojatexto">
+	<h1 align="center" class="Estilo2">Reglas de derivación y regla de la cadena</h1>
+
+	
+    <p class="Estilo1">Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación.</p>
+		
+    <p class="Estilo1"><strong>Índice:</strong></p>
+		
+	<ol class="Estilo1">
+		<li>
+			Introducción	  </li>	
+		
+		<li>
+			Reglas de derivación	  </li>	
+		
+		<li>
+			Regla de la cadena	  </li>	
+	</ol>
+	   
+	<span class="Estilo1"><br>
+	</span>
+	<h2 align="left" class="Estilo1">1. Introducción</h2>
+				
+	  <p class="Estilo1">La función derivada de <span class="MathJax_CHTML mjx-box" id="MathJax-Element-1-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-1" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-2" class="mjx-mrow"><span id="MJXc-Node-3" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.469em; padding-right: 0.06em;">f</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi></math></span></span><script type="math/tex" id="MathJax-Element-1">f</script> es un límite:</p>
+		
+	  <p align="center" class="Estilo1">
+	  <img src="./derivada_files/T1.png" title="definición de derivada: f&#39;(x) es el límite de (f(x+h)-f(x))/h cuando h tiende a 0" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+	  <p class="Estilo1">Calcular la derivada de una función a partir del límite requiere un trabajo y tiempo innecesarios. </p>
+		
+	  <p class="Estilo1">Las reglas de derivación y la regla de la cadena permiten calcular derivadas sin necesidad de utilizar límites.</p>
+		<span class="Estilo1"><br>
+		</span>
+	  <p class="Estilo1">En adelante, para abreviar las reglas, escribiremos las funciones <span class="MathJax_CHTML mjx-box" id="MathJax-Element-2-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-4" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-5" class="mjx-mrow"><span id="MJXc-Node-6" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.469em; padding-right: 0.06em;">f</span></span><span id="MJXc-Node-7" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-8" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-9" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-2">f(x)</script> y sus derivadas <span class="MathJax_CHTML mjx-box" id="MathJax-Element-3-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msup&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo&gt;&amp;#x2032;&lt;/mo&gt;&lt;/msup&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-10" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-11" class="mjx-mrow"><span id="MJXc-Node-12" class="mjx-msup"><span class="mjx-base" style="margin-right: -0.06em;"><span id="MJXc-Node-13" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.469em; padding-right: 0.06em;">f</span></span></span><span class="mjx-sup" style="font-size: 70.7%; vertical-align: 0.513em; padding-left: 0.181em; padding-right: 0.071em;"><span id="MJXc-Node-14" class="mjx-mo" style=""><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.329em;">′</span></span></span></span><span id="MJXc-Node-15" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-16" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.282em;">x</span></span><span id="MJXc-Node-17" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-3">f'(x)</script> como <span class="MathJax_CHTML mjx-box" id="MathJax-Element-4-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-18" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-19" class="mjx-mrow"><span id="MJXc-Node-20" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.469em; padding-right: 0.06em;">f</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi></math></span></span><script type="math/tex" id="MathJax-Element-4">f</script> y <span class="MathJax_CHTML mjx-box" id="MathJax-Element-5-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msup&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo&gt;&amp;#x2032;&lt;/mo&gt;&lt;/msup&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-21" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-22" class="mjx-mrow"><span id="MJXc-Node-23" class="mjx-msup"><span class="mjx-base" style="margin-right: -0.06em;"><span id="MJXc-Node-24" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.469em; padding-right: 0.06em;">f</span></span></span><span class="mjx-sup" style="font-size: 70.7%; vertical-align: 0.513em; padding-left: 0.181em; padding-right: 0.071em;"><span id="MJXc-Node-25" class="mjx-mo" style=""><span class="mjx-char " style="padding-top: 0.282em; padding-bottom: 0.329em;">′</span></span></span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>f</mi><mo>′</mo></msup></math></span></span><script type="math/tex" id="MathJax-Element-5">f'</script>, respectivamente.</p>
+		
+	  <p class="Estilo1">Asumimos que conocemos las derivadas elementales (las de la <a href="derivada_files/tabla-derivadas.pdf">tabla</a>).</p>
+		
+	
+	    <span class="Estilo1"><br>	
+	    </span>
+    <h2 align="left" class="Estilo1">2. Reglas de derivación</h2><p align="center" class="Estilo1">
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+		</script></p>
+		
+	  <p class="Estilo1">Las reglas de derivación son las derivadas de la suma, resta, producto y cociente de funciones:</p>
+		
+	  <p align="center" class="Estilo1">
+	  <img src="./derivada_files/T2.png" title="reglas de derivación (derivada de la suma, de la resta, del producto y del cociente de funciones)" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+	  <p class="Estilo1">Además, si <span class="MathJax_CHTML mjx-box" id="MathJax-Element-6-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-26" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-27" class="mjx-mrow"><span id="MJXc-Node-28" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.282em; padding-right: 0.04em;">K</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>K</mi></math></span></span><script type="math/tex" id="MathJax-Element-6">K</script> es una constante, entonces</p>
+		
+	  <p align="center" class="Estilo1">
+	  <img src="./derivada_files/T3.png" title="derivada de una constante K por una función f: (K·f)&#39; = K·f&#39;" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		
+		
+	    <span class="Estilo1">
+	    <!--PEEjm1-->
+	    </span>
+    <div class="PE Estilo1">
+		
+		<h3 align="left">Ejemplo 1</h3>
+		
+		<p align="center">
+		<img src="./derivada_files/T4.png" title="f(x) = x^2 + ln(x)" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		
+		<p>Aplicamos la regla de la suma:</p>
+		
+		<p align="center">
+		<img src="./derivada_files/T5.png" title="la derivada de f(x) = x^2 + ln(x) es f&#39;(x) = 2x + 1/x" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+	</div>
+    <span class="Estilo1">
+	<!--endPEEjem1-->	
+	<br>
+			
+		
+	<!--PEEjm1-->
+	</span>
+	<div class="PE Estilo1">
+		
+		<h3 align="left">Ejemplo 2</h3>
+		
+		<p align="center">
+		<img src="./derivada_files/T6.png" title="f(x) = x^2·ln(x)" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		
+		<p>Aplicamos la regla del producto:</p>
+		
+		<p align="center">
+		<img src="./derivada_files/T7.png" title="la derivada de f(x) = x^2·ln(x) es f&#39;(x) = 2x·ln(x) + x" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+	</div>
+	<span class="Estilo1">
+	<!--endPEEjem1-->	
+	<br>
+			
+		
+	<!--PEEjm1-->
+	</span>
+	<div class="PE Estilo1">
+		
+		<h3 align="left">Ejemplo 3</h3>
+		
+		<p align="center">
+		<img src="./derivada_files/T8.png" title="f(x) = x^2/ln(x)" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		
+		<p>Aplicamos la regla del cociente:</p>
+		
+		<p align="center">
+		<img src="./derivada_files/T9.png" title="la derivada de f(x) = x^2/ln(x) es f&#39;(x) = (2x·ln(x) - x)/(ln^2(x))" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+	</div>
+	<span class="Estilo1">
+	<!--endPEEjem1-->	
+		
+	<br>
+	</span>
+	<h2 align="left" class="Estilo1">3. Regla de la cadena</h2><p align="center" class="Estilo1">
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+		</script></p>
+	  <p class="Estilo1">La regla de la cadena sirve para derivar la composición de funciones. </p>
+		
+	  <p class="Estilo1">La derivada de la composición es</p>
+		
+	  <p align="center" class="Estilo1">
+	  <img src="./derivada_files/T13.png" title="regla de la cadena: (f(g))&#39; = f&#39;(g)·g&#39;" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+	  <p class="Estilo1">Es decir, </p>
+			
+	  <p align="center" class="Estilo1">
+	  <img src="./derivada_files/T14.png" title="regla de la cadena: (f(g(x)))&#39; = f&#39;(g(x))·g&#39;(x)" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+			
+		
+		
+		
+	    <span class="Estilo1">
+	    <!--PEEjm1-->
+	    </span>
+    <div class="PE Estilo1">
+		
+		<h3 align="left">Ejemplo 1</h3>
+		
+		<p>Sea la función</p>
+		
+		<p align="center">
+		<img src="./derivada_files/T10.png" title="f(x) = (1+x)^2" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		<p>Es composición de las siguientes funciones:</p>
+		
+		<p align="center">
+		<img src="./derivada_files/T11.png" title="p(x)=x^2, q(x)=1+x" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		<p>ya que</p>
+		
+		<p align="center">
+		<img src="./derivada_files/T12.png" title="f(x) = p(q(x))" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		<p>O, equivalentemente, <span class="MathJax_CHTML mjx-box" id="MathJax-Element-7-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;q&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-29" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-30" class="mjx-mrow"><span id="MJXc-Node-31" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.469em; padding-right: 0.06em;">f</span></span><span id="MJXc-Node-32" class="mjx-mo MJXc-space3"><span class="mjx-char " style="padding-top: 0.096em; padding-bottom: 0.329em;">=</span></span><span id="MJXc-Node-33" class="mjx-mi MJXc-space3"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.469em;">p</span></span><span id="MJXc-Node-34" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">(</span></span><span id="MJXc-Node-35" class="mjx-mi"><span class="mjx-char " style="padding-top: 0.236em; padding-bottom: 0.469em; padding-right: 0.014em;">q</span></span><span id="MJXc-Node-36" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">)</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi><mo>=</mo><mi>p</mi><mo stretchy="false">(</mo><mi>q</mi><mo stretchy="false">)</mo></math></span></span><script type="math/tex" id="MathJax-Element-7">f=p(q)</script>.</p>
+		
+		<p>Las derivadas son </p>
+		
+		<p align="center">
+		<img src="./derivada_files/T12A.png" title="p&#39;(x)=2x, q&#39;(x)=1" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		<p>Por tanto, por la regla de la cadena, </p>
+		
+		<p align="center">
+		<img src="./derivada_files/T12B.png" title="la derivada de f(x) = (1+x)^2 es f&#39;(x) = 2·(1+x)·1" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+	</div>
+    <span class="Estilo1">
+	<!--endPEEjem1-->	
+	<br>
+		
+	<!--PEEjm1-->
+	</span>
+	<div class="PE Estilo1">
+		
+		<h3 align="left">Ejemplo 2</h3>
+		
+		
+		<p align="center">
+		<img src="./derivada_files/T15.png" title="f(x) = (1+3x)^2" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		<p>Aplicando la regla de la cadena, la derivada es la derivada del cuadrado por la derivada del paréntesis:</p>
+		
+		<p align="center">
+		<img src="./derivada_files/T16.png" title="la derivada de f(x) = (1+3x)^2 es f&#39;(x)=18x+6" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+	</div>
+	<span class="Estilo1">
+	<!--endPEEjem1-->	
+	<br>
+		
+		
+		
+		
+	<!--PEEjm1-->
+	</span>
+	<div class="PE Estilo1">
+		
+		<h3 align="left">Ejemplo 3</h3>
+		
+		
+		<p align="center">
+		<img src="./derivada_files/T17.png" title="f(x) = (1+2x)/((3x-1)^2)" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		<p>Tenemos que aplicar la regla del cociente y de la cadena (para el cuadrado):</p>
+		
+		<p align="center">
+		<img src="./derivada_files/T18.png" title="calculamos la derivada de f(x) = (1+2x)/((3x-1)^2)" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		<p>Simplificamos:</p>
+		
+		<p align="center">
+		<img src="./derivada_files/T19.png" title="la derivada de f(x) = (1+2x)/((3x-1)^2) es f&#39;(x) = -2(3x+4)/((3x-1)^3)" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+	</div>
+	<span class="Estilo1">
+	<!--endPEEjem1-->	
+	<br>
+		
+		
+		
+		
+	<!--PEEjm1-->
+	</span>
+	<div class="PE Estilo1">
+		
+		<h3 align="left">Ejemplo 4</h3>
+		
+		
+		<p align="center">
+		<img src="./derivada_files/T20.png" title="f(x) = raíz(1+x^3)" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		<p>Si es necesario, se puede escribir la raíz como una potencia con exponente <span class="MathJax_CHTML mjx-box" id="MathJax-Element-8-Frame" style="font-size: 103%; position: relative;; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo&gt;/&lt;/mo&gt;&lt;/mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/math&gt;" role="presentation"><span id="MJXc-Node-37" class="mjx-math" aria-hidden="true"><span id="MJXc-Node-38" class="mjx-mrow"><span id="MJXc-Node-39" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">1</span></span><span id="MJXc-Node-40" class="mjx-texatom"><span id="MJXc-Node-41" class="mjx-mrow"><span id="MJXc-Node-42" class="mjx-mo"><span class="mjx-char " style="padding-top: 0.469em; padding-bottom: 0.609em;">/</span></span></span></span><span id="MJXc-Node-43" class="mjx-mn"><span class="mjx-char " style="padding-top: 0.376em; padding-bottom: 0.329em;">2</span></span></span></span><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mrow class="MJX-TeXAtom-ORD"><mo>/</mo></mrow><mn>2</mn></math></span></span><script type="math/tex" id="MathJax-Element-8">1/2</script>.</p>
+		
+		<p>Aplicando la regla de la cadena,</p>
+		
+		<p align="center">
+		<img src="./derivada_files/T21.png" title="la derivada de f(x) = raíz(1+x^3) es f&#39;(x) = 3x^2/(2·raíz(1+x^3))" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+	</div>
+	<span class="Estilo1">
+	<!--endPEEjem1-->	
+	<br>	
+		
+		
+		
+		
+	<!--PEEjm1-->
+	</span>
+	<div class="PE Estilo1">
+		
+		<h3 align="left">Ejemplo 5</h3>
+		
+		<p align="center">
+		<img src="./derivada_files/T22.png" title="f(x) = ln(1 + raíz(1 + 3x))" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		
+		<p>Aplicando la regla de la cadena, </p>
+		
+		<p align="center">
+		<img src="./derivada_files/T23.png" title="la derivada de la función f(x) = ln(1 + raíz(1 + 3x)) es f&#39;(x) = 3/(2 + 6x + 2·raíz(1 + 3x))" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+	</div>
+	<span class="Estilo1">
+	<!--endPEEjem1-->	
+	<br>	
+		
+		
+		
+		
+		
+	<!--PEEjm1-->
+	</span>
+	<div class="PE Estilo1">
+		
+		<h3 align="left">Ejemplo 6</h3>
+		
+		
+		<p align="center">
+		<img src="./derivada_files/T24.png" title="f(x) = ln(sin(x)/raíz(1 + 5x))" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		<p>Por las propiedades de los logaritmos,</p>
+		
+		<p align="center">
+		<img src="./derivada_files/T25.png" title="f(x) = ln(sin(x)) - ln(1 + 5x)/2" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+		
+		<p>Por tanto, </p>
+		
+		<p align="center">
+		<img src="./derivada_files/T26.png" title="la derivada de f(x) = ln(sin(x)) - ln(1 + 5x)/2 es f&#39;(x) = cot(x) - 5/(2(1 + 5x))" alt="Enunciamos las reglas de derivación y de la cadena y proporcionamos algunos ejemplos de su aplicación. Derivadas. Cálculo diferencial. Matemáticas."></p>
+	</div>
+	<span class="Estilo1">
+	<!--endPEEjem1-->	
+	<br>
+	<br>	
+	<br>
+	<br>
+	</span></div>
+	<span class="Estilo1">
+	<!--EHojatext-->
+    </span></div>
+<span class="Estilo1">
+<!--EHoja2-->
+
+
+
+
+
+<br>
+</span>
+<!--ELAT-->
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"><ins id="aswift_3_expand" style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><ins id="aswift_3_anchor" style="display:block;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;">
+<iframe id="aswift_3" name="aswift_3" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" src="./derivada_files/ads.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!3" data-load-complete="true"></iframe></ins></ins></ins><iframe id="google_osd_static_frame_1295622697763" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./derivada_files/saved_resource.html"></iframe></body>
+<iframe id="google_esf" name="google_esf" src="./derivada_files/zrt_lookup.html" data-ad-client="ca-pub-3309204359100394" style="display: none;"></iframe></html>

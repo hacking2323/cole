@@ -1,0 +1,390 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	
+	font-family: 'Alegreya Sans', sans-serif;
+ 	background-color:white;
+	text-align:center;
+	color:#000000;
+	margin:0px;
+	padding:0px;
+	
+	
+	}
+.respuesta
+	{
+		width: 100%;
+		height: auto;
+		background-color: transparent;
+		padding: 0px;
+		margin: auto;
+	}
+
+.tablaXcenter
+{
+	max-width: 230px;
+	width: auto;
+	height: auto;
+	margin: auto;
+	align-content: center;
+	display: block;
+	border: none;
+	background-color: transparent;
+	padding: 0px;
+}
+#barra{
+	width:100%;
+	height:50px;
+	background-color:rgba(30,4,138,0.8);
+	text-align:center;
+	border:0px;
+	margin:0px;
+	
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:0px;
+	padding-right:0px;
+	position: fixed;
+	
+	
+	}
+#tit
+	{
+		color: white;
+		margin: auto;
+		height: auto;
+		
+	}
+#tit h1
+	{
+		margin-top:5px;
+		color: white;
+		
+}
+
+#minimenu	
+	{
+		float: left;
+		margin-top: 2px;
+		padding: 5px;
+		margin-left: 25px;
+		width: 35px;
+		height: auto;
+		border: none;
+		border-radius: 5px;
+		
+	}
+
+.minimenubarra
+	{
+		width: 35px;
+		height: 3px;
+		background-color: white;
+		margin: 6px 0;
+		
+	}
+
+
+
+#hoja2
+	{
+	background-color:#FFFFFF;
+	
+	color:#000000;
+	margin-top:60px;
+	height:auto;
+	font-size: 1.3em;
+	border-top:0px;
+	border-bottom:none;
+	text-align:justify; 
+	
+	
+	}
+
+.hojatexto h1, h2, h3, h4
+{
+	color: rgba(30,4,138,1.00);
+}
+
+.hojatexto a
+{
+	color: rgba(30,4,138,1.00);
+	text-decoration: none;
+}
+.hojatexto a:visited
+{
+	color: rgba(30,4,138,1.00);
+	text-decoration: none;
+}
+
+
+.PE h2
+	{
+		color: rgba(30,4,138,0.8);
+	}
+
+.BPE{
+	width: auto;
+	max-width: 130px;
+	height:auto;
+	background-color:rgba(30,4,138,0.7);
+	text-align:center;
+	color: white;
+	border: 1px solid white;
+	padding: 5px;
+	margin: auto;
+	font-weight: bold;
+	
+	
+	}
+.BPE:hover{
+	width: auto;
+	max-width: 130px;
+	height:auto;
+	background-color:white;
+	text-align:center;
+	color: rgba(30,4,138,0.7);
+	border: 1px solid rgba(30,4,138,0.7);
+	padding: 5px;
+	margin: auto;
+	font-weight: bold;
+	
+	}
+.boton
+	{
+		width: 100%;
+		height: auto;
+		background-color:rgb(155, 131, 251);
+		margin: 0px;
+		padding: 5px;
+		color:white;
+		border-left: 1px solid rgb(155, 131, 251);
+		border-right: 1px solid rgb(155, 131, 251);
+		border-top: 1px solid white;
+		border-bottom: 2px solid white;
+	}
+.boton2
+	{
+		width: 100%;
+		height: 100%;
+		padding: 0px;
+		background-color: transparent;
+		border:none;
+		margin:0px;
+	
+	}
+.hojatexto hr
+	{
+		color:rgba(30,4,138,1);
+		background-color:rgba(30,4,138,1);
+		height: 1px;
+	}
+.boton:hover
+	{
+		width: 100%;
+		height: auto;
+		background-color: white;
+		color:rgb(155, 131, 251);
+		border: 1px solid rgb(155, 131, 251);
+	}
+.boton a:visited, a:active
+	{
+		
+		
+		color:white;
+		text-decoration: none;
+	}
+.boton a 
+	{
+		
+		
+		color:white;
+		text-decoration: none;
+	}
+.boton:hover a:visited, a:active
+	{
+		text-decoration: none;
+		color:rgba(30,4,138,1);
+	}
+.boton:hover a
+	{
+		text-decoration: none;
+		color:rgba(30,4,138,1);
+	}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+@media only screen and (min-width: 936px)
+{
+	#minimenu	
+	{
+		display: none;
+		
+	}
+	
+	.hojatexto	
+	{
+		width:90%;
+		text-align:justify;
+		margin:auto;
+		font-weight:normal;
+	}
+	
+	#hoja2
+	{
+		
+		margin-top:60px;
+		width: 60%;
+		float: left;
+		/*box-shadow: 0px 1px 2px rgba(30,4,138,1.00);*/
+		margin-left: 8%;
+		border-right: 2px solid rgba(30,4,138,0.8);
+		border-top:none;
+		border-left: none;
+		border-bottom: none;
+		padding: 3px;
+		
+	}
+	
+	.PE
+	{
+		width: 95%;
+
+		height:auto;
+		background-color:white;
+		text-align:justify;
+		color: black;
+		border: 2px solid rgba(30,4,138,0.3);
+		padding: 8px;
+		margin: auto;
+		font-weight: normal;
+	}
+	
+	#hojaLAT
+	{
+		margin-top:60px;
+		
+		width: 28%;
+		float: left;
+		/*box-shadow: 0px 1px 2px rgba(30,4,138,1.00);*/
+		margin-left: 1%;
+		display: block;
+		padding: 3px;
+		height: auto;
+		border:none;
+	
+	}
+	
+	#hojaLATinner
+	{
+		background-color: transparent;
+	}
+	#tit
+	{
+		
+		margin: auto;
+		height: auto;
+		width: auto;
+		text-align: center;
+	}
+	#tit h1::after
+	{
+		content: "Problemas y Ecuaciones";
+	}
+	
+}
+@media only screen and (max-width: 935px)
+{
+	#minimenu	
+	{
+		display: block;
+	}
+	
+	
+	#hoja2
+	{
+		width:100%;
+		margin-top:60px;
+		text-align: center;
+		float: left;
+		padding: 0px;
+		margin-left: 0px;
+		margin-right: 0px;	
+	}
+	
+	.hojatexto	
+	{
+		width:98%;
+		text-align:justify;
+		margin:auto;
+		font-weight:normal;
+	}
+	
+	.PE
+	{
+		width: 98%;
+
+		height:auto;
+		background-color:white;
+		text-align:justify;
+		color: black;
+		border: 2px solid rgba(30,4,138,0.3);
+		padding: 3px;
+		margin: auto;
+		font-weight: normal;
+	}
+	
+	#tit
+	{
+		
+		float: left;
+		margin: auto;
+		height: auto;
+		width: auto;
+		margin-left: 30%;
+	}
+	#tit h1::after
+	{
+		content: "PyE";
+	}
+	#hojaLAT
+	{
+		display: none;
+		margin-left: none;
+    	margin-top: 55px;
+		position:fixed;
+		width: 95%;
+		height: 90%;
+		
+		
+	}
+	
+	#hojaLATinner
+	{
+		overflow-y: scroll;
+		height: 100%;
+		overflow-x: hidden;
+	
+	
+	}
+	
+	
+}

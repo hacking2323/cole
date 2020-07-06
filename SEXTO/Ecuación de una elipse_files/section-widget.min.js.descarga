@@ -1,0 +1,2 @@
+/*! Section Widget 13-08-2013 */
+jQuery(document).ready(function(a){a(".swt-wrapper").tabs(),a(".swt-height-fix").each(function(b,c){var d=a(c).css("display"),e=a(c).css("display","inline-block").height();a(c).css("display",d).height(e)})});

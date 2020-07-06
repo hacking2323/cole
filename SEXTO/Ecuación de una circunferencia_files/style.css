@@ -1,0 +1,1124 @@
+/*
+	Theme Name: Hueman Pro Child
+	Theme URI: http://alxmedia.se/themes/hueman/
+	Description: Sample child theme for customization.
+	Author: You
+	Author URI: 
+	Template: hueman-pro
+	Version: 1.0.0
+*/
+
+@import url("../hueman-pro/style.css");
+
+/* ------------------------------------------------------------------------- *
+ *  Theme customization starts here
+/* ------------------------------------------------------------------------- */
+
+/* Global */
+
+.mystyle {}
+
+body {color:#000;}
+
+/*********************************************************/
+/******** Responsive Tablets and mobile  ********/
+/*********************************************************/
+
+/* Tablet - 800px, 768px & 720px */
+
+@media only screen and (min-width: 720px) and (max-width: 800px) {
+	.mystyle {}
+}
+
+/* Mobile - 480px & 320px */
+
+@media only screen and (max-width: 719px) {
+	.mystyle {}
+}
+
+/* Mobile - 320px */
+
+@media only screen and (max-width: 479px) {
+	.mystyle {}
+}
+
+/*********************************************************/
+/******** Titulos ********/
+/*********************************************************/
+
+h1 {
+	font-size:2.9em;
+    color: #003C77;
+	text-transform: uppercase;
+	text-align:center;
+	font-weight:900;
+	line-height: 120%;
+	}
+
+h2 {
+    font-size: 1.6em;
+	color: #F60;
+	margin-left: 10px;
+	line-height: 120%;	
+	}
+
+h3 {
+  	font-size:1.3em;
+	color: #A52A2A;	
+	margin-left: 13px;
+	line-height: 120%;
+	}
+
+h4 {
+  	font-size: 1.1em;
+	color: #A85418;
+	margin-left: 16px;
+	line-height: 120%;
+	}
+
+h5 {
+    font-size: 1em;
+	color: #C90;
+	margin-left: 20px;
+	line-height: 120%;
+	}
+
+.post-title {
+	font-size:2em;
+    color: #003C77;
+	text-transform: uppercase;
+	text-align:center;
+	}
+
+/*********************************************************/
+/******** Formatos generales ********/
+/*********************************************************/
+
+p {
+	text-indent: 30px;
+	text-align: justify;
+	line-height: 150%;
+	}
+
+/*********************************************************/
+/******** No mostrar el autor y la fecha de cada post. Ni etiquetas. Ni related posts ********/
+/*********************************************************/	
+	
+.post-byline {
+	display: none;
+}	
+
+.post-tags {
+	display: none;
+}
+
+.related-posts {
+	display: none;
+}
+
+/*********************************************************/
+/******** No mostrar la imagen principal ni el título en las páginas ********/
+/*********************************************************/	
+	
+.page-image {
+	display: none;
+}
+
+.page-title {
+	display: none;
+}
+	
+/*********************************************************/
+/******** Menu principal header ********/
+/*********************************************************/
+
+.nav { 
+	font-weight: 700;
+}
+
+.nav-wrap container {
+	font-weight: 700;
+	color:#FFF;
+}
+
+.menu-item,
+#menu-principal,
+.nav container-inner group {
+	color:#FFF; 
+}
+
+ul#menu-principal.nav.container-inner.group {
+	padding-left: 0px;	
+}
+
+
+/*********************************************************/
+/******** Siguenos header ********/
+/*********************************************************/	
+
+	.sidebar-top.group {	
+		background-color: #FF7111; 
+	}
+	
+	ul.social-links .fa-facebook {
+		color: #3b5998;
+	}
+	
+	ul.social-links .fa-twitter {
+		color: #4099FF;
+	}
+	
+	ul.social-links .fa-google-plus {
+		color: #DB4A37;
+	}
+	
+	ul.social-links .fa-rss {
+		color: #F7CB38;
+	}
+
+/*********************************************************/
+/******** Barra lateral S1 color ********/
+/*********************************************************/	
+
+	div.sidebar.s1 {
+	background-color: #F8F8F8;
+	}
+
+/*********************************************************/
+/******** Publicidad Responsive Header derecha ********/
+/*********************************************************/
+
+@media (min-width: 1426px) and (max-width: 3000px){.ads-header-all{width:971px;float:right;margin-right:-30px;margin-top:0;display:block}}
+@media (min-width: 1200px) and (max-width: 1425px){.ads-header-all{width:728px;float:right;margin-right:-30px;margin-top:0;display:block}}
+@media (min-width: 930px) and (max-width: 1199px){.ads-header-all{width:468px;margin-top:10px;float:right;margin-right:-30px;display:block}}
+@media (min-width: 740px) and (max-width: 929px){.ads-header-all{width:320px;margin-top:20px;float:right;margin-right:-30px;display:block}}
+@media (min-width: 720px) and (max-width: 739px){.ads-header-all{width:234px;margin-top:20px;float:right;margin-right:-30px;display:block}}
+@media (min-width: 575px) and (max-width: 719px){.ads-header-all{width:468px;margin:0 auto;float:none;margin-bottom:10px;margin-top:20px;display:block}}
+@media (min-width: 355px) and (max-width: 574px){.ads-header-all{width:320px;margin:0 auto;float:none;margin-bottom:10px;margin-top:20px;display:block}}
+@media (min-width: 200px) and (max-width: 354px){.ads-header-all{width:234px;margin:0 auto;float:none;margin-bottom:10px;margin-top:20px;display:block}}
+@media (max-width: 199px) {.ads-header-all{display:none}}
+
+#header #nav-mobile {
+    background-color: #013d7b;
+}
+
+/*********************************************************/
+/******** Publicidad - Eliminar fondo amarillo ********/
+/*********************************************************/
+
+    ins { background: none!important; text-decoration: none;}
+	
+/*********************************************************/
+/******** Espacio del título de comentarios ********/
+/*********************************************************/	
+	
+.heading {
+	margin-top: 10px;
+}	
+
+/*********************************************************/
+/******** Widgets de los laterales S1 y S2 ********/
+/*********************************************************/	
+
+a.ui-tabs-anchor {font-weight:500; color: #004891;}
+
+.widget > h3 { 
+	font-size: 15px;
+	font-weight:500; 
+	color: #004891;
+	margin-left: 0px;
+}
+
+.tab-item-category,
+.tab-item-title,
+p.post-category,
+p.post-item-title {
+	text-indent: 0px;
+}
+
+/*********************************************************/
+/******** Enlaces ********/
+/*********************************************************/
+
+ a.titulo-h2:link {text-decoration: none; color:#F60;}
+a.titulo-h2:visited {text-decoration: none; color:#F60;}
+a.titulo-h2:active {text-decoration: none; color:#F60;}
+a.titulo-h2:hover {text-decoration: underline; color:#F60;}
+
+a.titulo-h3:link {text-decoration: none; color:#A52A2A;}
+a.titulo-h3:visited {text-decoration: none; color:#A52A2A;}
+a.titulo-h3:active {text-decoration: none; color:#A52A2A;}
+a.titulo-h3:hover {text-decoration: underline; color:#A52A2A;}
+
+a.titulo-h4:link {text-decoration: none; color:#A85418;}
+a.titulo-h4:visited {text-decoration: none; color:#A85418;}
+a.titulo-h4:active {text-decoration: none; color:#A85418;}
+a.titulo-h4:hover {text-decoration: underline; color:#A85418;}
+
+a.titulo-h5:link {text-decoration: none; color:#C90;}
+a.titulo-h5:visited {text-decoration: none; color:#C90;}
+a.titulo-h5:active {text-decoration: none; color:#C90;}
+a.titulo-h5:hover {text-decoration: underline; color:#C90;}
+
+a.vin_int:link {text-decoration: none; color:#06C;}
+a.vin_int:visited {text-decoration: none; color:#06C;}
+a.vin_int:active {text-decoration: none; color:#06C;}
+a.vin_int:hover {text-decoration: underline; color:#06C;}
+
+a.func-excel:link {text-decoration: none; color: #0059B3;}
+a.func-excel:visited {text-decoration: none; color:#0059B3;}
+a.func-excel:active {text-decoration: none; color:#0059B3;}
+a.func-excel:hover {text-decoration: underline; color:#0059B3;}
+
+a.sumario:link {text-decoration: none; color: #FF6600;}
+a.sumario:visited {text-decoration: none; color:#FF6600;}
+a.sumario:active {text-decoration: none; color:#FF6600;}
+a.sumario:hover {text-decoration: underline; color:#FF6600;}
+a.sumario {
+	font-weight: 500;
+}
+
+a.sumario-proximamente:link {text-decoration: none;	color: #9F4000;}
+a.sumario-proximamente:visited {text-decoration: none; color:#9F4000;}
+a.sumario-proximamente:active {text-decoration: none; color:#9F4000;}
+a.sumario-proximamente:hover {text-decoration: underline; color:#9F4000;}
+a.sumario-proximamente {
+	font-weight:500;
+}
+
+a.cabe:link {text-decoration: none; color:#000;}
+a.cabe:visited {text-decoration: none; color:#000;}
+a.cabe:active {text-decoration: none; color:#000;}
+a.cabe:hover {text-decoration: underline; color:#000;}
+
+/*********************************************************/
+/******** Formato de las listas ********/
+/*********************************************************/
+
+ul {padding-left:25px;}
+ol {padding-left:25px;}
+
+/*********************************************************/
+/******** Formato en los comentarios ********/
+/*********************************************************/
+
+.commentlist .comment-body p {
+	text-indent: 0px;
+}
+
+/*********************************************************/
+/******** Formato de los menus laterales de sumario ********/
+/*********************************************************/
+
+ul.sumario{font-size:15px; list-style-position: outside; padding-left:20px; *margin-left:0px; list-style-type:circle;}
+ol.sumario {
+	color: #000000;
+	list-style-type: decimal;
+}
+
+ol.sumario li{text-align:left;}
+ol.sumario ul ul li{ list-style-type:disc;}
+ol.sumario ul ul ul li{ list-style-type:circle;}
+ol.sumario ul ul ul ul li{ list-style-type:disc;}
+
+ul.ui-tabs-nav {
+	padding-left: 0px;
+}
+
+/*********************************************************/
+/******** Eliminar fecha del related posts ********/
+/*********************************************************/
+
+.post-date { display: none; }
+
+/*********************************************************/
+/******** Titulo Alx Tab alineado izquierda ********/
+/*********************************************************/
+
+.tab-item-title {text-align:left;}
+
+/*****************************************************/
+/***************** Formatos del Indice ***************/
+/*****************************************************/
+
+/*************** Parrafos informativos ***************/
+
+p.index {
+	text-indent: 0px;
+	text-align: justify;
+	line-height: 110%;
+	font-size: 0.95em;
+	margin-top:5px; 
+	margin-bottom:5px;
+	}
+	
+/*  common : notebox
+
+/************ Buscador de Unirvero Formulas ***********/
+
+.notebox2 {
+	background: #FFDBC4;
+	position: relative;
+	padding: 12px 12px;
+	color: #6A3500;
+	border: 2px solid #913900;
+}
+.notebox2:before { content:''; display: inline-block; border-left: 8px solid transparent; border-right: 0px solid transparent; border-bottom: 8px solid #6A3500; position: absolute; top: 0px; left: 13px; }
+.notebox2:after { content:''; display: inline-block; border-left: 6px solid transparent; border-right: 0px solid transparent; border-bottom: 6px solid #6A3500; position: absolute; top: 0px; left: 15px; }
+.notebox2 span { font-weight: 600; }
+.notebox2 .search-again { margin-top: 10px; }
+.notebox2 input[type="text"] { width: 100%; }
+
+/*************** Quitar featured, imagen destacada del index ***************/
+
+.featured {
+	display: none;
+}
+
+
+/*****************************************************/
+/************* Titulos de las paginas (como el Error 404) ***********/
+/*****************************************************/
+
+.page-title {
+	line-height: 40px;
+}
+
+
+/*********************************************************/
+/******** Quitar Related posts ********/
+/*********************************************************/
+
+#pro-related-posts-wrapper.loaded {
+	display: none;	
+}
+
+
+/*****************************************************/
+/***************** Estadistica Descriptiva ***********/
+/*****************************************************/
+
+/* Formato de la tabla del variables estadisticas */
+
+table.var {
+   	width: 100%;
+	border: 3px solid #002B55;
+	font-size: 0.9em;
+}
+
+th.var, td.var {
+	text-align:center;
+	vertical-align: center;
+   	border: 3px solid #002B55;
+	padding: 0.2em;
+	background-color:#95CAFF;
+}
+
+th.var1, td.var1 {
+	text-align:center;
+	vertical-align: center;
+   	border: 3px solid #002B55;
+	padding: 0.2em;
+	background-color:#FFF;
+}
+
+th.var2, td.var2 {
+	text-align: justify;
+	vertical-align: center;
+   	border: 3px solid #002B55;
+	padding: 0.2em;
+	background-color:#FFF;
+}
+
+th.var3, td.var3 {
+	text-align: left;
+	vertical-align: center;
+   	border: 3px solid #002B55;
+	padding: 0.2em;
+	background-color:#FFF;
+	font-style:italic;
+}
+
+caption.var-tit {
+	text-align:center;
+	font-weight:700;
+   	border: 3px solid #002B55;
+	vertical-align: center;
+	padding: 0.2em;
+	background-color:#002B55;
+	color:#FFF;
+}
+
+/*****************************************************/
+/*************************** Excel *******************/
+/*****************************************************/
+
+/* Formato de la sintaxis de Excel */
+
+p.sintaxis{
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	font-family: Tahoma;
+	font-weight: 400;
+	text-indent: 0px;
+	text-align: center;
+	margin: 10px 0px;
+	padding: 5px;
+	background-color: #FFCEAE;
+	color: #000000;
+	border: 1px solid #003D7A;
+	border-radius: 2px 2px 2px 2px;
+	overflow: auto;
+	}
+
+/* Formato de las tablas de funciones */
+
+table.func {
+   	width: 100%;
+	border: 3px solid #002B55;
+	font-size: 0.9em;
+}
+
+caption.func-tit {
+	text-align:center;
+	font-weight:700;
+  	font-size: 120%;
+  	border: 3px solid #002B55;
+	vertical-align: center;
+	padding: 0.2em;
+	background-color:#002B55;
+	color:#FFF;
+}
+
+th.func, td.func {
+  	font-size: 110%;
+	vertical-align: center;
+	border: 3px solid #002B55;
+	padding: 0.2em;
+  	color:#000;
+	background-color: #9DCEFF;
+}
+
+th.func1, td.func1 {
+	text-align: center;
+	font-size: 100%;
+	font-weight:700;
+	vertical-align: center;
+	border: 3px solid #002B55;
+	padding: 0.2em;
+	background-color: #D5EAFF;
+}
+
+th.func2, td.func2 {
+	text-align: left;
+	font-size: 100%;
+	vertical-align: center;
+	border: 3px solid #002B55;
+	padding: 0.2em;
+	background-color:#FFF;
+}
+
+/*****************************************************/
+
+/*****************************************************/
+/***************** Unidades del angulo ***************/
+/*****************************************************/
+
+/* Formato de la tabla del variables estadisticas */
+
+table.ang {
+	border: 1px solid #843500;
+}
+
+th.ang, td.ang {
+	text-align: center;
+	vertical-align: center;
+	font-size: 90%;
+	border: 1px solid #843500;
+	padding: 0.2em;
+	background-color: #FFD0B0;
+	font-weight: 500;
+}
+
+/****************************************************/
+/************* Paginas principales (Matematicas, Estadistica, F?sica, Excel,...) **************/
+/*****************************************************/
+
+.entry table { font-size: 14px; margin-bottom: 0.5em; width: 100%; text-align: center; }
+
+.entry table tr.alt { background: #f1f1f1; }
+
+.entry table td { border-bottom: 0px solid #f1f1f1; text-align: center; padding: 0px; vertical-align: middle; }
+
+.entry table th { font-weight: 600; text-align: center; border-top: 0px solid #f1f1f1; border-bottom: 0px solid #f1f1f1; padding: 0px 0px; }
+
+table.aterri {
+   	width: 96%;
+	max-width: 96%;
+	border: 3px solid #93CE37;
+	margin-bottom:30px;
+}
+
+caption.aterri-tit {
+	font-size: 150%;
+	font-weight:bold;
+	text-align:center;
+    padding:15px;
+    color:#fff;
+    text-shadow:1px 1px 1px #568F23;
+    border:1px solid #93CE37;
+    border-bottom:3px solid #9ED929;
+    background-color:#9DD929;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(123,192,67)),
+        color-stop(0.51, rgb(139,198,66)),
+        color-stop(0.87, rgb(158,217,41))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(123,192,67) 2%,
+        rgb(139,198,66) 51%,
+        rgb(158,217,41) 87%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+th.aterri,td.aterri  {
+	text-align:left;
+	font-size: 110%;
+    padding:10px;
+    background-color:#DEF3CA;
+    border: 2px solid #E7EFE0;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+
+ol.aterriz {
+	font-size:100%;
+	list-style-type: decimal;
+	text-align:left;
+	margin: 20px;
+    padding: 5px;
+    border: 0px;
+}
+
+a.aterr-a:link {text-decoration: none;	color: #003C77;}
+a.aterr-a:visited {text-decoration: none; color: #003C77;}
+a.aterr-a:active {text-decoration: none; color: #003C77;}
+a.aterr-a:hover {text-decoration: underline; color: #003C77;}
+a.aterr-a {
+	font-weight:600;
+	font-size: 100%;
+}
+
+/****************************************************/
+/*************************** Mapa Web *******************/
+/*****************************************************/
+
+/* Formato de la tabla de las tablas del mapa web */
+
+table.sumario2 {
+   	width: 100%;
+	border: 3px solid #002B55;
+	font-size:100%;
+}
+
+caption.sumario2-tit {
+	text-align:center;
+	font-weight:700;
+   	border: 3px solid #002B55;
+	vertical-align: center;
+	padding: 0.2em;
+	background-color:#002B55;
+	color:#FFF;
+}
+
+th.sumario2, td.sumario2 {
+	text-align: center;
+	vertical-align: center;
+	border: 3px solid #002B55;
+	padding: 0.2em;
+	background-color: #FFFFFF;
+	font-weight:400;
+}
+
+/* Formato de los enlaces del mapa web */
+
+ul.sumario2{font-size:100%; list-style-position: outside; padding-left:20px; *margin-left:0px;}
+
+ol.sumario2 {
+	color: #000000;
+	font-weight:700;
+}
+
+ol.sumario2 li{text-align:left;}
+
+a.sumario2:link {text-decoration: none; color: #000000;}
+a.sumario2:visited {text-decoration: none; color:#000000;}
+a.sumario2:active {text-decoration: none; color:#000000;}
+a.sumario2:hover {text-decoration: underline; color:#000000}
+a.sumario2 {
+	font-weight:500;
+	font-size: 16px;
+}
+
+a.sumario2-tit:link {text-decoration: none; color: #FFFFFF;}
+a.sumario2-tit:visited {text-decoration: none; color:#FFFFFF;}
+a.sumario2-tit:active {text-decoration: none; color:#FFFFFF;}
+a.sumario2-tit:hover {text-decoration: underline; color:#FFFFFF}
+
+/****************************************************/
+/*********** Boton del Fancybox *******************/
+/*****************************************************/
+
+a.boton-fancy {
+	-moz-box-shadow: 0px 0px 0px 0px #276873;
+	-webkit-box-shadow: 0px 0px 0px 0px #276873;
+	box-shadow: 0px 0px 0px 0px #276873;
+	background-color:#599bb3;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:5px 10px;
+	text-decoration:none;
+}
+a.boton-fancy:hover {
+	background-color:#247582;
+}
+a.boton-fancy:active {
+	position:relative;
+	top:1px;
+}
+
+/*****************************************************/
+/*********** Sabias que DIV *******************/
+/*****************************************************/
+
+div.sabias-que {
+  	border: green 2px dashed;
+  	padding: 20px;
+	margin-bottom: 10px;
+}
+
+/****************************************************/
+/****************************************************/
+/*********** CALCULADORAS *******************/
+/*****************************************************/
+/****************************************************/
+
+
+/*********** Div calculadora *******************/
+/*****************************************************/
+
+#calculadora {
+    border: 2px solid #73AD21;
+	text-align:center;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+p#encabezado-calculadora {
+	text-align: center;
+	font-size: 20px;
+	font-weight:800;
+}
+
+#calculadora-contenedor {
+	background-color: rgba(220, 220, 220, 0.91);
+	border-radius: 10px;
+	padding: 20px;
+	display: inline-block;
+    margin-left:auto;
+    margin-right:auto;
+	}
+
+#resultado-calculadora {
+    border: 2px solid #73AD21;
+	text-align: center;	
+	background: #dff5d0;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	}
+
+/*********** Formulario calculadora *******************/
+/*****************************************************/
+
+h2#titulo-calculadora {
+	color: #B22222;
+	font-weight:900;
+	
+}
+
+#form .label {
+	font-size: 12pt;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#form .input, #form .select {
+font-size: 10pt;
+color: #333;
+border: 2px solid #A9A9A9;
+padding: 10px 10px 10px 10px;
+border-radius: 8px;
+	
+}
+
+#form .input:focus,#form .select:focus {
+border: 2px solid #00d1ff;
+}
+
+#form #boton {
+color: #fff;
+background-color: #449d44;
+border: #255625;
+padding: 10px 50px 10px 50px;
+margin-top: 10px;
+border-radius: 50px;	
+cursor: pointer;
+}  
+
+#form #boton:hover {
+border: #00d1ff;
+background-color: #ad4a53;
+}
+
+/*********** Tablas de la calculadora *******************/
+/*****************************************************/
+
+table.tab_calc {
+    border-collapse: collapse;
+	font-size: 16px;
+	margin: 20px auto;
+}
+
+table.tab_calc caption {
+	font-size: 18px;
+	font-weight:700;
+}
+
+table.tab_calc tr th, table.tab_calc tr td {
+    text-align: left;
+    padding: 8px;
+}
+
+table.tab_calc tr:nth-child(even){background-color: #f2f2f2}
+
+table.tab_calc tr th {
+    background-color: #449d44;
+    color: white;
+}
+
+/*********** Boton del contenido la calculadora *******************/
+/*****************************************************/
+
+a.boton-calculadora {
+	-moz-box-shadow: 0px 0px 0px 0px #276873;
+	-webkit-box-shadow: 0px 0px 0px 0px #276873;
+	box-shadow: 0px 0px 0px 0px #276873;
+	background-color:#599bb3;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 15px;
+	margin: 5px;
+	text-decoration:none;
+}
+a.boton-calculadora:hover {
+	background-color:#247582;
+}
+a.boton-calculadora:active {
+	position:relative;
+	top:1px;
+}
+
+a#boton {
+	display:inline-block;
+}
+
+/*********** FA Font Awesome *******************/
+/*****************************************************/
+
+.fa {
+	display: inline;
+}
+
+/*********** Botones de seguir en las redes sociales *******************/
+/*****************************************************/
+
+ul#seguir-redes {
+	margin: 0;	
+}
+
+ul#seguir-redes li {
+  text-align: center;
+  list-style: none;
+  display: inline-block;	
+  margin-bottom: 15px;
+}
+
+ul#seguir-redes li.siguenos {
+  color: #003C77;
+  font-size: 12px;
+  font-weight:600;
+  margin-right: 20px;
+  margin-bottom: 20px;
+	
+}
+
+ul#seguir-redes li a{
+  color: white;
+  font-weight:400;
+  margin-right: 13px;
+  margin-top: 7px;
+  padding: 7px 20px 7px 20px;
+  box-shadow: 1px 1px 4px #333;
+  border-radius: 5px;
+  }
+
+ul#seguir-redes li a.facebook{
+	background-color: #3a579a;
+}
+
+ul#seguir-redes li a.facebook:hover{
+	background-color: #1c2a4a;
+}
+
+ul#seguir-redes li a.twitter{
+	background-color: #00abf0;
+}
+
+ul#seguir-redes li a.twitter:hover{
+	background-color: #006e99;
+}
+
+ul#seguir-redes li a.google-plus{
+	background-color: #df4a32;
+}
+
+ul#seguir-redes li a.google-plus:hover{
+	background-color: #6e1e11;
+}
+
+/*********** Botón de cambio de idioma *******************/
+/*****************************************************/
+
+select#lista_idiomas {
+  color:  white;
+  font-weight:400;
+  margin-top: 5px;
+  margin-bottom:20px;"
+  padding: 5px 10px 5px 10px;
+  box-shadow: 1px 1px 4px #333;
+  border-radius: 10px;
+  background-color:  #9b59b6;
+}
+
+
+/*********** Botones de compartir en las redes sociales *******************/
+/*****************************************************/
+
+ul#social-compartir {
+	margin: 20px 0px 40px 0px;	
+}
+
+ul#social-compartir li {
+  text-align: center;
+  list-style: none;
+  display: inline;	
+	
+}	
+
+
+ul#social-compartir li a{
+  color: white;
+  font-weight:400;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 22px;
+  padding: 12px;
+  box-shadow: 1px 1px 4px #333;
+  border-radius: 24px;	
+}
+
+ul#social-compartir li a.facebook{
+	background-color: #3a579a;
+}
+
+ul#social-compartir li a.facebook:hover{
+	background-color: #1c2a4a;
+}
+
+ul#social-compartir li a.twitter{
+	background-color: #00abf0;
+}
+
+ul#social-compartir li a.twitter:hover{
+	background-color: #006e99;
+}
+
+ul#social-compartir li a.google-plus{
+	background-color: #df4a32;
+}
+
+ul#social-compartir li a.google-plus:hover{
+	background-color: #6e1e11;
+}
+	
+ul#social-compartir li a.pinterest{
+	background-color: #bd081c;
+}
+
+ul#social-compartir li a.pinterest:hover{
+	background-color: #7a0513;
+}
+
+/*****************************************************/
+/************* Footer ***********/
+/*****************************************************/
+
+p.footer-p {
+	text-indent: 0px;
+}
+
+/*****************************************************/
+/************* Pagination ***********/
+/*****************************************************/
+
+div.wp-pagenavi a.page.smaller,
+div.wp-pagenavi a.page.larger,
+div.wp-pagenavi span.extend {
+	display: none;
+}
+
+/*********************************************************/
+/******** Titulo de Publica tu comentario ********/
+/*********************************************************/
+
+#reply-title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*********************************************************/
+/******** Imágenes entre el contenido ********/
+/*********************************************************/
+
+img.intext {
+	vertical-align: middle;
+}
+
+/*****************************************************/
+/************* Aviso del bloqueador de anuncios ***********/
+/*****************************************************/
+
+.UFm_modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.UFm_modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;    
+    width: 80%;
+	max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: UFm_animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: UFm_animatetop;
+    animation-duration: 0.4s;
+	border-radius: 5px;
+}
+
+/* Add Animation */
+@-webkit-keyframes UFm_animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes UFm_animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.UFm_close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.UFm_close:hover,
+.UFm_close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.UFm_modal-header {
+    padding: 2px 16px;
+    background-color: #d30000;
+    color: white;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.UFm_title {		
+	font-size: 150%;
+	text-align: center;
+	font-weight: 600;
+}
+
+.UFm_modal-body {padding: 30px 16px;}
+
+.UFm_modal-content p {
+	text-indent: 10px;
+	text-align: justify;
+	line-height: 150%;	
+}
+
+.UFm_20sec {
+	font-size: 80%;
+}
+
+/*******************************************************************************************************************/
+
+
